@@ -10,18 +10,20 @@
 
 <div class="wrap">
     <div class="top_navi">
-        <div class="logo_box">
+        <div class="logo_line">
             <div class="logo">
-                altwell
+                Altwell
             </div>
-            <div class="search_btn">
-                S
-            </div>
-            <div class="share_btn">
-                L
-            </div>
-            <div class="mycart_btn">
-                C
+            <div class="slc_box">
+                <div class="search_btn">
+                    S
+                </div>
+                <div class="share_btn">
+                    L
+                </div>
+                <div class="mycart_btn">
+                    C
+                </div>
             </div>
         </div>
         <div class="category_box">
