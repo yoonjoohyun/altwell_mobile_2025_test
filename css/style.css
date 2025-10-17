@@ -1,0 +1,27 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+html{
+    font-family:'min-sans';
+    font-size:62.5%;  /*기본 폰트사이즈(16px)의 62.5%인 10px = 1rem 으로 사용할 수 있다.*/
+}
+
+.wrap{
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #121212;
+    font-size:1.6rem;
+}
