@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/style.css?ver=251017">
+    <link rel="stylesheet" href="css/style.css?ver=251020">
 </head>
 <body>
 
@@ -12,17 +12,17 @@
     <div class="top_navi">
         <div class="logo_line">
             <div class="logo">
-                Altwell
+                <img src="./images/icon/logo_black.png">
             </div>
             <div class="slc_box">
                 <div class="search_btn">
-                    S
+                    <img src="./images/icon/search_icon.png">
                 </div>
                 <div class="share_btn">
-                    L
+                    <img src="./images/icon/share_icon.png">
                 </div>
                 <div class="mycart_btn">
-                    C
+                    <img src="./images/icon/cart_icon.png">
                 </div>
             </div>
         </div>
@@ -43,23 +43,24 @@
                 Disumer
             </div>
             <div class="login_txt">
-                Login
+                로그인
             </div>
         </div>
-        <div class="btn_box">
-            <div class="altnews">
+        <div class="menu_btn_box">
+            <div class="bicon_box altnews">
                 <img src="./images/icon/altnews_icon.png"/>
                 <a>앨트뉴스</a>
             </div>
-            <div class="easycheck">
+            <div class="bicon_box easycheck">
                 <img src="./images/icon/easycheck_icon.png"/>
                 <a>이지체크</a>
             </div>
-            <div class="business">
+            <div class="bicon_box empty_box"></div>
+            <div class="bicon_box business">
                 <img src="./images/icon/business_icon.png"/>
                 <a>실적조회</a>
             </div>
-            <div class="autoship">
+            <div class="bicon_box autoship">
                 <img src="./images/icon/autoship_icon.png"/>
                 <a>오토십</a>
             </div>

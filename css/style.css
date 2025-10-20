@@ -43,6 +43,15 @@ html{
     justify-content:space-evenly;
     flex-direction:column;
 }
+.top_navi:after{
+    content:'';
+    position:absolute;
+    bottom:1px;
+    left:0;
+    width:100%;
+    height:3px;
+    background-color:#ee3338;
+}
     .logo_line{
         width:100%;
         height:50px;
@@ -51,11 +60,16 @@ html{
         align-items:center;
         padding-top:4px;
     }
+        .logo_line img{
+            height:20px;
+            width:auto;
+        }
         .logo{
             width:50%;
             height:24px;
             font-weight:bold;
             padding-left:8px;
+            padding-top:1px;
         }
         .slc_box{
             width:50%;
@@ -63,12 +77,25 @@ html{
             justify-content:space-between;
             margin-right:8px;
         }
+        .slc_box img{
+            width:24px;
+            height:auto;
+        }
             .search_btn{
                 width:calc(100% - 64px);
                 height:24px;
                 text-align:right;
                 padding-right:8px;
+                border:1px solid #ee3338;
+                border-radius:20px;
+                display:flex;
+                justify-content:right;
+                align-items:center;
             }
+                .search_btn img{
+                    width:18px !important;
+                    height:auto;
+                }
             .share_btn{
                 width:24px;
                 height:24px;
@@ -85,6 +112,7 @@ html{
         height:auto;
         font-size:1.4rem;
         padding-bottom:4px;
+        border-top:1px solid #F9F9F9;
     }
         .category_box ul{
             width:100%;
@@ -95,7 +123,22 @@ html{
             .category_box ul li{
                 padding:4px;
                 font-weight:500;
+                position:relative;
             }
+                .category_box ul li:after{
+                    content:'';
+                    position:absolute;
+                    right:0;
+                    top:50%;
+                    transform:translate(0,-50%);
+                    width:1px;
+                    height:20px;
+                    background-color:#e9e9e9;
+                }
+                .category_box ul li:last-child:after{
+                    content:'';
+                    display:none;
+                }
 
 /*** 하단 네비게이션 ↓ *******************************/
 
@@ -104,12 +147,60 @@ html{
     bottom:0;
     width:100%;
     height:70px;
-    background-color:blue;
+    background-color:rgb(255, 255, 255);
 }
 
-    
+    .login_btn{
+        position:absolute;
+        width:60px;
+        height:60px;
+        background-color:#ee3338;
+        border-radius: 100%;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-75%);
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        cursor:pointer;
+    }
+        .disumer_name{
+            font-size:1.2rem;
+            font-weight:300;
+            color:#fff;
+            line-height:1.2rem;
+            text-align:center;
+            margin-top:15px;
+        }
+        .login_txt{
+            font-size:1.5rem;
+            font-weight:800;
+            color:#fff;
+            line-height:2.2rem;
+            text-align:center;
+        
+        }
 
-
+    .menu_btn_box{
+        display:flex;
+        justify-content:space-evenly;
+    }
+        .bicon_box{
+            width:18%;
+            height:70px;
+            display:flex;
+            justify-content:center;
+            flex-direction:column;
+            text-align:center;
+            align-items:center;
+            font-size:1.4rem;
+            line-height:2.2rem;
+            font-weight:500;
+        }
+        .bicon_box img{
+            width:24px;
+            height:auto;
+        }
 
 
 
