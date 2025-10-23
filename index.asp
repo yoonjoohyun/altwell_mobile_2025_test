@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/style.css?ver=251020">
+    <link rel="stylesheet" href="css/style.css?ver=251026">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
 
 <div class="wrap">
     <div class="top_navi">
+        <div class="top_noti">
+            <p>※ 앨트웰 오토십 5% ~ 20% 상품 할인! ※</p>
+        </div>
         <div class="logo_line">
             <div class="logo">
                 <img src="./images/icon/logo_black.png">
@@ -66,11 +70,18 @@
             </div>
         </div>
     </div>
-    <div class="top_noti">
-        <p></p>
-    </div>
+    <div class="main_gap"></div>
     <div class="main_banner_slide">
-        
+        <ul>
+            <li><img src="./images/banner/popupbanner_01.jpg"></li>
+            <li><img src="./images/banner/popupbanner_02.jpg"></li>
+            <li><img src="./images/banner/popupbanner_03.jpg"></li>
+            <li><img src="./images/banner/popupbanner_04.jpg"></li>
+            <li><img src="./images/banner/popupbanner_05.jpg"></li>
+            <li><img src="./images/banner/popupbanner_06.jpg"></li>
+            <li><img src="./images/banner/popupbanner_07.jpg"></li>
+            <li><img src="./images/banner/popupbanner_08.jpg"></li>
+        </ul>
     </div>
     <div class="notice_bar">
 
@@ -96,6 +107,7 @@
 </div>
 
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
