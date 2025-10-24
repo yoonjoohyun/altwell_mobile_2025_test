@@ -1,0 +1,44 @@
+/****기본 ↓ **************************************/
+
+@import url("https://cdn.jsdelivr.net/gh/poposnail61/min-sans@main/web/css/minsans-dynamic-subset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+html{
+    font-family: 'min-sans', 'Noto Sans KR', sans-serif;
+    font-size:62.5%;  /*기본 폰트사이즈(16px)의 62.5%인 10px = 1rem 으로 사용할 수 있다.*/
+}
+
+.wrap{
+    font-family: 'min-sans', 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+    color: #121212;
+    font-size:1.6rem;
+}
+
+
+
+
+
+
+
+
+
