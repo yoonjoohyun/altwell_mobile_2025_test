@@ -17,15 +17,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const newSlideCount = slideUl.querySelectorAll('li').length;
             slideUl.style.width = newSlideCount * 100 + 'vw';
-            slideUl.style.marginLeft = -100 + 'vw';
+            let currentPos = -window.innerWidth;
+            slideUl.style.transform = `translateX(${currentPos}px)`;
 
             function goToSlide(index, withTransition = true) {
                 if (withTransition) {
-                    slideUl.style.transition = 'margin-left 0.5s ease-in-out';
+                    slideUl.style.transition = 'transform 0.5s ease-in-out';
                 } else {
                     slideUl.style.transition = 'none';
                 }
-                slideUl.style.marginLeft = -index * 100 + 'vw';
+                currentPos = -index * window.innerWidth;
+                slideUl.style.transform = `translateX(${currentPos}px)`;
                 currentIndex = index;
             }
 
@@ -65,39 +67,68 @@ document.addEventListener('DOMContentLoaded', function () {
             // Swipe functionality
             let isDragging = false,
                 startX = 0,
-                diffX = 0,
-                initialMarginLeft = 0;
+                animationFrame = null;
 
-            slideUl.addEventListener('touchstart', (e) => {
+            function dragStart(e) {
                 isDragging = true;
-                startX = e.touches[0].pageX;
-                initialMarginLeft = -currentIndex * window.innerWidth;
+                startX = e.pageX || e.touches[0].pageX;
                 slideUl.style.transition = 'none';
                 clearInterval(autoPlayInterval);
-            });
+                slideUl.style.cursor = 'grabbing';
+            }
 
-            slideUl.addEventListener('touchmove', (e) => {
+            function dragMove(e) {
                 if (isDragging) {
-                    const currentX = e.touches[0].pageX;
-                    diffX = currentX - startX;
-                    slideUl.style.marginLeft = `${initialMarginLeft + diffX}px`;
+                    const currentX = e.pageX || e.touches[0].pageX;
+                    const diffX = currentX - startX;
+                    if (animationFrame) {
+                        cancelAnimationFrame(animationFrame);
+                    }
+                    animationFrame = requestAnimationFrame(() => {
+                        slideUl.style.transform = `translateX(${currentPos + diffX}px)`;
+                    });
                 }
-            });
+            }
 
-            slideUl.addEventListener('touchend', () => {
+            function dragEnd(e) {
+                if (!isDragging) return;
                 isDragging = false;
-                slideUl.style.transition = 'margin-left 0.5s ease-in-out';
-                autoPlayInterval = setInterval(nextSlide, 3500);
+                const currentX = e.pageX || e.changedTouches[0].pageX;
+                const diffX = currentX - startX;
 
-                if (diffX > 50) {
+                if (animationFrame) {
+                    cancelAnimationFrame(animationFrame);
+                }
+
+                autoPlayInterval = setInterval(nextSlide, 3500);
+                slideUl.style.cursor = 'grab';
+
+                const threshold = window.innerWidth / 4;
+                if (diffX > threshold) {
                     prevSlide();
-                } else if (diffX < -50) {
+                } else if (diffX < -threshold) {
                     nextSlide();
                 } else {
                     goToSlide(currentIndex);
                 }
-                diffX = 0;
+            }
+
+            slideUl.addEventListener('mousedown', dragStart);
+            slideUl.addEventListener('touchstart', dragStart);
+
+            slideUl.addEventListener('mousemove', dragMove);
+            slideUl.addEventListener('touchmove', dragMove);
+
+            slideUl.addEventListener('mouseup', dragEnd);
+            slideUl.addEventListener('touchend', dragEnd);
+
+            slideUl.addEventListener('mouseleave', (e) => {
+                if (isDragging) {
+                    dragEnd(e);
+                }
             });
+
+            slideUl.style.cursor = 'grab';
         }
     }
 
@@ -173,33 +204,51 @@ document.addEventListener('DOMContentLoaded', function () {
             currentIndex = index;
         }
 
-        container.addEventListener('touchstart', (e) => {
+        function dragStart(e) {
             isDragging = true;
-            startX = e.touches[0].pageX;
+            startX = e.pageX || e.touches[0].pageX;
             container.style.transition = 'none';
-        });
+            container.style.cursor = 'grabbing';
+        }
 
-        container.addEventListener('touchmove', (e) => {
+        function dragMove(e) {
             if (isDragging) {
-                const currentX = e.touches[0].pageX;
+                const currentX = e.pageX || e.touches[0].pageX;
                 diffX = currentX - startX;
                 const initialTransform = -currentIndex * (100 / slideCount);
                 container.style.transform = `translateX(calc(${initialTransform}% + ${diffX}px))`;
             }
-        });
+        }
 
-        container.addEventListener('touchend', () => {
+        function dragEnd() {
+            if (!isDragging) return;
             isDragging = false;
             container.style.transition = 'transform 0.5s ease-in-out';
-            if (diffX > 50 && currentIndex > 0) {
+            container.style.cursor = 'grab';
+
+            const threshold = cardBannerSlide.offsetWidth / 4;
+            if (diffX > threshold && currentIndex > 0) {
                 showSlide(currentIndex - 1);
-            } else if (diffX < -50 && currentIndex < slideCount - 1) {
+            } else if (diffX < -threshold && currentIndex < slideCount - 1) {
                 showSlide(currentIndex + 1);
             } else {
                 showSlide(currentIndex);
             }
             diffX = 0;
-        });
+        }
+
+        container.addEventListener('mousedown', dragStart);
+        container.addEventListener('touchstart', dragStart);
+
+        container.addEventListener('mousemove', dragMove);
+        container.addEventListener('touchmove', dragMove);
+
+        container.addEventListener('mouseup', dragEnd);
+        container.addEventListener('touchend', dragEnd);
+
+        container.addEventListener('mouseleave', dragEnd);
+
+        container.style.cursor = 'grab';
 
         // Initial setup
         showSlide(0);

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/index.css?ver=016">
-    <link rel="stylesheet" href="css/main.css?ver=016">
+    <link rel="stylesheet" href="css/index.css?ver=018">
+    <link rel="stylesheet" href="css/main.css?ver=018">
 </head>
 <body>
 
@@ -16,17 +16,17 @@
         </div>
         <div class="logo_line">
             <div class="logo">
-                <img src="./images/icon/logo_black.png">
+                <img src="/2025/images/icon/logo_black.png">
             </div>
             <div class="slc_box">
                 <div class="search_btn">
-                    <img src="./images/icon/search_icon.png">
+                    <img src="/2025/images/icon/search_icon.png">
                 </div>
                 <div class="share_btn">
-                    <img src="./images/icon/share_icon.png">
+                    <img src="/2025/images/icon/share_icon.png">
                 </div>
                 <div class="mycart_btn">
-                    <img src="./images/icon/cart_icon.png">
+                    <img src="/2025/images/icon/cart_icon.png">
                 </div>
             </div>
         </div>
@@ -52,20 +52,20 @@
         </div>
         <div class="menu_btn_box">
             <div class="bicon_box altnews">
-                <img src="./images/icon/altnews_icon.png"/>
+                <img src="/2025/images/icon/altnews_icon.png"/>
                 <a>앨트뉴스</a>
             </div>
             <div class="bicon_box easycheck">
-                <img src="./images/icon/easycheck_icon.png"/>
+                <img src="/2025/images/icon/easycheck_icon.png"/>
                 <a>이지체크</a>
             </div>
             <div class="bicon_box empty_box"></div>
             <div class="bicon_box business">
-                <img src="./images/icon/business_icon.png"/>
+                <img src="/2025/images/icon/business_icon.png"/>
                 <a>실적조회</a>
             </div>
             <div class="bicon_box autoship">
-                <img src="./images/icon/autoship_icon.png"/>
+                <img src="/2025/images/icon/autoship_icon.png"/>
                 <a>오토십</a>
             </div>
         </div>
@@ -73,14 +73,14 @@
     <div class="main_contents">
         <div class="main_banner_slide">
             <ul>
-                <li><img src="./images/banner/popupbanner_01.jpg"></li>
-                <li><img src="./images/banner/popupbanner_02.jpg"></li>
-                <li><img src="./images/banner/popupbanner_03.jpg"></li>
-                <li><img src="./images/banner/popupbanner_04.jpg"></li>
-                <li><img src="./images/banner/popupbanner_05.jpg"></li>
-                <li><img src="./images/banner/popupbanner_06.jpg"></li>
-                <li><img src="./images/banner/popupbanner_07.jpg"></li>
-                <li><img src="./images/banner/popupbanner_08.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_01.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_02.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_03.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_04.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_05.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_06.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_07.jpg"></li>
+                <li><img src="/2025/images/banner/popupbanner_08.jpg"></li>
             </ul>
             <div class="slide_nav">
                 <button class="prev"></button>
@@ -90,8 +90,8 @@
         <div class="altnews_bar">
             <div class="altnews_bar_icon">
                 <div class="altnews_bar_icon_wrap">
-                    <div class="altnews_new_icon"><img src="./images/icon/new.png"/></div>
-                    <img src="./images/icon/altnews_icon.png"/>
+                    <div class="altnews_new_icon"><img src="/2025/images/icon/new.png"/></div>
+                    <img src="/2025/images/icon/altnews_icon.png"/>
                 </div>
                 <div class="news_txt">
                     비에시스 어드밴스드 링클 앤 퍼밍 듀오 런칭 세미나 공지
@@ -118,7 +118,7 @@
         <div class="best_items">
             <div class="product">
                 <div class="pr_images">
-                    <img src="../images/sample/thumbnail_sample.gif"/>
+                    <img src="/2025/images/sample/thumbnail_sample.gif"/>
                 </div>
                 <div class="product_contents">
                     <div class="pr_con_01">
@@ -159,7 +159,7 @@
                                 <div class="plus_btn">+</div>
                             </div>
                             <div class="pr_shop_cart">
-                                <img src="../images/icon/addcart_icon.png"/>
+                                <img src="/2025/images/icon/addcart_icon.png"/>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
             </div>
             <div class="product">
                 <div class="pr_images">
-                    <img src="../images/sample/thumbnail_sample_02.gif"/>
+                    <img src="/2025/images/sample/thumbnail_sample_02.gif"/>
                 </div>
                 <div class="product_contents">
                     <div class="pr_con_01">
@@ -205,7 +205,7 @@
                                 <div class="plus_btn">+</div>
                             </div>
                             <div class="pr_shop_cart">
-                                <img src="../images/icon/addcart_icon.png"/>
+                                <img src="/2025/images/icon/addcart_icon.png"/>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
             </div>
             <div class="product">
                 <div class="pr_images">
-                    <img src="../images/sample/thumbnail_sample_03.gif"/>
+                    <img src="/2025/images/sample/thumbnail_sample_03.gif"/>
                 </div>
                 <div class="product_contents">
                     <div class="pr_con_01">
@@ -254,7 +254,7 @@
                                 <div class="plus_btn">+</div>
                             </div>
                             <div class="pr_shop_cart">
-                                <img src="../images/icon/addcart_icon.png"/>
+                                <img src="/2025/images/icon/addcart_icon.png"/>
                             </div>
                         </div>
                     </div>
@@ -262,7 +262,7 @@
             </div>
             <div class="product">
                 <div class="pr_images">
-                    <img src="../images/sample/thumbnail_sample_04.gif"/>
+                    <img src="/2025/images/sample/thumbnail_sample_04.gif"/>
                 </div>
                 <div class="product_contents">
                     <div class="pr_con_01">
@@ -303,7 +303,7 @@
                                 <div class="plus_btn">+</div>
                             </div>
                             <div class="pr_shop_cart">
-                                <img src="../images/icon/addcart_icon.png"/>
+                                <img src="/2025/images/icon/addcart_icon.png"/>
                             </div>
                         </div>
                     </div>
@@ -319,44 +319,44 @@
                     <span class="brand_e">Nouvelle Mariee</span>
                     <span class="brand_k">누벨마리</span>
                 </div>
-                <img src="./images/icon/nouvellemariee_brand.jpg"/>
+                <img src="/2025/images/icon/nouvellemariee_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">IDOS</span>
                     <span class="brand_k">아이도스</span>
                 </div>
-                <img src="./images/icon/idos_brand.jpg"/>
+                <img src="/2025/images/icon/idos_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">Alt Beauty</span>
                     <span class="brand_k">앨트뷰티</span>
                 </div>
-                <img src="./images/icon/altbeauty_brand.jpg"/>
+                <img src="/2025/images/icon/altbeauty_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">Alt Health</span>
                     <span class="brand_k">앨트헬스</span>
                 </div>
-                <img src="./images/icon/altheal_brand.jpg"/>
+                <img src="/2025/images/icon/altheal_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">Alt Living</span>
                     <span class="brand_k">앨트리빙</span>
                 </div>
-                <img src="./images/icon/altliving_brand.jpg"/>
+                <img src="/2025/images/icon/altliving_brand.jpg"/>
             </div>
         </div>
         <div class="buywell_banner bottom_banner">
             <p>제휴 쇼핑몰 <span class="bb_t">"buy WELL"</span>에서 <br>다양한 제품을 저렴하게 주문하세요!</p>
-            <img src="./images/icon/buywell.png"/>
+            <img src="/2025/images/icon/buywell.png"/>
         </div>
         <div class="altwell_app_banner bottom_banner">
             <p>앨트웰 <span class="bb_t">쇼핑몰 App</span><br>앱을 설치하여 편리하게 쇼핑하세요.</p>
-            <img src="./images/icon/altshopping.png"/>
+            <img src="/2025/images/icon/altshopping.png"/>
         </div>
         <div class="footer">
             <div class="footer_btn_box">
@@ -379,9 +379,9 @@
                     <br>이메일 : master@altwell.co.kr | 팩스 : 02-563-1074
                     <br>CS센터 : 1588-2161
                 </p>
-                <img src="./images/icon/logo_white.png"/>
+                <img src="/2025/images/icon/logo_white.png"/>
                 <p>
-                    <span style="opacity:0.7; font-weight:100;">COPYRIGHTⓒ ALTWELL CORP, ALL RIGHT RESERVED</span>
+                    <span style="opacity:0.7; font-weight:100;">COPYRIGHTⓒ ALTWELL CORP,ALL RIGHT RESERVED</span>
                 </p>
             </div>
         </div>
@@ -389,6 +389,6 @@
 </div>
 
 
-    <script src="js/script.js?ver=005"></script>
+    <script src="js/script.js?ver=007"></script>
 </body>
 </html>

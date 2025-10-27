@@ -246,7 +246,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    transition: margin-left 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .main_banner_slide li {
