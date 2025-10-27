@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/index.css?ver=007">
-    <link rel="stylesheet" href="css/main.css?ver=007">
+    <link rel="stylesheet" href="css/index.css?ver=016">
+    <link rel="stylesheet" href="css/main.css?ver=016">
 </head>
 <body>
 
@@ -102,7 +102,14 @@
             </div>
         </div>
         <div class="card_banner_slide">
-            <div class="banner_text">신용카드 무이자 할부 혜택</div>
+            <div class="card_banner_container">
+                <div class="card_banner_text">신용카드 무이자 할부 혜택</div>
+                <div class="card_banner_text">제휴카드 혜택 안내</div>
+            </div>
+            <div class="card_slide_nav">
+                <div class="card_nav_dot active"></div>
+                <div class="card_nav_dot"></div>
+            </div>
         </div>
         <div class="best_items_title">
                 <div class="mtt_bestitems">BEST ITEMS</div>
@@ -303,22 +310,85 @@
                 </div>
             </div>
         </div>
-        <div class="brand_story">
-
+        <div class="brand_story_title">
+            브랜드 스토리
         </div>
-        <div class="buywell_banner">
-
+        <div class="brand_story_box">
+            <div class="brand_btn">
+                <div class="brand_btn_txt">
+                    <span class="brand_e">Nouvelle Mariee</span>
+                    <span class="brand_k">누벨마리</span>
+                </div>
+                <img src="./images/icon/nouvellemariee_brand.jpg"/>
+            </div>
+            <div class="brand_btn">
+                <div class="brand_btn_txt">
+                    <span class="brand_e">IDOS</span>
+                    <span class="brand_k">아이도스</span>
+                </div>
+                <img src="./images/icon/idos_brand.jpg"/>
+            </div>
+            <div class="brand_btn">
+                <div class="brand_btn_txt">
+                    <span class="brand_e">Alt Beauty</span>
+                    <span class="brand_k">앨트뷰티</span>
+                </div>
+                <img src="./images/icon/altbeauty_brand.jpg"/>
+            </div>
+            <div class="brand_btn">
+                <div class="brand_btn_txt">
+                    <span class="brand_e">Alt Health</span>
+                    <span class="brand_k">앨트헬스</span>
+                </div>
+                <img src="./images/icon/altheal_brand.jpg"/>
+            </div>
+            <div class="brand_btn">
+                <div class="brand_btn_txt">
+                    <span class="brand_e">Alt Living</span>
+                    <span class="brand_k">앨트리빙</span>
+                </div>
+                <img src="./images/icon/altliving_brand.jpg"/>
+            </div>
         </div>
-        <div class="altwell_app_banner">
-
+        <div class="buywell_banner bottom_banner">
+            <p>제휴 쇼핑몰 <span class="bb_t">"buy WELL"</span>에서 <br>다양한 제품을 저렴하게 주문하세요!</p>
+            <img src="./images/icon/buywell.png"/>
+        </div>
+        <div class="altwell_app_banner bottom_banner">
+            <p>앨트웰 <span class="bb_t">쇼핑몰 App</span><br>앱을 설치하여 편리하게 쇼핑하세요.</p>
+            <img src="./images/icon/altshopping.png"/>
         </div>
         <div class="footer">
-
+            <div class="footer_btn_box">
+                <div class="footer_btn">
+                    회사 안내
+                </div>
+                <div class="footer_btn">
+                    비즈니스 안내
+                </div>
+                <div class="footer_btn">
+                    개인정보 처리 방침
+                </div>
+            </div>
+            <div class="footer_info">
+                <p>
+                    앨트웰㈜ 대표이사 : 김형수
+                    <br>주소 : 서울시 강남구 봉은사로 322 앨트웰 빌딩
+                    <br>사업자등록번호 : 220-81-28839 | 통신판매업신고 : 제 강남 - 1371호
+                    <br>부가동신사업신고 : 8727 | 개인정보관리 책임자 : 김덕수
+                    <br>이메일 : master@altwell.co.kr | 팩스 : 02-563-1074
+                    <br>CS센터 : 1588-2161
+                </p>
+                <img src="./images/icon/logo_white.png"/>
+                <p>
+                    <span style="opacity:0.5;">COPYRIGHTⓒ ALTWELL CORP ,ALL RIGHT RESERVED</span>
+                </p>
+            </div>
         </div>
     </div>
 </div>
 
 
-    <script src="js/script.js?ver=003"></script>
+    <script src="js/script.js?ver=005"></script>
 </body>
 </html>
