@@ -381,7 +381,7 @@
                 </p>
                 <img src="./images/icon/logo_white.png"/>
                 <p>
-                    <span style="opacity:0.5;">COPYRIGHTⓒ ALTWELL CORP ,ALL RIGHT RESERVED</span>
+                    <span style="opacity:0.7; font-weight:100;">COPYRIGHTⓒ ALTWELL CORP, ALL RIGHT RESERVED</span>
                 </p>
             </div>
         </div>
