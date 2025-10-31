@@ -1,136 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const slideContainer = document.querySelector('.main_banner_slide');
-    if (slideContainer) {
-        const slideUl = slideContainer.querySelector('ul');
-        const slideLis = slideUl.querySelectorAll('li');
-        const prevButton = slideContainer.querySelector('.prev');
-        const nextButton = slideContainer.querySelector('.next');
-
-        if (slideLis.length > 0) {
-            let currentIndex = 1;
-            const slideCount = slideLis.length;
-
-            const firstClone = slideLis[0].cloneNode(true);
-            const lastClone = slideLis[slideCount - 1].cloneNode(true);
-            slideUl.appendChild(firstClone);
-            slideUl.insertBefore(lastClone, slideLis[0]);
-
-            const newSlideCount = slideUl.querySelectorAll('li').length;
-            slideUl.style.width = newSlideCount * 100 + 'vw';
-            let currentPos = -window.innerWidth;
-            slideUl.style.transform = `translateX(${currentPos}px)`;
-
-            function goToSlide(index, withTransition = true) {
-                if (withTransition) {
-                    slideUl.style.transition = 'transform 0.5s ease-in-out';
-                } else {
-                    slideUl.style.transition = 'none';
-                }
-                currentPos = -index * window.innerWidth;
-                slideUl.style.transform = `translateX(${currentPos}px)`;
-                currentIndex = index;
-            }
-
-            function nextSlide() {
-                if (currentIndex >= newSlideCount - 1) return;
-                goToSlide(currentIndex + 1);
-            }
-
-            function prevSlide() {
-                if (currentIndex <= 0) return;
-                goToSlide(currentIndex - 1);
-            }
-
-            let autoPlayInterval = setInterval(nextSlide, 3500);
-
-            nextButton.addEventListener('click', () => {
-                clearInterval(autoPlayInterval);
-                nextSlide();
-                autoPlayInterval = setInterval(nextSlide, 3500);
-            });
-
-            prevButton.addEventListener('click', () => {
-                clearInterval(autoPlayInterval);
-                prevSlide();
-                autoPlayInterval = setInterval(nextSlide, 3500);
-            });
-
-            slideUl.addEventListener('transitionend', () => {
-                if (currentIndex === 0) {
-                    goToSlide(slideCount, false);
-                }
-                if (currentIndex === newSlideCount - 1) {
-                    goToSlide(1, false);
-                }
-            });
-
-            // Swipe functionality
-            let isDragging = false,
-                startX = 0,
-                animationFrame = null;
-
-            function dragStart(e) {
-                isDragging = true;
-                startX = e.pageX || e.touches[0].pageX;
-                slideUl.style.transition = 'none';
-                clearInterval(autoPlayInterval);
-                slideUl.style.cursor = 'grabbing';
-            }
-
-            function dragMove(e) {
-                if (isDragging) {
-                    const currentX = e.pageX || e.touches[0].pageX;
-                    const diffX = currentX - startX;
-                    if (animationFrame) {
-                        cancelAnimationFrame(animationFrame);
-                    }
-                    animationFrame = requestAnimationFrame(() => {
-                        slideUl.style.transform = `translateX(${currentPos + diffX}px)`;
-                    });
-                }
-            }
-
-            function dragEnd(e) {
-                if (!isDragging) return;
-                isDragging = false;
-                const currentX = e.pageX || e.changedTouches[0].pageX;
-                const diffX = currentX - startX;
-
-                if (animationFrame) {
-                    cancelAnimationFrame(animationFrame);
-                }
-
-                autoPlayInterval = setInterval(nextSlide, 3500);
-                slideUl.style.cursor = 'grab';
-
-                const threshold = window.innerWidth / 4;
-                if (diffX > threshold) {
-                    prevSlide();
-                } else if (diffX < -threshold) {
-                    nextSlide();
-                } else {
-                    goToSlide(currentIndex);
-                }
-            }
-
-            slideUl.addEventListener('mousedown', dragStart);
-            slideUl.addEventListener('touchstart', dragStart);
-
-            slideUl.addEventListener('mousemove', dragMove);
-            slideUl.addEventListener('touchmove', dragMove);
-
-            slideUl.addEventListener('mouseup', dragEnd);
-            slideUl.addEventListener('touchend', dragEnd);
-
-            slideUl.addEventListener('mouseleave', (e) => {
-                if (isDragging) {
-                    dragEnd(e);
-                }
-            });
-
-            slideUl.style.cursor = 'grab';
-        }
-    }
+    var swiper = new Swiper('.main_banner_slide', {
+        loop: true,
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        grabCursor: true,
+    });
 
     const wrap = document.querySelector('.wrap');
     const topNavi = document.querySelector('.top_navi');

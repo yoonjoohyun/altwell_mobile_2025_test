@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/index.css?ver=018">
-    <link rel="stylesheet" href="css/main.css?ver=018">
+    <link rel="stylesheet" href="css/index.css?ver=019">
+    <link rel="stylesheet" href="css/main.css?ver=019">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 
@@ -71,21 +72,22 @@
         </div>
     </div>
     <div class="main_contents">
-        <div class="main_banner_slide">
-            <ul>
-                <li><img src="/2025/images/banner/popupbanner_01.jpg"></li>
-                <li><img src="/2025/images/banner/popupbanner_02.jpg"></li>
-                <li><img src="/2025/images/banner/popupbanner_03.jpg"></li>
-                <li><img src="/2025/images/banner/popupbanner_04.jpg"></li>
-                <li><img src="/2025/images/banner/popupbanner_05.jpg"></li>
-                <li><img src="/2025/images/banner/popupbanner_06.jpg"></li>
-                <li><img src="/2025/images/banner/popupbanner_07.jpg"></li>
-                <li><img src="/2025/images/banner/popupbanner_08.jpg"></li>
-            </ul>
-            <div class="slide_nav">
-                <button class="prev"></button>
-                <button class="next"></button>
+        <div class="swiper-container main_banner_slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_01.jpg"></div>
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_02.jpg"></div>
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_03.jpg"></div>
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_04.jpg"></div>
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_05.jpg"></div>
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_06.jpg"></div>
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_07.jpg"></div>
+                <div class="swiper-slide"><img src="/2025/images/banner/popupbanner_08.jpg"></div>
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div style="display:none;" class="swiper-button-prev"></div>
+            <div style="display:none;" class="swiper-button-next"></div>
         </div>
         <div class="altnews_bar">
             <div class="altnews_bar_icon">
@@ -389,6 +391,7 @@
 </div>
 
 
-    <script src="js/script.js?ver=007"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js?ver=008"></script>
 </body>
 </html>
