@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/index.css?ver=019">
-    <link rel="stylesheet" href="css/main.css?ver=019">
+    <link rel="stylesheet" href="css/index.css?ver=021">
+    <link rel="stylesheet" href="css/main.css?ver=021">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -103,15 +103,12 @@
                 더보기<div class="r_point arrow_right_icon"></div>
             </div>
         </div>
-        <div class="card_banner_slide">
-            <div class="card_banner_container">
-                <div class="card_banner_text">신용카드 무이자 할부 혜택</div>
-                <div class="card_banner_text">제휴카드 혜택 안내</div>
+        <div class="swiper-container card_banner_slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide card_banner_text">신용카드 무이자 할부 혜택</div>
+                <div class="swiper-slide card_banner_text">제휴카드 혜택 안내</div>
             </div>
-            <div class="card_slide_nav">
-                <div class="card_nav_dot active"></div>
-                <div class="card_nav_dot"></div>
-            </div>
+            <div class="swiper-pagination"></div>
         </div>
         <div class="best_items_title">
                 <div class="mtt_bestitems">BEST ITEMS</div>
@@ -392,6 +389,6 @@
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js/script.js?ver=008"></script>
+    <script src="js/script.js?ver=009"></script>
 </body>
 </html>
