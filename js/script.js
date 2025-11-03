@@ -77,4 +77,18 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         grabCursor: true,
     });
+
+    const categoryItems = document.querySelectorAll('.category_box ul li');
+    const topNav = document.querySelector('.top_navi');
+
+    categoryItems.forEach(item => {
+        item.addEventListener('click', () => {
+            // Remove active class from all items
+            categoryItems.forEach(i => i.classList.remove('active'));
+            // Add active class to clicked item
+            item.classList.add('active');
+            // Add class to top_navi
+            topNav.classList.add('category-selected');
+        });
+    });
 });

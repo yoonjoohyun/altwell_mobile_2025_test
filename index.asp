@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/index.css?ver=021">
-    <link rel="stylesheet" href="css/main.css?ver=021">
+    <link rel="stylesheet" href="css/index.css?ver=026">
+    <link rel="stylesheet" href="css/main.css?ver=026">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -16,9 +16,9 @@
             <p>※ 앨트웰 오토십 5% ~ 20% 상품 할인! ※</p>
         </div>
         <div class="logo_line">
-            <div class="logo">
+            <a href=""><div class="logo">
                 <img src="/2025/images/icon/logo_black.png">
-            </div>
+            </div></a>
             <div class="slc_box">
                 <div class="search_btn">
                     <img src="/2025/images/icon/search_icon.png">
@@ -389,6 +389,6 @@
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js/script.js?ver=009"></script>
+    <script src="js/script.js?ver=012"></script>
 </body>
 </html>
