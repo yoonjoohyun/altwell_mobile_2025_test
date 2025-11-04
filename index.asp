@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=027">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=027">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=032">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=032">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 
 <div class="wrap">
 <!--#include virtual="/2025/components/top_navi.asp" -->
-    <!--#include virtual="/2025/components/bottom_navi.asp" -->
     <div class="main_contents">
         <div class="swiper-container main_banner_slide">
             <div class="swiper-wrapper">
@@ -327,10 +326,11 @@
             </div>
         </div>
     </div>
+<!--#include virtual="/2025/components/bottom_navi.asp" -->
 </div>
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="/2025/js/script.js?ver=013"></script>
+    <script src="/2025/js/script.js?ver=032"></script>
 </body>
 </html>

@@ -16,23 +16,23 @@ document.addEventListener('DOMContentLoaded', function () {
         grabCursor: true,
     });
 
-    const wrap = document.querySelector('.wrap');
     const topNavi = document.querySelector('.top_navi');
     const topNoti = document.querySelector('.top_noti');
-    if (wrap && topNavi && topNoti) {
-        let lastScrollTop = wrap.scrollTop;
-        wrap.addEventListener('scroll', () => {
-            if (wrap.scrollTop > 50 && wrap.scrollTop > lastScrollTop) {
+
+    if (topNavi && topNoti) {
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', () => {
+            let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (currentScrollTop > 50 && currentScrollTop > lastScrollTop) {
                 // Scroll down
                 topNavi.style.height = '90px';
                 topNoti.style.height = '0';
-
-            } else if(wrap.scrollTop < lastScrollTop) {
+            } else {
                 // Scroll up
                 topNavi.style.height = '120px';
                 topNoti.style.height = '30px';
             }
-            lastScrollTop = wrap.scrollTop;
+            lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
         });
     }
     const products = document.querySelectorAll('.product');
