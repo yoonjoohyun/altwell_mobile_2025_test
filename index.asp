@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>앨트웰 모바일 쇼핑몰</title>
+    <title>앨트웰 모바일 쇼핑몰!</title>
     <link rel="stylesheet" href="/css/index.css?ver=027">
     <link rel="stylesheet" href="/css/main.css?ver=027">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
