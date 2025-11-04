@@ -11,66 +11,8 @@
 <body>
 
 <div class="wrap">
-    <div class="top_navi">
-        <div class="top_noti">
-            <p>※ 앨트웰 오토십 5% ~ 20% 상품 할인! ※</p>
-        </div>
-        <div class="logo_line">
-            <a href=""><div class="logo">
-                <img src="/2025/images/icon/logo_black.png">
-            </div></a>
-            <div class="slc_box">
-                <div class="search_btn">
-                    <img src="/2025/images/icon/search_icon.png">
-                </div>
-                <div class="share_btn">
-                    <img src="/2025/images/icon/share_icon.png">
-                </div>
-                <div class="mycart_btn">
-                    <img src="/2025/images/icon/cart_icon.png">
-                </div>
-            </div>
-        </div>
-        <div class="category_box">
-            <ul>
-                <li><a>누벨마리</a></li>
-                <li><a>아이도스</a></li>
-                <li><a>앨트뷰티</a></li>
-                <li><a>앨트헬스</a></li>
-                <li><a>앨트리빙</a></li>
-                <li><a>보조상품</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="bottom_navi">
-        <div class="login_btn">
-            <div class="disumer_name">
-                Disumer
-            </div>
-            <div class="login_txt">
-                로그인
-            </div>
-        </div>
-        <div class="menu_btn_box">
-            <div class="bicon_box altnews">
-                <img src="/2025/images/icon/altnews_icon.png"/>
-                <a>앨트뉴스</a>
-            </div>
-            <div class="bicon_box easycheck">
-                <img src="/2025/images/icon/easycheck_icon.png"/>
-                <a>이지체크</a>
-            </div>
-            <div class="bicon_box empty_box"></div>
-            <div class="bicon_box business">
-                <img src="/2025/images/icon/business_icon.png"/>
-                <a>실적조회</a>
-            </div>
-            <div class="bicon_box autoship">
-                <img src="/2025/images/icon/autoship_icon.png"/>
-                <a>오토십</a>
-            </div>
-        </div>
-    </div>
+<!--#include file="components/top_navi.asp" -->
+    <!--#include file="components/bottom_navi.asp" -->
     <div class="main_contents">
         <div class="swiper-container main_banner_slide">
             <div class="swiper-wrapper">
