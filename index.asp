@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="css/index.css?ver=026">
-    <link rel="stylesheet" href="css/main.css?ver=026">
+    <link rel="stylesheet" href="/css/index.css?ver=027">
+    <link rel="stylesheet" href="/css/main.css?ver=027">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -331,6 +331,6 @@
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js/script.js?ver=012"></script>
+    <script src="/js/script.js?ver=013"></script>
 </body>
 </html>
