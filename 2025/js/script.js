@@ -1,28 +1,31 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var swiper = new Swiper('.main_banner_slide', {
-        loop: true,
-        autoplay: {
-            delay: 3500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        grabCursor: true,
-    });
+    if (document.querySelector('.main_banner_slide')) {
+        var swiper = new Swiper('.main_banner_slide', {
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            grabCursor: true,
+        });
+    }
 
     const topNavi = document.querySelector('.top_navi');
     const topNoti = document.querySelector('.top_noti');
+    const wrap = document.querySelector('.wrap');
 
-    if (topNavi && topNoti) {
+    if (topNavi && topNoti && wrap) {
         let lastScrollTop = 0;
-        window.addEventListener('scroll', () => {
-            let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        wrap.addEventListener('scroll', () => {
+            let currentScrollTop = wrap.scrollTop;
             if (currentScrollTop > 50 && currentScrollTop > lastScrollTop) {
                 // Scroll down
                 topNavi.style.height = '90px';
@@ -69,14 +72,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    var cardSwiper = new Swiper('.card_banner_slide', {
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        grabCursor: true,
-    });
+    if (document.querySelector('.card_banner_slide')) {
+        var cardSwiper = new Swiper('.card_banner_slide', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            grabCursor: true,
+        });
+    }
 
     const categoryItems = document.querySelectorAll('.category_box ul li');
     const topNav = document.querySelector('.top_navi');

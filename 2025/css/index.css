@@ -29,17 +29,22 @@ html{
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f6f6f6;
+    background: #fcfcfc;
     color: #121212;
     font-size:1.6rem;
 }
-
 
 .closeeyes{
     display:none !important;
 }
 
 
+/****글로벌 텍스트 스타일 ↓ **************************************/
+
+.bold_t{
+    font-weight:500 !important;
+    color:#121212;
+}
 
 
 

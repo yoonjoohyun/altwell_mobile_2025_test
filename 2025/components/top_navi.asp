@@ -1,31 +1,31 @@
 <div class="top_navi">
-        <div class="top_noti">
-            <p>※ 앨트웰 오토십 5% ~ 20% 상품 할인! ※</p>
-        </div>
-        <div class="logo_line">
-            <a href=""><div class="logo">
-                <img src="/2025/images/icon/logo_black.png">
-            </div></a>
-            <div class="slc_box">
-                <div class="search_btn">
-                    <img src="/2025/images/icon/search_icon.png">
-                </div>
-                <div class="share_btn">
-                    <img src="/2025/images/icon/share_icon.png">
-                </div>
-                <div class="mycart_btn">
-                    <img src="/2025/images/icon/cart_icon.png">
-                </div>
+    <div class="top_noti">
+        <p>※ 앨트웰 오토십 5% ~ 20% 상품 할인! ※</p>
+    </div>
+    <div class="logo_line">
+        <a href=""><div class="logo">
+            <img src="/2025/images/icon/logo_black.png">
+        </div></a>
+        <div class="slc_box">
+            <div class="search_btn">
+                <img src="/2025/images/icon/search_icon.png">
+            </div>
+            <div class="share_btn">
+                <img src="/2025/images/icon/share_icon.png">
+            </div>
+            <div class="mycart_btn">
+                <img src="/2025/images/icon/cart_icon.png">
             </div>
         </div>
-        <div class="category_box">
-            <ul>
-                <li><a>누벨마리</a></li>
-                <li><a>아이도스</a></li>
-                <li><a>앨트뷰티</a></li>
-                <li><a>앨트헬스</a></li>
-                <li><a>앨트리빙</a></li>
-                <li><a>보조상품</a></li>
-            </ul>
-        </div>
     </div>
+    <div class="category_box">
+        <ul>
+            <li><a>누벨마리</a></li>
+            <li><a>아이도스</a></li>
+            <li><a>앨트뷰티</a></li>
+            <li><a>앨트헬스</a></li>
+            <li><a>앨트리빙</a></li>
+            <li><a>보조상품</a></li>
+        </ul>
+    </div>
+</div>
