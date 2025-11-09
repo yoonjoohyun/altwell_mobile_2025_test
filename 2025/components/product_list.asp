@@ -13,8 +13,65 @@
                 </div>
             </div>
             <div class="pr_con_02">
+                <div class="pr_member_price">
+                    <div class="price_member_text">회원가</div>
+                    <div class="price_member_number">500,000원</div>
+                </div>
                 <div class="pr_price">
-                    <div class="price_text">회원가</div>
+                    <div class="price_text">판매가</div>
+                    <div class="price_number">650,000원</div>
+                </div>
+                <div class="pr_ep">
+                    <div class="ep_text">EP</div>
+                    <div class="ep_number">400,000</div>
+                </div>
+                <div class="pr_size">
+                    <div class="size_btn">
+                        <div class="size_text">사이즈</div>
+                        <div class="size_point">▼</div>
+                    </div>
+                    <div class="size_dropdown">
+                        <div class="size_pick">-</div>
+                        <div class="size_option">S</div>
+                        <div class="size_option">M</div>
+                        <div class="size_option">L</div>
+                        <div class="size_option">XL</div>
+                        <div class="size_option">XXL</div>
+                    </div>
+                </div>
+                <div class="pr_quantity">
+                    <div class="number_box">
+                        <div class="minus_btn">-</div>
+                        <div class="quantity_number">01<span>개</span></div>
+                        <div class="plus_btn">+</div>
+                    </div>
+                    <div class="pr_shop_cart">
+                        <img src="/2025/images/icon/addcart_icon.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product">
+        <div class="pr_images">
+            <img src="/2025/images/sample/thumbnail_sample_03.gif"/>
+        </div>
+        <div class="product_contents">
+            <div class="pr_con_01">
+                <div class="category_small">
+                    코어벨
+                </div>
+                <div class="product_name">
+                    누벨마리 오픈버스트 바디슈츠(그린)
+                </div>
+            </div>
+            <div class="pr_con_02">
+                <div class="pr_member_price">
+                    <div class="price_member_text">회원가</div>
+                    <div class="price_member_number">500,000원</div>
+                </div>
+                <div class="pr_price">
+                    <div class="price_text">판매가</div>
                     <div class="price_number">500,000<span class="won_b">원</span></div>
                 </div>
                 <div class="pr_ep">
@@ -62,8 +119,12 @@
                 </div>
             </div>
             <div class="pr_con_02">
+                <div class="pr_member_price">
+                    <div class="price_member_text">회원가</div>
+                    <div class="price_member_number">500,000원</div>
+                </div>
                 <div class="pr_price">
-                    <div class="price_text">회원가</div>
+                    <div class="price_text">판매가</div>
                     <div class="price_number">500,000<span class="won_b">원</span></div>
                 </div>
                 <div class="pr_ep">
@@ -111,57 +172,12 @@
                 </div>
             </div>
             <div class="pr_con_02">
+                <div class="pr_member_price">
+                    <div class="price_member_text">회원가</div>
+                    <div class="price_member_number">500,000원</div>
+                </div>
                 <div class="pr_price">
-                    <div class="price_text">회원가</div>
-                    <div class="price_number">500,000<span class="won_b">원</span></div>
-                </div>
-                <div class="pr_ep">
-                    <div class="ep_text">EP</div>
-                    <div class="ep_number">400,000</div>
-                </div>
-                <div class="pr_size">
-                    <div class="size_btn">
-                        <div class="size_text">사이즈</div>
-                        <div class="size_point">▼</div>
-                    </div>
-                    <div class="size_dropdown">
-                        <div class="size_pick">-</div>
-                        <div class="size_option">S</div>
-                        <div class="size_option">M</div>
-                        <div class="size_option">L</div>
-                        <div class="size_option">XL</div>
-                        <div class="size_option">XXL</div>
-                    </div>
-                </div>
-                <div class="pr_quantity">
-                    <div class="number_box">
-                        <div class="minus_btn">-</div>
-                        <div class="quantity_number">01<span>개</span></div>
-                        <div class="plus_btn">+</div>
-                    </div>
-                    <div class="pr_shop_cart">
-                        <img src="/2025/images/icon/addcart_icon.png"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="pr_images">
-            <img src="/2025/images/sample/thumbnail_sample_03.gif"/>
-        </div>
-        <div class="product_contents">
-            <div class="pr_con_01">
-                <div class="category_small">
-                    코어벨
-                </div>
-                <div class="product_name">
-                    누벨마리 오픈버스트 바디슈츠(그린)
-                </div>
-            </div>
-            <div class="pr_con_02">
-                <div class="pr_price">
-                    <div class="price_text">회원가</div>
+                    <div class="price_text">판매가</div>
                     <div class="price_number">500,000<span class="won_b">원</span></div>
                 </div>
                 <div class="pr_ep">

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>상품 리스트 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=037">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=037">
-    <link rel="stylesheet" href="/2025/css/product_list.css?ver=037">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=040">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=040">
+    <link rel="stylesheet" href="/2025/css/product_list.css?ver=040">
+    <link rel="stylesheet" href="/2025/css/product_category.css?ver=040">
 </head>
 <body>
 <div class="wrap">
@@ -30,9 +31,10 @@
             총&nbsp;<span class="bold_t">10</span>개
         </div>
         <!--#include virtual="/2025/components/product_list.asp" -->
+        <!--#include virtual="/2025/components/footer.asp" -->
     </div>
     <!--#include virtual="/2025/components/bottom_navi.asp" -->
 </div>
-<script src="/2025/js/script.js?ver=036"></script>
+<script src="/2025/js/script.js?ver=040"></script>
 </body>
 </html>
