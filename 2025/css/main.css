@@ -191,7 +191,7 @@
     .bottom_navi:before{
         content:'';
         position:absolute;
-        top:-15px;
+        top:-14px;
         left:0;
         width:100vw;
         height:15px;

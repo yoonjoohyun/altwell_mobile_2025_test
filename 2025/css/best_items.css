@@ -143,7 +143,9 @@
                         }
                     .size_pick{
                         text-align:center;
-                        color:#999;
+                        color:#777;
+                        font-weight:600;
+                        border-bottom:1px solid #f7f7f7;
                     }
                 .pr_size.active .size_dropdown {
                     height:auto;
