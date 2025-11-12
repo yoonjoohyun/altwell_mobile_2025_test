@@ -54,7 +54,7 @@
 /***  ↓ *******************************/
 
 
-/*** 구매하기 버튼 *******************************/
+/*** 구매하기 버튼 ↓ *******************************/
 .buy_navi{
     position:fixed;
     bottom:0;
@@ -100,64 +100,98 @@
 
 /*** 장바구니 정보 *******************************/
 .pr_buy_info{
-    padding:20px 20px 0 20px;
+    padding:0 20px 0 20px;
     width:100%;
     background-color:#ffffff;
     border-bottom:1px solid #f9f9f9;
 }
     .buy_info_con_01{
-        display:flex;
-        justify-content:left;
     }
-        .pr_images{
-            max-width:200px;
-            width:40%;
-            max-height:200px;
-            height:auto;
+        .name_box{
+            position:relative;
             display:flex;
-            justify-content:center;
-        }
-            .pr_images img{
-                display:block;
-                width:100%;
-                height:auto;
-            }
-        .pr_name{
-            width:60%;
-            padding-left:15px;
+            flex-direction: column;
+            width:100%;
+            height:auto;
+            text-align:center;
+            padding:37px 20px 35px 20px;
+            font-size:1.8rem;
+            font-weight:400;
+            color:#555;
+            border-bottom:1px solid #f6f6f6;
         }
             .category_small{
                 line-height:16px;
             }
             .product_name{
-                line-height:16px;
+                line-height:20px;
                 margin-top:6px;
             }
-
-    .buy_info_con_02{
-        margin-top:20px;
-    }
-        .info_conbox{
+        .info_box{
             display:flex;
-            justify-content:left;
-            font-size:1.6rem;
-            line-height:22px;
+            align-items: center;
+            width:100%;
+            height:auto;
+            justify-content:center;
+            padding:20px 0;
         }
-            .con_left{
-                width:24%;
-                max-width:100px;
-            }
-            .con_right{
-                width:36%;
+            .pr_images{
+                width:40%;
                 max-width:150px;
-                padding-left:15px;
+                height:auto;
+                text-align:center;
             }
-        .info_congap{
-            margin-top:10px;
+                .pr_images img{
+                    display:block;
+                    width:90%;
+                    height:auto;
+                    margin:0 auto;
+                }
+            .pr_name{
+                min-width:190px;
+                position:relative;
+            }
+                .info_conbox{
+                    display:flex;
+                    justify-content:left;
+                    font-size:1.6rem;
+                    line-height:24px;
+                }
+                    .con_left{
+                        width:60px;
+                        font-weight:600;
+                        color:#555;
+                    }
+                    .con_right{
+                        max-width:130px;
+                        padding-left:10px;
+                        color:#333;
+                    }
+                    .con_left_bold{
+                        width:60px;
+                        font-weight:700;
+                        color:#ee3338;
+                    }
+                    .con_right_bold{
+                        max-width:130px;
+                        font-weight:700;
+                        padding-left:10px;
+                        color:#ee3338;
+                    }
+                .info_congap{
+                    height:10px;
+                }
+
+        .buy_info_con_02{
+            margin-top:20px;
         }
 
 
-/***  ↓ *******************************/
+/*** 배송 정보 ↓ *******************************/
+.del_info_con{
+
+}
+
 
 
 /*** 애니메이션 설정 ↓ *******************************/
