@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=040">

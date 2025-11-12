@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>惑前 叼抛老 - 举飘溃 葛官老 碱俏隔</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=043">
