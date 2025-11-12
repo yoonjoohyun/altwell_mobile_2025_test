@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ìƒí’ˆ ë””í…Œì¼ - ì•¨íŠ¸ì›° ëª¨ë°”ì¼ ì‡¼í•‘ëª°</title>
+    <title>»óÇ° µðÅ×ÀÏ - ¾ÙÆ®À£ ¸ð¹ÙÀÏ ¼îÇÎ¸ô</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=043">
     <link rel="stylesheet" href="/2025/css/main.css?ver=043">
     <link rel="stylesheet" href="/2025/css/product_detail.css?ver=043">
@@ -14,7 +14,7 @@
     <div class="detail_main_contents">
         <div class="category_navi">
             <div class="back_btn"></div>
-            <p>ëˆ„ë²¨ë§ˆë¦¬</p>
+            <p>´©º§¸¶¸®</p>
         </div>
         <div class="product">
             <div class="pr_images">
@@ -23,20 +23,20 @@
             <div class="product_contents">
                 <div class="pr_con_01">
                     <div class="category_small">
-                        ì½”ì–´ë²¨
+                        ÄÚ¾îº§
                     </div>
                     <div class="product_name">
-                        ëˆ„ë²¨ë§ˆë¦¬ ì˜¤í”ˆë²„ìŠ¤íŠ¸ ë°”ë””ìŠˆì¸  (ê·¸ë¦°)
+                        ´©º§¸¶¸® ¿ÀÇÂ¹ö½ºÆ® ¹Ùµð½´Ã÷ (±×¸°)
                     </div>
                 </div>
                 <div class="pr_con_02">
                     <div class="pr_member_price">
-                        <div class="price_member_text">íšŒì›ê°€</div>
-                        <div class="price_member_number">500,000ì›</div>
+                        <div class="price_member_text">È¸¿ø°¡</div>
+                        <div class="price_member_number">500,000¿ø</div>
                     </div>
                     <div class="pr_price">
-                        <div class="price_text">íŒë§¤ê°€</div>
-                        <div class="price_number">650,000ì›</div>
+                        <div class="price_text">ÆÇ¸Å°¡</div>
+                        <div class="price_number">650,000¿ø</div>
                     </div>
                     <div class="pr_ep">
                         <div class="ep_text">EP</div>
@@ -46,8 +46,8 @@
                 <div class="pr_con_03">
                     <div class="pr_size">
                         <div class="size_btn">
-                            <div class="size_text">ì‚¬ì´ì¦ˆ</div>
-                            <div class="size_point">â–¼</div>
+                            <div class="size_text">»çÀÌÁî</div>
+                            <div class="size_point">¡å</div>
                         </div>
                         <div class="size_dropdown">
                             <div class="size_pick">-</div>
@@ -61,22 +61,22 @@
                     <div class="pr_quantity">
                         <div class="number_box">
                             <div class="minus_btn">-</div>
-                            <div class="quantity_number">01<span>ê°œ</span></div>
+                            <div class="quantity_number">01<span>°³</span></div>
                             <div class="plus_btn">+</div>
                         </div>
                     </div>
                 </div>
                 <div class="pr_con_04">
                     <div class="del_info">
-                        ë°°ì†¡ë¹„ 3,000ì› (5ë§Œì› ì´ìƒ ì£¼ë¬¸ ì‹œ ë¬´ë£Œ ë°°ì†¡)
+                        ¹è¼Ûºñ 3,000¿ø (5¸¸¿ø ÀÌ»ó ÁÖ¹® ½Ã ¹«·á ¹è¼Û)
                     </div>
                     <div class="card_info">
-                        ì‹ ìš©ì¹´ë“œ ë¬´ì´ìž í• ë¶€ ì•ˆë‚´
+                        ½Å¿ëÄ«µå ¹«ÀÌÀÚ ÇÒºÎ ¾È³»
                     </div>
                 </div>
                 <div class="pr_con_05">
                     <div class="detail_text">
-                        ìƒí’ˆ ìƒì„¸ ì •ë³´
+                        »óÇ° »ó¼¼ Á¤º¸
                     </div>
                 </div>
             </div>
@@ -87,10 +87,10 @@
     </div>
     <div class="buy_navi">
         <div class="buy_navi_btn add_cart">
-            <p>ìž¥ë°”êµ¬ë‹ˆ ë‹´ê¸°</p>
+            <p>Àå¹Ù±¸´Ï ´ã±â</p>
         </div>
         <div class="buy_navi_btn buy_now">
-            <p>ë°”ë¡œ ì£¼ë¬¸í•˜ê¸°</p>
+            <p>¹Ù·Î ÁÖ¹®ÇÏ±â</p>
         </div>
     </div>
 </div>
