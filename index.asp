@@ -4,9 +4,9 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=042">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=042">
-    <link rel="stylesheet" href="/2025/css/best_items.css?ver=042">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=044">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=044">
+    <link rel="stylesheet" href="/2025/css/best_items.css?ver=044">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -112,6 +112,6 @@
 
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="/2025/js/script.js?ver=040"></script>
+<script src="/2025/js/script.js?ver=044"></script>
 </body>
 </html>

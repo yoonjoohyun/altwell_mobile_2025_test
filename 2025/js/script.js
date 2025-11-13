@@ -38,16 +38,22 @@ document.addEventListener('DOMContentLoaded', function () {
             lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
         });
     }
-    const products = document.querySelectorAll('.product');
-    products.forEach(product => {
-        const prSize = product.querySelector('.pr_size');
-        if (prSize) {
-            const sizeBtn = prSize.querySelector('.size_btn');
-            const sizeText = prSize.querySelector('.size_text');
-            const sizeDropdown = prSize.querySelector('.size_dropdown');
+    const prSizes = document.querySelectorAll('.pr_size');
+    prSizes.forEach(prSize => {
+        const sizeBtn = prSize.querySelector('.size_btn');
+        const sizeText = prSize.querySelector('.size_text');
+        const sizePoint = prSize.querySelector('.size_point'); // For goods_cart.asp
+        const sizeDropdown = prSize.querySelector('.size_dropdown');
 
+        if (sizeBtn && sizeDropdown) {
             sizeBtn.addEventListener('click', (event) => {
                 event.stopPropagation();
+                // Close other dropdowns
+                document.querySelectorAll('.pr_size.active').forEach(activeSize => {
+                    if (activeSize !== prSize) {
+                        activeSize.classList.remove('active');
+                    }
+                });
                 prSize.classList.toggle('active');
             });
 
@@ -55,7 +61,14 @@ document.addEventListener('DOMContentLoaded', function () {
             sizeDropdown.addEventListener('click', (event) => {
                 if (event.target.classList.contains('size_option')) {
                     const selectedSize = event.target.textContent;
-                    sizeText.textContent = selectedSize;
+                    
+                    // Update sizeText with the selected size.
+                    if (sizeText) {
+                        sizeText.textContent = selectedSize;
+                    }
+                    // sizePoint should remain as an arrow, so DO NOT update its text content.
+
+                    // Update sizePick, which is likely an internal display for the dropdown.
                     if (sizePick) {
                         sizePick.textContent = selectedSize;
                     }

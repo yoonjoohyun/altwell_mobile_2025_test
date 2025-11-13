@@ -44,9 +44,9 @@
                             <div class="con_left">EP</div>
                             <div class="con_right">400,000</div>
                         </div>
-                        <div class="info_conbox_opt pr_size">
+                        <div class="info_conbox_opt">
                             <div class="con_left">사이즈</div>
-                            <div class="con_right">
+                            <div class="con_right_opt pr_size">
                                 <div class="size_btn">
                                     <div class="size_point">▼</div>
                                 </div>
@@ -98,9 +98,9 @@
                             <div class="con_left">EP</div>
                             <div class="con_right">400,000</div>
                         </div>
-                        <div class="info_conbox_opt pr_size">
+                        <div class="info_conbox_opt">
                             <div class="con_left">사이즈</div>
-                            <div class="con_right">
+                            <div class="con_right_opt pr_size">
                                 <div class="size_btn">
                                     <div class="size_point">▼</div>
                                 </div>
@@ -152,10 +152,11 @@
                             <div class="con_left">EP</div>
                             <div class="con_right">400,000</div>
                         </div>
-                        <div class="info_conbox_opt pr_size">
+                        <div class="info_conbox_opt">
                             <div class="con_left">사이즈</div>
-                            <div class="con_right">
+                            <div class="con_right_opt pr_size">
                                 <div class="size_btn">
+                                <div class="size_text"></div>
                                     <div class="size_point">▼</div>
                                 </div>
                                 <div class="size_dropdown">
@@ -179,6 +180,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="buy_info_con_02">
                 <div class="pr_name_02">
                     <div class="info_conbox_02">
@@ -203,6 +205,6 @@
         </div>
     </div>
 </div>
-<script src="/2025/js/script.js?ver=041"></script>
+<script src="/2025/js/script.js?ver=043"></script>
 </body>
 </html>
