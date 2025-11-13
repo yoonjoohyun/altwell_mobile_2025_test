@@ -4,10 +4,10 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>상품 리스트 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=042">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=042">
-    <link rel="stylesheet" href="/2025/css/product_list.css?ver=042">
-    <link rel="stylesheet" href="/2025/css/product_category.css?ver=042">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=043">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=043">
+    <link rel="stylesheet" href="/2025/css/goods_list.css?ver=043">
+    <link rel="stylesheet" href="/2025/css/product_category.css?ver=043">
 </head>
 <body>
 <div class="wrap">
