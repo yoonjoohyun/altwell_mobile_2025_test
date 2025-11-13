@@ -34,9 +34,41 @@ html{
     font-size:1.6rem;
 }
 
+/* 전체 스크롤 */
+::-webkit-scrollbar {
+    width: 1px;
+}
+::-webkit-scrollbar-track {
+    background: transparent; /* 트랙 투명 */
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.0); /* 완전 투명 */
+}
+::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.2); /* hover 시만 살짝 보이게 */
+}
+
+/* 옵션 셀렉트 박스 스크롤 */
+.size_dropdown::-webkit-scrollbar {
+    width: 3px;
+}
+.size_dropdown::-webkit-scrollbar-track {
+    background: #fff;
+}
+.size_dropdown::-webkit-scrollbar-thumb {
+    background: #d6d6d6;
+}
+.size_dropdown::-webkit-scrollbar-thumb:hover {
+    background: #b9b9b9;
+}
+
+
 .closeeyes{
     display:none !important;
 }
+
+
+
 
 
 /****글로벌 텍스트 스타일 ↓ **************************************/
