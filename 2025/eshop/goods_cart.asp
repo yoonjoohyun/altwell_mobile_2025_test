@@ -19,7 +19,7 @@
         <div class="pr_buy_info">
             <div class="buy_info_con_01">
                 <div class="info_checkline">
-                    <input class="checkbox_style" type="checkbox">
+                    <input class="checkbox_style" type="checkbox" value="" checked>
                     <div class="delete_btn"></div>
                 </div>
                 <div class="info_box">
@@ -74,7 +74,7 @@
             </div>
             <div class="buy_info_con_01">
                 <div class="info_checkline">
-                    <input class="checkbox_style" type="checkbox">
+                    <input class="checkbox_style" type="checkbox" value="" checked>
                     <div class="delete_btn"></div>
                 </div>
                 <div class="info_box">
@@ -129,7 +129,7 @@
             </div>
             <div class="buy_info_con_01">
                 <div class="info_checkline">
-                    <input class="checkbox_style" type="checkbox">
+                    <input class="checkbox_style" type="checkbox" value="" checked>
                     <div class="delete_btn"></div>
                 </div>
                 <div class="info_box">
