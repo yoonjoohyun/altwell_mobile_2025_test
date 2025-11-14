@@ -3,7 +3,7 @@
 <head>
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>상품 디테일 - 앨트웰 모바일 쇼핑몰</title>
+    <title>결제 정보 - 앨트웰 모바일 쇼핑몰</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=051">
     <link rel="stylesheet" href="/2025/css/main.css?ver=051">
     <link rel="stylesheet" href="/2025/css/order_write.css?ver=51">
@@ -14,7 +14,7 @@
     <div class="detail_main_contents">
         <div class="category_navi">
             <div class="back_btn"></div>
-            <p>주문 정보</p>
+            <p>결제 정보</p>
         </div>
         <div class="pr_buy_info">
             <div class="info_title">
