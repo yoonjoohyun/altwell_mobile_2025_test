@@ -4,9 +4,9 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>장바구니 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=051">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=051">
-    <link rel="stylesheet" href="/2025/css/goods_cart.css?ver=051">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=052">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=052">
+    <link rel="stylesheet" href="/2025/css/goods_cart.css?ver=052">
 </head>
 <body>
 <div class="wrap">
@@ -48,6 +48,7 @@
                             <div class="con_left">사이즈</div>
                             <div class="con_right_opt pr_size">
                                 <div class="size_btn">
+                                    <div class="size_text">choice</div>
                                     <div class="size_point">▼</div>
                                 </div>
                                 <div class="size_dropdown">
@@ -102,6 +103,7 @@
                             <div class="con_left">사이즈</div>
                             <div class="con_right_opt pr_size">
                                 <div class="size_btn">
+                                    <div class="size_text">choice</div>
                                     <div class="size_point">▼</div>
                                 </div>
                                 <div class="size_dropdown">
@@ -156,7 +158,7 @@
                             <div class="con_left">사이즈</div>
                             <div class="con_right_opt pr_size">
                                 <div class="size_btn">
-                                <div class="size_text"></div>
+                                    <div class="size_text">choice</div>
                                     <div class="size_point">▼</div>
                                 </div>
                                 <div class="size_dropdown">
