@@ -109,4 +109,42 @@ document.addEventListener('DOMContentLoaded', function () {
             topNav.classList.add('category-selected');
         });
     });
+
+    // New functionality for open_btn
+    const openButtons = document.querySelectorAll('.open_btn');
+
+    openButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Toggle 'active' class on the clicked button
+            this.classList.toggle('active');
+
+            // Get the ID of the target div from the 'for' attribute
+            const targetId = this.getAttribute('for');
+            if (targetId) {
+                const targetDiv = document.getElementById(targetId);
+                if (targetDiv) {
+                    // Toggle 'fold_contents' class on the target div
+                    targetDiv.classList.toggle('fold_contents');
+                }
+            }
+        });
+    });
+
+    // New functionality for del_info_btn
+    // Select all del_info_btn elements, excluding those inside a .postbox
+    const delInfoBtns = document.querySelectorAll('.del_info_btn:not(.postbox .del_info_btn)');
+
+    delInfoBtns.forEach(button => {
+        button.addEventListener('click', function() {
+            const parentDelRowline = this.closest('.del_rowline.mb15'); // Check if it's part of the address selection group
+
+            if (parentDelRowline) {
+                // If it's part of the address selection group, remove 'select' from siblings and add to clicked
+                const siblings = parentDelRowline.querySelectorAll('.del_info_btn');
+                siblings.forEach(sibling => sibling.classList.remove('select'));
+                this.classList.add('select');
+            }
+            // No else block needed as other del_info_btn are excluded by the selector
+        });
+    });
 });
