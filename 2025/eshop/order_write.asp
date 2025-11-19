@@ -4,9 +4,9 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>결제 정보 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=056">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=056">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=056">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=060">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=060">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=060">
 </head>
 <body>
 <div class="wrap">
@@ -93,19 +93,69 @@
                     </div>
                 </div>
                 <div class="del_rowline">
+                    <label for="del_info_post" class="del_info">우편 번호</label>
+                    <div class="postbox">
+                        <input id="del_info_post" class="del_info_post input_txt_style del_info_readonly" type="text" readonly>
+                        <div class="del_info_btn02">검색</div>
+                    </div>
+                </div>
+                <div class="del_rowline">
                     <label for="del_info_address" class="del_info">주소</label>
-                    <input id="del_info_address" class="del_info_address input_txt_style" type="text">
+                    <input id="del_info_address" class="del_info_address input_txt_style del_info_readonly" type="text" readonly>
                 </div>
                 <div class="del_rowline">
                     <label for="del_info_address" class="del_info">상세 주소</label>
                     <input id="del_info_address" class="del_info_address input_txt_style" type="text">
                 </div>
+            </div>
+        </div>
+        <div class="order_info_list">
+            <div class="info_title">
+                <p>추가 정보</p>
+                <label for="del_info_con" class="open_btn"></label>
+            </div>
+            <div id="del_info_con" class="del_info_con">
                 <div class="del_rowline">
-                    <label for="del_info_post" class="del_info">우편 번호</label>
-                    <div class="postbox">
-                        <input id="del_info_post" class="del_info_post input_txt_style" type="text">
-                        <div class="del_info_btn02">검색</div>
+                    <label for="del_info_phone_02">
+                        <input id="del_info_phone_02" class="checkbox_st" type="checkbox"><span class="del_info del_info_phone_02">&nbsp;SMS수신</span>
+                    </label>
+                    <div class="phone_box">
+                        <input id="del_info_phone_02" class="del_info_phone input_txt_style" placeholder="000" type="text">
+                        <div class="numbar"></div>
+                        <input id="del_info_phone_02" class="del_info_phone input_txt_style" placeholder="0000" type="text">
+                        <div class="numbar"></div>
+                        <input id="del_info_phone_02" class="del_info_phone input_txt_style" placeholder="0000" type="text">
                     </div>
+                </div>
+                <div class="del_rowline mb25">
+                    <label for="del_info_bill">
+                        <input id="del_info_bill" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;세금 계산서 / 거래 명세서</span>
+                    </label>
+                </div>
+                <div class="del_rowline">
+                    <label for="del_info_name02" class="del_info">발송인</label>
+                    <input id="del_info_name02" class="del_info_name input_txt_style" placeholder="발송인" type="text">
+                </div>
+                <div class="del_rowline">
+                    <label for="del_info_memo" class="del_info">요청 사항</label>
+                    <div id="del_info_memo" class="gl_select">
+                        <div class="gl_select_btn">
+                            <div class="gl_select_text">배송 요청 사항을 선택해주세요.</div>
+                            <div class="gl_select_point">▼</div>
+                        </div>
+                        <div class="gl_select_dropdown">
+                            <div class="gl_select_pick">-</div>
+                            <div class="gl_select_option">S</div>
+                            <div class="gl_select_option">M</div>
+                            <div class="gl_select_option">L</div>
+                            <div class="gl_select_option">XL</div>
+                            <div class="gl_select_option">XXL</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="del_rowline">
+                    <label for="del_info_address" class="del_info">직접 입력</label>
+                    <input id="del_info_address" class="del_info_address input_txt_style" type="text">
                 </div>
             </div>
         </div>

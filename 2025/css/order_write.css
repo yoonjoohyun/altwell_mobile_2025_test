@@ -105,7 +105,7 @@
         font-size:1.5rem;
         padding:8px 0;
         font-weight:600;
-        color:#555;
+        color:#333;
         display:flex;
         justify-content: space-between;
     }
@@ -263,6 +263,25 @@
         align-items:center;
     }
 
+    @media screen and (min-width: 421px){
+        .del_info_btn{
+            width:32%;
+        }
+        .del_info_btn02{
+            width:30%;
+        }
+        .del_info_post{
+            width:65%;
+        }
+    }
+    @media screen and (max-width: 420px){
+        .del_info_btn02{
+            width:70px;
+        }
+        .del_info_post{
+            width:calc(95% - 70px);
+        }
+    }
         .del_info_btn{
             padding:2px 15px;
             border:1px solid #999;
@@ -272,12 +291,13 @@
             font-size:1.5rem;
         }
         .del_info_btn02{
-            padding:2px 15px;
-            border:1px solid #999;
+            padding:2px 15px 3px 15px;
             border-radius:5px;
-            color:#555;
             text-align:center;
             font-size:1.5rem;
+            font-weight:600;
+            color:#ee3338;
+            border:1px solid #ee3338;
         }
         
         .del_info{
@@ -296,8 +316,7 @@
             border:1px solid #ee3338;
         }
             .select:before{
-                content:'\2714\0020';
-                
+                content:'\2714\0020'; /*check icon*/
             }
 
     .phone_box{
@@ -309,6 +328,23 @@
         .del_info_phone{
             width:30%;
             text-align:center;
+        }
+        .del_info_phone_02{
+            color:#777;
+            font-weight:500;
+            font-size:1.4rem;
+            position:relative;
+            top:-1px;
+        }
+        .del_info_bill{
+            color:#777;
+            font-weight:500;
+            font-size:1.4rem;
+            position:relative;
+            top:-1px;
+        }
+        .checkbox_st{
+            
         }
         .numbar{
             width:2%;
@@ -327,9 +363,28 @@
         justify-content: space-between;
         align-items: center;
     }
-        .del_info_post{
-            width:70%;
+        .del_info_readonly{
+            background-color:#fafafa;
         }
+        .del_info_readonly:focus{
+            border: 1px solid #e9e9e9;
+            background-color:#fafafa;
+        }
+
+
+
+
+    .gl_select{
+        width:calc(100% - 30%);
+    }
+        .gl_select_btn{
+            padding:6px 10px;
+        }
+
+
+
+
+
 
 
 
