@@ -78,10 +78,46 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // New functionality for gl_select dropdown
+    const glSelects = document.querySelectorAll('.gl_select');
+    glSelects.forEach(glSelect => {
+        const selectBtn = glSelect.querySelector('.gl_select_btn');
+        const selectText = glSelect.querySelector('.gl_select_text');
+        const selectDropdown = glSelect.querySelector('.gl_select_dropdown');
+
+        if (selectBtn && selectDropdown) {
+            selectBtn.addEventListener('click', (event) => {
+                event.stopPropagation();
+                // Close other dropdowns
+                document.querySelectorAll('.gl_select.active').forEach(activeSelect => {
+                    if (activeSelect !== glSelect) {
+                        activeSelect.classList.remove('active');
+                    }
+                });
+                glSelect.classList.toggle('active');
+            });
+
+            selectDropdown.addEventListener('click', (event) => {
+                if (event.target.classList.contains('gl_select_option')) {
+                    const selectedOption = event.target.textContent;
+                    if (selectText) {
+                        selectText.textContent = selectedOption;
+                        selectText.style.color = '#121212';
+                    }
+                    glSelect.classList.remove('active');
+                }
+            });
+        }
+    });
+
     document.addEventListener('click', () => {
         const allPrSizes = document.querySelectorAll('.pr_size');
         allPrSizes.forEach(prSize => {
             prSize.classList.remove('active');
+        });
+        const allGlSelects = document.querySelectorAll('.gl_select');
+        allGlSelects.forEach(glSelect => {
+            glSelect.classList.remove('active');
         });
     });
 

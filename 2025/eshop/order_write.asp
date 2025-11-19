@@ -112,9 +112,9 @@
         <div class="order_info_list">
             <div class="info_title">
                 <p>추가 정보</p>
-                <label for="del_info_con" class="open_btn"></label>
+                <label for="add_info_con" class="open_btn"></label>
             </div>
-            <div id="del_info_con" class="del_info_con">
+            <div id="add_info_con" class="del_info_con">
                 <div class="del_rowline">
                     <label for="del_info_phone_02">
                         <input id="del_info_phone_02" class="checkbox_st" type="checkbox"><span class="del_info del_info_phone_02">&nbsp;SMS수신</span>
