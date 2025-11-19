@@ -145,17 +145,17 @@
                         </div>
                         <div class="gl_select_dropdown">
                             <div class="gl_select_pick">-</div>
-                            <div class="gl_select_option">S</div>
-                            <div class="gl_select_option">M</div>
-                            <div class="gl_select_option">L</div>
-                            <div class="gl_select_option">XL</div>
-                            <div class="gl_select_option">XXL</div>
+                            <div class="gl_select_option">부재 시 경비실에 맡겨주세요.</div>
+                            <div class="gl_select_option">직접 수령하겠습니다.</div>
+                            <div class="gl_select_option">배송 전 연락 바랍니다.</div>
+                            <div class="gl_select_option">부재 시 문 앞에 놓아주세요.</div>
+                            <div class="gl_select_option">직접 입력</div>
                         </div>
                     </div>
                 </div>
-                <div class="del_rowline">
-                    <label for="del_info_address" class="del_info">직접 입력</label>
-                    <input id="del_info_address" class="del_info_address input_txt_style" type="text">
+                <div class="del_rowline_02">
+                    <label for="del_info_memo_02" class="del_info">직접 입력</label>
+                    <textarea id="del_info_memo_02" class="del_info_memo_02" type="text"></textarea>
                 </div>
             </div>
         </div>
@@ -169,6 +169,6 @@
         </div>
     </div>
 </div>
-<script src="/2025/js/script.js?ver=042"></script>
+<script src="/2025/js/script.js?ver=045"></script>
 </body>
 </html>

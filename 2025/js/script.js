@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const selectBtn = glSelect.querySelector('.gl_select_btn');
         const selectText = glSelect.querySelector('.gl_select_text');
         const selectDropdown = glSelect.querySelector('.gl_select_dropdown');
+        const selectPick = glSelect.querySelector('.gl_select_pick');
 
         if (selectBtn && selectDropdown) {
             selectBtn.addEventListener('click', (event) => {
@@ -102,7 +103,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     const selectedOption = event.target.textContent;
                     if (selectText) {
                         selectText.textContent = selectedOption;
-                        selectText.style.color = '#121212';
+                        selectText.classList.add('selected-option');
+                    }
+                    if (selectPick) {
+                        selectPick.textContent = selectedOption;
                     }
                     glSelect.classList.remove('active');
                 }
@@ -183,4 +187,16 @@ document.addEventListener('DOMContentLoaded', function () {
             // No else block needed as other del_info_btn are excluded by the selector
         });
     });
+
+    // Auto-resize textarea functionality
+    const autoResizeTextarea = document.getElementById('del_info_memo_02');
+    if (autoResizeTextarea) {
+        autoResizeTextarea.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+        // Set initial height
+        autoResizeTextarea.style.height = 'auto';
+        autoResizeTextarea.style.height = (autoResizeTextarea.scrollHeight) + 'px';
+    }
 });

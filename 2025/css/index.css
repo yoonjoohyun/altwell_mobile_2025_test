@@ -49,18 +49,15 @@ html{
 }
 
 /* 옵션 셀렉트 박스 */
-.size_dropdown::-webkit-scrollbar {
-    width: 3px;
-}
-.size_dropdown::-webkit-scrollbar-track {
-    background: #fff;
-}
-.size_dropdown::-webkit-scrollbar-thumb {
-    background: #d6d6d6;
-}
-.size_dropdown::-webkit-scrollbar-thumb:hover {
-    background: #b9b9b9;
-}
+.size_dropdown::-webkit-scrollbar {width: 3px;}
+.size_dropdown::-webkit-scrollbar-track {background: #fff;}
+.size_dropdown::-webkit-scrollbar-thumb {background: #d6d6d6;}
+.size_dropdown::-webkit-scrollbar-thumb:hover {background: #b9b9b9;}
+
+.gl_select_dropdown::-webkit-scrollbar {width: 3px;}
+.gl_select_dropdown::-webkit-scrollbar-track {background: #fff;}
+.gl_select_dropdown::-webkit-scrollbar-thumb {background: #d6d6d6;}
+.gl_select_dropdown::-webkit-scrollbar-thumb:hover {background: #b9b9b9;}
 
 .gl_select{
     position:relative;
@@ -75,11 +72,15 @@ html{
     }
         .gl_select_text{
             font-size:1.4rem;
-            color:#999;
+            color:#c9c9c9;
+        }
+        .gl_select_text.selected-option {
+            color: #555; /* Darker color for selected option */
+            font-weight: 500; /* Make it a bit bolder */
         }
         .gl_select_point{
-            font-size:1rem;
-            color:#999;
+            font-size:0.8rem;
+            color:#888;
         }
     .gl_select_dropdown{
         position:absolute;
@@ -93,10 +94,12 @@ html{
         overflow:scroll;
         max-height:0;
         transition: max-height 0.3s ease-in-out;
+        z-index: 99;
     }
         .gl_select_option{
+            text-align:left;
             border-bottom:1px solid #f7f7f7;
-            padding:0 5px;
+            padding:4px 5px;
             color:#999;
             font-size:1.4rem;
         }

@@ -166,7 +166,7 @@
             width:100%;
             height:auto;
             justify-content:left;
-            padding:20px 0;
+            padding:10px 0 20px 0;
             border-bottom:1px solid #f6f6f6;
         }
         
@@ -261,6 +261,11 @@
         justify-content:space-between;
         margin-top:10px;
         align-items:center;
+    }
+    .del_rowline_02{
+        display:flex;
+        justify-content:space-between;
+        margin-top:10px;
     }
 
     @media screen and (min-width: 421px){
@@ -371,7 +376,25 @@
             background-color:#fafafa;
         }
 
-
+        .del_info_memo_02{
+            width:calc(100% - 30%);
+            min-height: 80px;
+            max-height:80px;
+            resize: vertical;
+            padding:6px 10px;
+            border-radius:5px;
+            -webkit-appearance: none;
+            -moz-appearance:none;
+            appearance:none;
+            border: 1px solid #e9e9e9;
+            outline:none;
+            background-color:#ffffff;
+            font-family: 'min-sans', 'Noto Sans KR', sans-serif;
+            color:#555;
+            font-weight:500;
+            font-size:1.5rem;
+        }
+        
 
 
     .gl_select{
