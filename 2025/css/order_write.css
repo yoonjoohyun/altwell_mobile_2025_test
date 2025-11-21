@@ -267,28 +267,34 @@
         justify-content:space-between;
         margin-top:10px;
     }
-
-    @media screen and (min-width: 421px){
-        .del_info_btn{
-            width:32%;
-        }
-        .del_info_btn02{
-            width:30%;
-        }
-        .del_info_post{
-            width:65%;
-        }
+    .del_rowline_flex{
+        gap:2%;
+        width:100%;
+        display:flex;
+        margin-top:10px;
+        align-items:center;
     }
-    @media screen and (max-width: 420px){
-        .del_info_btn02{
-            width:70px;
-        }
-        .del_info_post{
-            width:calc(95% - 70px);
-        }
+    
+    .del_rowline_simplepay{
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        padding:2px 0;
+        align-items:center;
+        position:relative;
     }
+        .del_rowline_simplepay:after{
+            content:'';
+            position:absolute;
+            top:0;
+            left:-20px;
+            width:100%;
+            background-color:red;
+            z-index: 999;
+        }
         .del_info_btn{
-            padding:2px 15px;
+            flex:1;
+            padding:2px 5px;
             border:1px solid #999;
             border-radius:5px;
             color:#555;
@@ -296,6 +302,7 @@
             font-size:1.5rem;
         }
         .del_info_btn02{
+            width:40%;
             padding:2px 15px 3px 15px;
             border-radius:5px;
             text-align:center;
@@ -303,6 +310,14 @@
             font-weight:600;
             color:#ee3338;
             border:1px solid #ee3338;
+        }
+        .del_info_btn03{
+            padding:1px 20px 2px 20px;
+            border-radius:5px;
+            text-align:center;
+            font-size:1.4rem;
+            color:#555;
+            border:1px solid #999;
         }
         
         .del_info{
@@ -348,6 +363,28 @@
             position:relative;
             top:-1px;
         }
+        .del_info_usepoint{
+            color:#777;
+        }
+        .del_info_getpoint_01{
+            color:#777;
+        }
+        .del_info_getpoint_02{
+            color:#555;
+            font-weight:600;
+        }
+        .input_right{
+            text-align:right;
+        }
+        .del_info_simplepay_01{
+            color:#777;
+        }
+        .del_info_simplepay_02{
+            color:#333;
+        }
+        .del_info_simplepay_03{
+            color:#ee3338;
+        }
         .checkbox_st{
             
         }
@@ -365,9 +402,12 @@
     .postbox{
         width:calc(100% - 30%);
         display:flex;
-        justify-content: space-between;
+        justify-content:space-between;
         align-items: center;
     }
+        .del_info_post{
+            width:55%;
+        }
         .del_info_readonly{
             background-color:#fafafa;
         }

@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     delInfoBtns.forEach(button => {
         button.addEventListener('click', function() {
-            const parentDelRowline = this.closest('.del_rowline.mb15'); // Check if it's part of the address selection group
+            const parentDelRowline = this.closest('.del_rowline_flex.mb15'); // Check if it's part of the address selection group
 
             if (parentDelRowline) {
                 // If it's part of the address selection group, remove 'select' from siblings and add to clicked

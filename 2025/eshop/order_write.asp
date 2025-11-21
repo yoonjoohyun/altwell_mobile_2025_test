@@ -4,9 +4,9 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>결제 정보 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=060">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=060">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=060">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=062">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=062">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=062">
 </head>
 <body>
 <div class="wrap">
@@ -73,7 +73,7 @@
                 <label for="del_info_con" class="open_btn"></label>
             </div>
             <div id="del_info_con" class="del_info_con">
-                <div class="del_rowline mb15">
+                <div class="del_rowline_flex mb15">
                     <div class="del_info_btn">기본 배송지</div>
                     <div class="del_info_btn">과거 배송지</div>
                     <div class="del_info_btn">새로 입력</div>
@@ -159,6 +159,100 @@
                 </div>
             </div>
         </div>
+        <div class="order_info_list"> 
+            <div class="info_title">
+                <p>포인트</p>
+                <label for="point_info_con" class="open_btn"></label>
+            </div>
+            <div id="point_info_con" class="del_info_con">
+                <div class="del_rowline">
+                    <label for="del_info_point" class="del_info_getpoint_01">가용 포인트</label>
+                    <div id="del_info_point" class="del_info_getpoint_02">500,000 point</div>
+                </div>
+                <div class="del_rowline">
+                    <label for="del_info_usepoint" class="del_info_usepoint">사용 포인트</label>
+                    <input id="del_info_usepoint" class="del_info_usepoint input_right input_txt_style" placeholder="0" type="text">
+                </div>
+                <div class="del_rowline">
+                    <label for="del_info_allpoint">
+                        <input id="del_info_allpoint" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;모든 포인트 사용하기</span>
+                    </label>
+                    <div class="del_info_btn03">취소</div>
+                </div>
+            </div>
+        </div>
+        <div class="order_info_list"> 
+            <div class="info_title">
+                <p>결제 수단</p>
+                <label for="payment_info_con" class="open_btn"></label>
+            </div>
+            <div id="payment_info_con" class="del_info_con">
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">삼성카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">전북카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">광주카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4,5,6,7개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">롯데카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4,5개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">우리카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4,5개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">비씨카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4,5개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">국민카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4,5개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">현대카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">하나SK카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">수협카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4,5개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">NH농협카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4,5,6개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">신한카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3개월)</div>
+                </div>
+                <div class="del_rowline_simplepay">
+                    <label class="del_info_getpoint_01">외환카드</label>
+                    <div class="del_info_simplepay_02">50,000원 이상 (2,3,4개월)</div>
+                </div>
+                <div class="del_rowline">
+                    <div class="del_info_simplepay_03">※ 법인, 기업, 체크, 선불, 기프트카드 제외</div>
+                </div>
+                <div class="del_rowline">
+                    <div class="del_info_simplepay_03">※ 일반 결제는 무이자 할부 혜택이 없습니다.</div>
+                </div>
+                <div class="del_rowline">
+                    <label for="del_info_allpoint">
+                        <input id="del_info_allpoint" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;모든 포인트 사용하기</span>
+                    </label>
+                    <div class="del_info_btn03">취소</div>
+                </div>
+            </div>
+        </div>
         <div class="buy_navi">
             <div class="buy_navi_btn add_cart">
                 <p>취소</p>
@@ -169,6 +263,6 @@
         </div>
     </div>
 </div>
-<script src="/2025/js/script.js?ver=046"></script>
+<script src="/2025/js/script.js?ver=047"></script>
 </body>
 </html>
