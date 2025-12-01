@@ -4,9 +4,11 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>결제 정보 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=062">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=062">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=062">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=067">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=067">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=067">
+    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=067">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 <div class="wrap">
@@ -183,10 +185,10 @@
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
-                <p>결제 수단</p>
-                <label for="payment_info_con" class="open_btn"></label>
+                <p>간편결제 무이자 할부 안내</p>
+                <label for="card_benefit_info_con" class="open_btn"></label>
             </div>
-            <div id="payment_info_con" class="del_info_con">
+            <div id="card_benefit_info_con" class="del_info_con">
                 <div class="del_rowline_simplepay">
                     <label class="del_info_getpoint_01">삼성카드</label>
                     <div class="del_info_simplepay_02">50,000원 이상 (2,3개월)</div>
@@ -239,17 +241,89 @@
                     <label class="del_info_getpoint_01">외환카드</label>
                     <div class="del_info_simplepay_02">50,000원 이상 (2,3,4개월)</div>
                 </div>
-                <div class="del_rowline">
+                <div class="del_rowline_03">
                     <div class="del_info_simplepay_03">※ 법인, 기업, 체크, 선불, 기프트카드 제외</div>
-                </div>
-                <div class="del_rowline">
                     <div class="del_info_simplepay_03">※ 일반 결제는 무이자 할부 혜택이 없습니다.</div>
                 </div>
-                <div class="del_rowline">
-                    <label for="del_info_allpoint">
-                        <input id="del_info_allpoint" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;모든 포인트 사용하기</span>
-                    </label>
-                    <div class="del_info_btn03">취소</div>
+            </div>
+        </div>
+        <div class="order_info_list"> 
+            <div class="info_title">
+                <p>결제 수단</p>
+                <label for="payment_info_con" class="open_btn"></label>
+            </div>
+            <div id="payment_info_con" class="del_rowline_03 mb15">
+                <div class="del_pay_btn altpay">앨트페이(Altpay) 간편결제</div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="altpay_card">
+                                    <div class="card_title_box">
+                                        <img src="/2025/images/sample/card_016.gif"/>
+                                        <div class="delete_btn"></div>
+                                    </div>
+                                    <div class="card_info_01">KB국민카드</div>
+                                    <div class="card_info_02">
+                                        <div class="credit_number">0000</div>
+                                        <div class="credit_number">0000</div>
+                                        <div class="credit_number">0000</div>
+                                        <div class="credit_number">0000</div>
+                                    </div>
+                                    <select class="card_m_select">
+                                        <option value="">5만원 이상 최대 5개월 무이자</option>
+                                        <option value="1">2개월 무이자 할부</option>
+                                        <option value="2">3개월 무이자 할부</option>
+                                        <option value="3">4개월 무이자 할부</option>
+                                        <option value="4">5개월 무이자 할부</option>
+                                        <option value="5">6개월</option>
+                                        <option value="6">7개월</option>
+                                        <option value="7">8개월</option>
+                                        <option value="8">9개월</option>
+                                        <option value="9">10개월</option>
+                                        <option value="10">11개월</option>
+                                        <option value="11">12개월</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="altpay_add">
+                                    <div class="circle_addbtn">+</div><div class="add_text">&nbsp;&nbsp;카드 추가</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="del_pay_btn mobilepay">SMS 간편결제</div>
+                <div class="del_pay_btn mobilepay">ARS 간편결제</div>
+                <div class="del_pay_btn basicpay">신용 카드 일반결제</div>
+                <div class="del_pay_btn">전용계좌 결제</div>
+            </div>
+        </div>
+        <div class="order_info_list"> 
+            <div class="info_title">
+                <p>결제 금액</p>
+            </div>
+            <div class="info_box02">
+                <div class="pr_price_03">
+                    <div class="info_conbox_03">
+                        <div class="con_left_03">총 제품 금액</div>
+                        <div class="con_right_03">1,000,000원</div>
+                    </div>
+                    <div class="info_conbox_03">
+                        <div class="con_left_03">총 EP</div>
+                        <div class="con_right_03">800,000</div>
+                    </div>
+                    <div class="info_conbox_03">
+                        <div class="con_left_03">포인트 사용</div>
+                        <div class="con_right_03">-100,000</div>
+                    </div>
+                    <div class="info_conbox_03">
+                        <div class="con_left_03">5만원 이상 배송비</div>
+                        <div class="con_right_03">무료</div>
+                    </div>
+                    <div class="info_conbox_03 mt20 mb10">
+                        <div class="con_left_04">최종 결제 금액</div>
+                        <div class="con_right_04">900,000원</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -263,6 +337,6 @@
         </div>
     </div>
 </div>
-<script src="/2025/js/script.js?ver=047"></script>
+<script src="/2025/js/script.js?ver=051"></script>
 </body>
 </html>
