@@ -87,8 +87,8 @@
             </div>
         </div>
     </div>
-    <div class="next_card"><img src="/2025/images/icon/Arrow/chevron_right.svg"/></div>
-    <div class="prev_card"><img src="/2025/images/icon/Arrow/chevron_left.svg"/></div>
+    <div class="next_card"><img src="/2025/images/icon/Arrow/chevron_right.png"/></div>
+    <div class="prev_card"><img src="/2025/images/icon/Arrow/chevron_left.png"/></div>
 </div> 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>

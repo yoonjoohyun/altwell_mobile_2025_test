@@ -4,10 +4,10 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>결제 정보 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=093">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=093">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=093">
-    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=093">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=096">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=096">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=096">
+    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=096">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -30,28 +30,23 @@
                     </div>
                     <div class="pr_name">
                         <div class="name_box">
-                            <div class="category_small">
-                                코어벨
-                            </div>
-                            <div class="product_name">
-                                누벨마리 오픈버스트 바디슈츠 (그린)
-                            </div>
-                            <div class="product_option">
-                                XL or 기타 옵션
-                            </div>
+                            <span class="category_small">코어벨</span>
+                            <span class="product_name">누벨마리 오픈버스트 바디슈츠 (그린)</span>
+                            <span class="product_option">XL or 기타 옵션</span>
                         </div>
-                        <div class="info_congap"></div>
-                        <div class="info_conbox">
-                            <div class="con_left">회원가</div>
-                            <div class="con_right">500,000원</div>
-                        </div>
-                        <div class="info_conbox">
-                            <div class="con_left">EP</div>
-                            <div class="con_right">400,000</div>
-                        </div>
-                        <div class="info_conbox">
-                            <div class="con_left">수량</div>
-                            <div class="con_right">2개</div>
+                        <div class="name_pr_box">
+                            <div class="info_conbox">
+                                <div class="con_left">회원가</div>
+                                <div class="con_right">500,000원</div>
+                            </div>
+                            <div class="info_conbox">
+                                <div class="con_left">EP</div>
+                                <div class="con_right">400,000</div>
+                            </div>
+                            <div class="info_conbox">
+                                <div class="con_left">수량</div>
+                                <div class="con_right">2개</div>
+                            </div>
                         </div>
                     </div>
                 </div>
