@@ -4,10 +4,10 @@
     <meta charset="euc-kr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>결제 정보 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=067">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=067">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=067">
-    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=067">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=093">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=093">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=093">
+    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=093">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -161,6 +161,14 @@
                 </div>
             </div>
         </div>
+        <div class="order_info_list memorywrap">
+            <div class="del_rowline_03 memorybox">
+                <div class="del_info_memory"><span>*</span><p>현재 상품&배송지를 다음에도 동일하게 주문하신다면 간편주문등록을 체크하세요.</p></div>
+            </div>
+            <label for="del_info_memory" class="memoryline">
+                <input id="del_info_memory" class="checkbox_st" type="checkbox"><span class="del_info_memory">&nbsp;간편주문등록</span>
+            </label>
+        </div>
         <div class="order_info_list"> 
             <div class="info_title">
                 <p>포인트</p>
@@ -249,53 +257,70 @@
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
+                <p>도매 주문 계약내용 동의</p>
+                <label for="agree_info_con" class="open_btn"></label>
+            </div>
+            <div id="agree_info_con" class="del_info_con">
+                <div class="del_agree_btn">
+                    <img src="/2025/images/icon/info.png"/>도매 주문 계약서 확인하기
+                </div>
+                <div class="del_rowline_03 agreebox">
+                    <div class="del_info_agree"><span>*</span><p>본 주문서에 기재된 모든 계약 사항을 잘 읽었으므로 동의합니다.</p></div>
+                </div>
+                <div class="del_rowline agreeline">
+                    <div></div>
+                    <label for="del_info_agree_01">
+                        <input id="del_info_agree_01" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;동의합니다.</span>
+                    </label>
+                </div>
+                <div class="del_agree_btn mt30">
+                    <img src="/2025/images/icon/info.png"/>개인정보 활용 동의서 확인하기
+                </div>
+                <div class="del_rowline_03 agreebox">
+                    <div class="del_info_agree"><span>*</span><p>신청인은 개인정보 취급 위탁 및 제공 동의를 거부할 수 있습니다. (단, 동의를 거부하실 경우 주문 및 배송이 제한됩니다.)</p></div>
+                    <div class="del_info_agree"><span>*</span><p>본 주문서에 기재된 모든 계약 내용을 확인하였으며, 개인정보의 수집 이용/제3자 제공 및 취급 위탁에 동의합니다.</p></div>
+                </div>
+                <div class="del_rowline agreeline">
+                    <div></div>
+                    <label for="del_info_agree_02">
+                        <input id="del_info_agree_02" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;동의합니다.</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="order_info_list"> 
+            <div class="info_title">
                 <p>결제 수단</p>
                 <label for="payment_info_con" class="open_btn"></label>
             </div>
             <div id="payment_info_con" class="del_rowline_03 mb15">
-                <div class="del_pay_btn altpay">앨트페이(Altpay) 간편결제</div>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="altpay_card">
-                                    <div class="card_title_box">
-                                        <img src="/2025/images/sample/card_016.gif"/>
-                                        <div class="delete_btn"></div>
-                                    </div>
-                                    <div class="card_info_01">KB국민카드</div>
-                                    <div class="card_info_02">
-                                        <div class="credit_number">0000</div>
-                                        <div class="credit_number">0000</div>
-                                        <div class="credit_number">0000</div>
-                                        <div class="credit_number">0000</div>
-                                    </div>
-                                    <select class="card_m_select">
-                                        <option value="">5만원 이상 최대 5개월 무이자</option>
-                                        <option value="1">2개월 무이자 할부</option>
-                                        <option value="2">3개월 무이자 할부</option>
-                                        <option value="3">4개월 무이자 할부</option>
-                                        <option value="4">5개월 무이자 할부</option>
-                                        <option value="5">6개월</option>
-                                        <option value="6">7개월</option>
-                                        <option value="7">8개월</option>
-                                        <option value="8">9개월</option>
-                                        <option value="9">10개월</option>
-                                        <option value="10">11개월</option>
-                                        <option value="11">12개월</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="altpay_add">
-                                    <div class="circle_addbtn">+</div><div class="add_text">&nbsp;&nbsp;카드 추가</div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="del_pay_btn altpay" data-target="altpay">앨트페이(Altpay) 간편결제</div>
+                <div class="iframewraper paydetail" id="altpay">
+                    <iframe src="/2025/components/altpay_card.asp" class="swiper-container altpay-swiper"></iframe>
+                </div>
+                <div class="del_pay_btn smspay" data-target="smspay">SMS 간편결제</div>
+                <div class="del_smsline paydetail" id="smspay">
+                    <div class="smsbox">
+                        <label for="del_info_sms" class="del_info_sms">SMS 휴대폰번호</label>
+                        <input id="del_info_sms" class="del_info_sms input_txt_style" placeholder="SMS 수신 받으실 번호" type="text">
                     </div>
-                <div class="del_pay_btn mobilepay">SMS 간편결제</div>
-                <div class="del_pay_btn mobilepay">ARS 간편결제</div>
-                <div class="del_pay_btn basicpay">신용 카드 일반결제</div>
-                <div class="del_pay_btn">전용계좌 결제</div>
+                </div>
+                <div class="del_pay_btn mobilepay" data-target="mobilepay">ARS 간편결제</div>
+                <div class="del_smsline paydetail" id="mobilepay">
+                    <div class="smsbox">
+                        <label for="del_info_ars" class="del_info_sms">ARS 휴대폰번호</label>
+                        <input id="del_info_ars" class="del_info_sms input_txt_style" placeholder="ARS 수신 받으실 번호" type="text">
+                    </div>
+                </div>
+                <div class="del_pay_btn basicpay" data-target="creditcard">신용 카드 일반결제</div>
+                <div class="paydetail" id="creditcard"></div>
+                <div class="del_pay_btn accountpay" data-target="accountpay">전용계좌 결제</div>
+                <div class="del_smsline paydetail" id="accountpay">
+                    <div class="smsbox">
+                        <label for="del_info_account" class="del_info_sms">계좌 비밀번호</label>
+                        <input id="del_info_account" class="del_info_sms input_txt_style" placeholder="전용 계좌 비밀번호" type="text">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="order_info_list"> 
@@ -337,6 +362,7 @@
         </div>
     </div>
 </div>
-<script src="/2025/js/script.js?ver=051"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="/2025/js/script.js?ver=091"></script>
 </body>
 </html>

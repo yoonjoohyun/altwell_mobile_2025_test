@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 clickable: true,
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.next_card',
+                prevEl: '.prev_card',
             },
             grabCursor: true,
         });
@@ -136,24 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // New functionality for Altpay card swiper
-    if (document.querySelector('#payment_info_con .swiper-container')) {
-        var altpaySwiper = new Swiper('#payment_info_con .swiper-container', {
-            slidesPerView: 'auto', // Adjust as needed, 'auto' is good for variable width slides
-            spaceBetween: 10,      // Space between slides
-            freeMode: true,        // Enable free mode for swiping
-            grabCursor: true,
-            // If you added pagination or navigation elements in HTML, uncomment these:
-            // pagination: {
-            //     el: '.swiper-pagination',
-            //     clickable: true,
-            // },
-            // navigation: {
-            //     nextEl: '.swiper-button-next',
-            //     prevEl: '.swiper-button-prev',
-            // },
-        });
-    }
+
 
     const categoryItems = document.querySelectorAll('.category_box ul li');
     const topNav = document.querySelector('.top_navi');
@@ -207,18 +190,35 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // New functionality for del_pay_btn
+    // New functionality for del_pay_btn selection and toggling paydetail content
     const delPayBtns = document.querySelectorAll('.del_pay_btn');
+    const payDetailDivs = document.querySelectorAll('.paydetail');
 
     delPayBtns.forEach(button => {
         button.addEventListener('click', function() {
-            const parentPayOptions = this.closest('.del_rowline_03.mb15'); // Find the common parent for payment options
+            // --- 1. Handle button selection visual ---
+            // Remove 'select' class from all sibling buttons
+            const siblings = this.closest('.del_rowline_03.mb15').querySelectorAll('.del_pay_btn');
+            siblings.forEach(sibling => {
+                sibling.classList.remove('select');
+            });
+            // Add 'select' class to the clicked button
+            this.classList.add('select');
 
-            if (parentPayOptions) {
-                // If a parent is found, remove 'select' from siblings and add to clicked
-                const siblings = parentPayOptions.querySelectorAll('.del_pay_btn');
-                siblings.forEach(sibling => sibling.classList.remove('select'));
-                this.classList.add('select');
+            // --- 2. Handle content display ---
+            // First, hide all paydetail elements
+            payDetailDivs.forEach(div => {
+                div.classList.remove('active');
+            });
+
+            // Get the target ID from data-target attribute
+            const targetId = this.dataset.target;
+            if (targetId) {
+                // Find the corresponding paydetail element and show it
+                const targetDiv = document.getElementById(targetId);
+                if (targetDiv) {
+                    targetDiv.classList.add('active');
+                }
             }
         });
     });

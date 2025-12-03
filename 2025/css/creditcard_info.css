@@ -1,13 +1,12 @@
-
 .altpay_card{
-    width:calc(100vw - 80px);
-    max-width:340px;
+    width:100%;
+    height:170px;
     background-color:rgb(255, 243, 220);
     padding:20px 20px;
-    margin:0 auto;
+    margin:0;
     border-radius:15px;
-    margin-bottom:30px;
     filter:drop-shadow(2px 2px 2px rgba(42, 40, 68, 0.1));
+    font-size:1.6rem;
 }
     .card_title_box{
         display:flex;
@@ -59,29 +58,29 @@
         }
         .card_m_select{
             background-color:rgba(255,255,255,0);
-            width:80%;
+            padding:3px 5px;
             line-height:18px;
-            height:22px;
             border:1px solid rgba(0, 0, 0, 0.2);
             border-radius:5px;
             font-size:1.4rem;
             margin-top:10px;
             margin-bottom:5px;
+            color:#333;
         }
 
     .altpay_add{
-        width:calc(100vw - 80px);
-        max-width:340px;
-        height:150px;
+        width:100%;
+        height:170px;
         padding:20px 20px;
-        background-color:#ee333910;
-        margin:0 auto;
+        background-color:#ee333909;
+        margin:0;
         border-radius:15px;
-        margin-bottom:30px;
-        border:1px solid #ee3339d3;
+        border:1px solid #ee3338;
         display:flex;
+        flex-direction:column;
         justify-content:center;
         align-items:center;
+        opacity:0.7;
     }
         .add_text{
             font-weight:600;
@@ -96,7 +95,77 @@
                 text-align:center;
                 width:24px;
                 height:24px;
-                line-height:20px;
-                font-size:2.2rem;
+                padding-left:1px;
+                line-height:22px;
+                font-size:2.4rem;
                 font-weight:600;
             }
+
+/* Reset for iframe body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Swiper Slide styles */
+.swiper-container.altpay-swiper .swiper-slide {
+    width: 80%; /* Responsive width */
+    max-width: 340px; /* Max width for the slide */
+    min-width: 300px; /* Min width for the slide */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    
+}
+/* Ensure only one slide is fully visible, and others are partially visible */
+.swiper-container.altpay-swiper .swiper-slide:first-child {
+    
+}
+
+.next_card{
+    position:absolute;
+    top:25px;
+    right:0;
+    width:14px;
+    height:120px;
+    z-index: 10;
+    opacity:0.8;
+    background-color:rgba(0, 0, 0,0.15);
+    border-radius:5px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+    .next_card img{
+        width:16px;
+        opacity:0.5;
+    }
+
+.prev_card{
+    position:absolute;
+    top:25px;
+    left:0;
+    width:13px;
+    height:120px;
+    z-index: 10;
+    opacity:0.8;
+    background-color:rgba(0, 0, 0,0.15);
+    border-radius:5px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+    .prev_card img{
+        width:16px;
+        opacity:0.7;
+    }
+
+/* Disabled state opacity for custom navigation buttons */
+.swiper-container.altpay-swiper .prev_card.swiper-button-disabled,
+.swiper-container.altpay-swiper .next_card.swiper-button-disabled {
+    opacity: 0.1; /* Lower opacity for disabled state */
+    cursor: auto;
+    pointer-events: none;
+}
+.swiper-container.altpay-swiper .prev_card.swiper-button-disabled img,
+.swiper-container.altpay-swiper .next_card.swiper-button-disabled img{
+    opacity:0.5;
+}
