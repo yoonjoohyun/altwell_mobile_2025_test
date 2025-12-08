@@ -234,4 +234,22 @@ document.addEventListener('DOMContentLoaded', function () {
         autoResizeTextarea.style.height = 'auto';
         autoResizeTextarea.style.height = (autoResizeTextarea.scrollHeight) + 'px';
     }
+
+    // 간편주문등록 체크박스 스타일 변경
+    const memoryCheckbox = document.getElementById('del_info_memory');
+    if (memoryCheckbox) {
+        const updateMemoryLine = function() {
+             const memoryLine = memoryCheckbox.closest('.memoryline');
+             if (memoryLine) {
+                 if (memoryCheckbox.checked) {
+                     memoryLine.classList.add('active');
+                 } else {
+                     memoryLine.classList.remove('active');
+                 }
+             }
+        };
+        memoryCheckbox.addEventListener('change', updateMemoryLine);
+        // 초기 상태 반영
+        updateMemoryLine();
+    }
 });

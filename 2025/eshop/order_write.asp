@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>주문 결제 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=099">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=099">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=099">
-    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=099">
-    <link rel="stylesheet" href="/2025/css/modal.css?ver=099"> <!-- 모달 CSS 추가 -->
+    <link rel="stylesheet" href="/2025/css/index.css?ver=012">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=012">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=012">
+    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=012">
+    <link rel="stylesheet" href="/2025/css/modal.css?ver=012">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -154,7 +154,7 @@
                 <div class="del_info_memory"><span>*</span><p>현재 상품&배송지를 다음에도 동일하게 주문하신다면 간편주문등록을 체크하세요.</p></div>
             </div>
             <label for="del_info_memory" class="memoryline">
-                <input id="del_info_memory" class="checkbox_st" type="checkbox"><span class="del_info_memory">&nbsp;간편주문등록</span>
+                <input id="del_info_memory" class="checkbox_st del_info_memory_checkbox" type="checkbox"><span class="del_info_memory_text">&nbsp;간편주문등록</span>
             </label>
         </div>
         <div class="order_info_list"> 
@@ -282,7 +282,7 @@
                 <label for="payment_info_con" class="open_btn"></label>
             </div>
             <div id="payment_info_con" class="del_rowline_03 mb15">
-                <div class="del_pay_btn altpay" data-target="altpay">알트페이(Altpay) 간편결제</div>
+                <div class="del_pay_btn altpay" data-target="altpay">앨트페이(Altpay) 간편결제</div>
                 <div class="iframewraper paydetail" id="altpay">
                     <iframe src="/2025/components/altpay_card.asp" class="swiper-container altpay-swiper"></iframe>
                 </div>
@@ -354,6 +354,6 @@
 <!--#include virtual="/2025/components/modal/modal_agree_check.asp" --> <!-- 주문 동의서 모달 include -->
 <!--#include virtual="/2025/components/modal/modal_personal_info_check.asp" --> <!-- 개인정보 활용 동의서 모달 include -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="/2025/js/script.js?ver=092"></script>
+<script src="/2025/js/script.js?ver=011"></script>
 </body>
 </html>

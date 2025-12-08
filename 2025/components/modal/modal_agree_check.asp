@@ -9,7 +9,7 @@
             
             <br>메인화면의 간편주문 버튼을 클릭하시면 등록된 주문내역을 확인하고 바로 주문할 수 있습니다.</p>
         </div>
-        <div class="modal_footer">
+        <div class="modal_footer mt10">
             <button type="button" class="modal_action_btn modal_primary_btn" onclick="closeAgreeCheckModal();">확인</button>
         </div>
     </div>

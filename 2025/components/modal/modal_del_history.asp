@@ -4,8 +4,8 @@
             <h3>과거 배송지 정보</h3>
             <button type="button" class="modal_close_btn" onclick="closeDelHistoryModal();"></button>
         </div>
-        <div class="modal_content del_list_scroll">
-            <div class="del_list">
+        <div class="modal_content_del_list modal_scroll">
+            <div class="del_list"><!-- 과거 배송지 리스트 (반복) -->
                 <div class="del_list_info">
                     <div class="name_num_box">
                         <div class="name_row">고길동</div>
