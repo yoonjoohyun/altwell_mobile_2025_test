@@ -66,7 +66,7 @@
             </div>
             <div id="del_info_con" class="del_info_con">
                 <div class="del_rowline_flex mb15">
-                    <a href="javascript:openModal(modal_del_history);" class="del_info_btn">과거 배송지</a>
+                    <a href="javascript:openDelHistoryModal();" class="del_info_btn">과거 배송지</a>
                 </div>
                 <div class="del_rowline">
                     <label for="del_info_name" class="del_info">받는이</label>
@@ -249,7 +249,7 @@
                 <label for="agree_info_con" class="open_btn"></label>
             </div>
             <div id="agree_info_con" class="del_info_con">
-                <a href="javascript:openModal();" class="del_agree_btn">
+                <a href="javascript:openAgreeCheckModal();" class="del_agree_btn">
                     <img src="/2025/images/icon/info.png"/>주문 동의서 확인하기
                 </a>
                 <div class="del_rowline_03 agreebox">
@@ -261,9 +261,9 @@
                         <input id="del_info_agree_01" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;동의합니다.</span>
                     </label>
                 </div>
-                <div class="del_agree_btn mt30">
+                <a href="javascript:openPersonalInfoCheckModal();" class="del_agree_btn mt30">
                     <img src="/2025/images/icon/info.png"/>개인정보 활용 동의서 확인하기
-                </div>
+                </a>
                 <div class="del_rowline_03 agreebox">
                     <div class="del_info_agree"><span>*</span><p>신청자는 개인정보 수집 및 이용, 제3자 제공 및 활용에 동의합니다. (단, 동의를 거부하실 경우 주문 및 서비스 진행이 불가합니다.)</p></div>
                     <div class="del_info_agree"><span>*</span><p>본 주문서는 구매자 본인만 이용 가능하오니 참조바랍니다.</p></div>
@@ -351,6 +351,8 @@
     </div>
 </div>
 <!--#include virtual="/2025/components/modal/modal_del_history.asp" --> <!-- 과거 배송지 모달 include -->
+<!--#include virtual="/2025/components/modal/modal_agree_check.asp" --> <!-- 주문 동의서 모달 include -->
+<!--#include virtual="/2025/components/modal/modal_personal_info_check.asp" --> <!-- 개인정보 활용 동의서 모달 include -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="/2025/js/script.js?ver=092"></script>
 </body>

@@ -26,7 +26,7 @@
                 <div class="input_row_flex">
                     <input type="text" class="input_text_style flex_grow" name="recom_disname" readonly placeholder="후원디슈머">
                     <input name="recom_disno" type="hidden" value="">
-                    <a href="javascript:openModal();" class="member_action_btn secondary_btn btn_small">후원디슈머 조회</a> <!-- openModal() 연동 -->
+                    <a href="javascript:openBoostDisumerModal();" class="member_action_btn secondary_btn btn_small">후원디슈머 조회</a> <!-- openModal() 연동 -->
                 </div>
             </div>
 

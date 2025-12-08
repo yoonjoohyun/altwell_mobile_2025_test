@@ -1,8 +1,8 @@
-<div class="modal_overlay" id="modal_sample_overlay">
+<div class="modal_overlay" id="modal_boost_disumer_overlay">
     <div class="modal_dialog">
         <div class="modal_header">
             <h3>후원 디슈머</h3>
-            <button type="button" class="modal_close_btn" onclick="closeModal();"></button>
+            <button type="button" class="modal_close_btn" onclick="closeBoostDisumerModal();"></button>
         </div>
         <div class="modal_content">
             <p>후원인의 디슈머 번호를 입력하세요!</p>
@@ -20,19 +20,23 @@
             </div>
         </div>
         <div class="modal_footer">
-            <button type="button" class="modal_action_btn modal_primary_btn" onclick="confirmAction();">입력</button>
-            <button type="button" class="modal_action_btn modal_secondary_btn" onclick="closeModal();">닫기</button>
+            <button type="button" class="modal_action_btn modal_primary_btn" onclick="confirmBoostDisumerAction();">입력</button>
+            <button type="button" class="modal_action_btn modal_secondary_btn" onclick="closeBoostDisumerModal();">닫기</button>
         </div>
     </div>
 </div>
 
 <script>
-function openModal() {
-    document.getElementById('modal_sample_overlay').style.display = 'flex';
+function openBoostDisumerModal() {
+    document.getElementById('modal_boost_disumer_overlay').style.display = 'flex';
 }
 
-function closeModal() {
-    document.getElementById('modal_sample_overlay').style.display = 'none';
+function closeBoostDisumerModal() {
+    document.getElementById('modal_boost_disumer_overlay').style.display = 'none';
 }
 
+function confirmBoostDisumerAction() {
+    // 입력 로직 추가
+    closeBoostDisumerModal();
+}
 </script>
