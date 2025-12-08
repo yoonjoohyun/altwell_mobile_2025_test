@@ -4,26 +4,26 @@
             Disumer
         </div>
         <div class="login_txt">
-            ·Î±×ÀÎ
+            ë¡œê·¸ì¸
         </div>
     </div>
     <div class="menu_btn_box">
         <div class="bicon_box altnews">
             <img src="/2025/images/icon/altnews_icon.png"/>
-            <a>¾ÙÆ®´º½º</a>
+            <a>ì•ŒíŠ¸ë‰´ìŠ¤</a>
         </div>
         <div class="bicon_box easycheck">
             <img src="/2025/images/icon/easycheck_icon.png"/>
-            <a>ÀÌÁöÃ¼Å©</a>
+            <a>ê°„íŽ¸ì²´í¬</a>
         </div>
         <div class="bicon_box empty_box"></div>
         <div class="bicon_box business">
             <img src="/2025/images/icon/business_icon.png"/>
-            <a>½ÇÀûÁ¶È¸</a>
+            <a>ì‚¬ì—…ìžíšŒ</a>
         </div>
         <div class="bicon_box autoship">
             <img src="/2025/images/icon/autoship_icon.png"/>
-            <a>¿ÀÅä½Ê</a>
+            <a>ì˜¤í† ì‹­</a>
         </div>
     </div>
 </div>

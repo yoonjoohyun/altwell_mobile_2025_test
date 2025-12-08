@@ -1,27 +1,27 @@
 <div class="footer">
     <div class="footer_btn_box">
         <div class="footer_btn">
-            È¸»ç ¾È³»
+            íšŒì‚¬ ì•ˆë‚´
         </div>
         <div class="footer_btn">
-            ºñÁî´Ï½º ¾È³»
+            ì´ìš©ì•½ê´€ ì•ˆë‚´
         </div>
         <div class="footer_btn">
-            °³ÀÎÁ¤º¸ Ã³¸® ¹æÄ§
+            ê°œì¸ì •ë³´ ì²˜ë¦¬ ë°©ì¹¨
         </div>
     </div>
     <div class="footer_info">
         <p>
-            ¾ÙÆ®À£¢ß ´ëÇ¥ÀÌ»ç : ±èÇü¼ö
-            <br>ÁÖ¼Ò : ¼­¿ï½Ã °­³²±¸ ºÀÀº»ç·Î 322 ¾ÙÆ®À£ ºôµù
-            <br>»ç¾÷ÀÚµî·Ï¹øÈ£ : 220-81-28839 | Åë½ÅÆÇ¸Å¾÷½Å°í : Á¦ °­³² - 1371È£
-            <br>ºÎ°¡µ¿½Å»ç¾÷½Å°í : 8727 | °³ÀÎÁ¤º¸°ü¸® Ã¥ÀÓÀÚ : ±è´ö¼ö
-            <br>ÀÌ¸ÞÀÏ : master@altwell.co.kr | ÆÑ½º : 02-563-1074
-            <br>CS¼¾ÅÍ : 1588-2161
+            ì•¨íŠ¸ì›° ëŒ€í‘œì´ì‚¬ : ê¹€ëŒ€ì›
+            <br>ì£¼ì†Œ : ì„œìš¸ì‹œ ê°•ë‚¨êµ¬ í…Œí—¤ëž€ë¡œ 322 ì•¨íŠ¸ì›° ë¹Œë”©
+            <br>ì‚¬ì—…ìžë“±ë¡ë²ˆí˜¸ : 220-81-28839 | í†µì‹ íŒë§¤ì—…ì‹ ê³  : ê°•ë‚¨ - 1371í˜¸
+            <br>ê±´ê°•ê¸°ëŠ¥ì‹í’ˆíŒë§¤ì—… : 8727 | ê°œì¸ì •ë³´ë³´í˜¸ ì±…ìž„ìž : ê¹€ëŒ€ì›
+            <br>ì´ë©”ì¼ : master@altwell.co.kr | íŒ©ìŠ¤ : 02-563-1074
+            <br>CSì„¼í„° : 1588-2161
         </p>
         <img src="/2025/images/icon/logo_white.png"/>
         <p>
-            <span class="footer_copyright">COPYRIGHT¨Ï ALTWELL CORP,ALL RIGHT RESERVED</span>
+            <span class="footer_copyright">COPYRIGHT ALTWELL CORP,ALL RIGHT RESERVED</span>
         </p>
     </div>
 </div>

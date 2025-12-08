@@ -1,4 +1,4 @@
-/****±âº» ¡é **************************************/
+/* ê¸°ë³¸ ì„¤ì • */
 
 @import url("https://cdn.jsdelivr.net/gh/poposnail61/min-sans@main/web/css/minsans-dynamic-subset.css");
 
@@ -21,7 +21,7 @@ a{
 
 html{
     font-family: 'min-sans', 'Noto Sans KR', sans-serif;
-    font-size:62.5%;  /*±âº» ÆùÆ®»çÀÌÁî(16px)ÀÇ 62.5%ÀÎ 10px = 1rem À¸·Î »ç¿ëÇÒ ¼ö ÀÖ´Ù.*/
+    font-size:62.5%;  /* ê¸°ë³¸ í°íŠ¸ì‚¬ì´ì¦ˆ(16px)ì˜ 62.5%ë¡œ 10px = 1remìœ¼ë¡œ ì„¤ì •í•  ìˆ˜ ìˆë‹¤. */
 }
 
 .wrap{
@@ -34,21 +34,21 @@ html{
     font-size:1.6rem;
 }
 
-/* ÀüÃ¼ ½ºÅ©·Ñ */
+/* ì „ì²´ ìŠ¤í¬ë¡¤ë°” */
 ::-webkit-scrollbar {
     width: 1px;
 }
 ::-webkit-scrollbar-track {
-    background: transparent; /* Æ®·¢ Åõ¸í */
+    background: transparent; /* íŠ¸ë™ ìƒ‰ìƒ */
 }
 ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.0); /* ¿ÏÀü Åõ¸í */
+    background: rgba(0, 0, 0, 0.0); /* ìŠ¬ë¼ì´ë” ìƒ‰ìƒ */
 }
 ::-webkit-scrollbar-thumb:hover {
-        background: rgba(0, 0, 0, 0.2); /* hover ½Ã¸¸ »ìÂ¦ º¸ÀÌ°Ô */
+        background: rgba(0, 0, 0, 0.2); /* hover ì‹œ ì‚´ì§ ë³´ì´ê²Œ */
 }
 
-/* ¿É¼Ç ¼¿·ºÆ® ¹Ú½º */
+/* ì˜µì…˜ ì…€ë ‰íŠ¸ ë°•ìŠ¤ */
 .size_dropdown::-webkit-scrollbar {width: 3px;}
 .size_dropdown::-webkit-scrollbar-track {background: #fff;}
 .size_dropdown::-webkit-scrollbar-thumb {background: #d6d6d6;}
@@ -125,12 +125,12 @@ html{
 
 
 
-/****±Û·Î¹ú Ã¼Å©¹Ú½º ¡é **************************************/
+/* ê³µí†µ ì²´í¬ë°•ìŠ¤ ìŠ¤íƒ€ì¼ */
 [type="checkbox"] {
     accent-color:#ee3338;
 }
 
-/****±Û·Î¹ú ÀÎÇ²ÅØ½ºÆ® ¹Ú½º ¡é **************************************/
+/* ê³µí†µ í…ìŠ¤íŠ¸ input ìŠ¤íƒ€ì¼ */
 .input_txt_style{
     font-size:1.5rem;
     font-weight:500;
@@ -161,7 +161,7 @@ html{
 
 
 
-/****±Û·Î¹ú ÅØ½ºÆ® ½ºÅ¸ÀÏ ¡é **************************************/
+/* ê³µí†µ í…ìŠ¤íŠ¸ ìŠ¤íƒ€ì¼ */
 
 .bold_t{
     font-weight:500 !important;
@@ -171,7 +171,8 @@ html{
 
 
 
-/******* ±Û·Î¹ú °¸ ¡é ***************/
+
+/* ê³µí†µ ì—¬ë°± */
 .mb10{margin-bottom:10px;}.mb15{margin-bottom:15px;}.mb20{margin-bottom:20px;}.mb25{margin-bottom:20px;}.mb30{margin-bottom:30px;}
 
 .mt10{margin-top:10px;}.mt15{margin-top:15px;}.mt20{margin-top:20px;}.mt25{margin-top:20px;}.mt30{margin-top:30px;}
@@ -180,7 +181,9 @@ html{
 
 
 
-/****±Û·Î¹ú ¾Ö´Ï¸ŞÀÌ¼Ç ¡é **************************************/
+
+
+/* ê³µí†µ ì• ë‹ˆë©”ì´ì…˜ */
 .closeeyes{
     display:none !important;
 }
@@ -189,6 +192,9 @@ html{
     height:0 !important;
     overflow:hidden !important;
 }
+
+
+
 
 
 

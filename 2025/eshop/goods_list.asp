@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="euc-kr">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>»óÇ° ¸®½ºÆ® - ¾ÙÆ®À£ ¸ð¹ÙÀÏ ¼îÇÎ¸ô</title>
+    <title>ìƒí’ˆ ë¦¬ìŠ¤íŠ¸ - ì•¨íŠ¸ì›° ëª¨ë°”ì¼ ì‡¼í•‘ëª°</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=044">
     <link rel="stylesheet" href="/2025/css/main.css?ver=044">
     <link rel="stylesheet" href="/2025/css/goods_list.css?ver=044">
@@ -15,20 +15,20 @@
     <div class="main_contents">
         <div class="category_navi">
             <div class="back_btn"></div>
-            <p>´©º§¸¶¸®</p>
+            <p>ì „ì²´ìƒí’ˆ</p>
         </div>
         <div class="sub_category_navi">
-            <div class="sub_cate_btn"><p>ÀüÃ¼</p></div>
-            <div class="sub_cate_btn">´©º§¸¶¸® ÇÎÅ©</div>
-            <div class="sub_cate_btn">´©º§¸¶¸® ºí·¢</div>
-            <div class="sub_cate_btn">ÀÏ¹Ý º¸Á¤</div>
-            <div class="sub_cate_btn">³ëºí</div>
-            <div class="sub_cate_btn">´©º§¸¶¸® me</div>
-            <div class="sub_cate_btn">´©º§¸¶¸® ·¹µå·Î¾â</div>
-            <div class="sub_cate_btn">ÄÚ¾îº§</div>
+            <div class="sub_cate_btn"><p>ì „ì²´</p></div>
+            <div class="sub_cate_btn">ë°”ì´ì˜¤ì‹œìŠ¤ ë§í¬</div>
+            <div class="sub_cate_btn">ë°”ì´ì˜¤ì‹œìŠ¤ ìŠ¤í‚¨</div>
+            <div class="sub_cate_btn">ì¼ë°˜ ê±´ê°•</div>
+            <div class="sub_cate_btn">ê¸°íƒ€</div>
+            <div class="sub_cate_btn">ë°”ì´ì˜¤ì‹œìŠ¤ me</div>
+            <div class="sub_cate_btn">ë°”ì´ì˜¤ì‹œìŠ¤ ìŠ¬ë¦¼</div>
+            <div class="sub_cate_btn">ê±´ê°•ì‹í’ˆ</div>
         </div>
         <div class="list_counter">
-            ÃÑ&nbsp;<span class="bold_t">10</span>°³
+            ì´&nbsp;<span class="bold_t">10</span>ê°œ
         </div>
         <!--#include virtual="/2025/components/product_list.asp" -->
         <!--#include virtual="/2025/components/footer.asp" -->

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="euc-kr">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>°áÁ¦ Á¤º¸ - ¾ÙÆ®À£ ¸ð¹ÙÀÏ ¼îÇÎ¸ô</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=096">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=096">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=096">
-    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=096">
+    <title>ì£¼ë¬¸ ê²°ì œ - ì•¨íŠ¸ì›° ëª¨ë°”ì¼ ì‡¼í•‘ëª°</title>
+    <link rel="stylesheet" href="/2025/css/index.css?ver=099">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=099">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=099">
+    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=099">
+    <link rel="stylesheet" href="/2025/css/modal.css?ver=099"> <!-- ëª¨ë‹¬ CSS ì¶”ê°€ -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -16,11 +17,11 @@
     <div class="order_main_contents">
         <div class="category_navi">
             <div class="back_btn"></div>
-            <p>°áÁ¦ Á¤º¸</p>
+            <p>ì£¼ë¬¸ ê²°ì œ</p>
         </div>
         <div class="order_info_list">
             <div class="info_title">
-                <p>»óÇ° Á¤º¸</p>
+                <p>ìƒí’ˆ ì •ë³´</p>
                 <label for="buy_info_con" class="open_btn"></label>
             </div>
             <div id="buy_info_con" class="buy_info_con">
@@ -30,34 +31,28 @@
                     </div>
                     <div class="pr_name">
                         <div class="name_box">
-                            <span class="category_small">ÄÚ¾îº§</span>
-                            <span class="product_name">´©º§¸¶¸® ¿ÀÇÂ¹ö½ºÆ® ¹Ùµð½´Ã÷ (±×¸°)</span>
-                            <span class="product_option">XL or ±âÅ¸ ¿É¼Ç</span>
+                            <span class="category_small">ê±´ê°•ì‹í’ˆ</span>
+                            <span class="product_name">ì•ŒíŒŒë¹„ì•¤ë¹„ ë©€í‹°ë¹„íƒ€ë¯¼ ê³¨ë“œ (1ì„¸íŠ¸)</span>
+                            <span class="product_option">XL or ê¸°íƒ€ ì˜µì…˜</span>
                         </div>
                         <div class="name_pr_box">
                             <div class="info_conbox">
-                                <div class="con_left">È¸¿ø°¡</div>
-                                <div class="con_right">500,000¿ø</div>
-                            </div>
+                                <div class="con_left">íšŒì›ê°€</div></div>
                             <div class="info_conbox">
-                                <div class="con_left">EP</div>
-                                <div class="con_right">400,000</div>
-                            </div>
+                                <div class="con_left">EP</div></div>
                             <div class="info_conbox">
-                                <div class="con_left">¼ö·®</div>
-                                <div class="con_right">2°³</div>
-                            </div>
+                                <div class="con_left">ìˆ˜ëŸ‰</div></div>
                         </div>
                     </div>
                 </div>
                 <div class="info_box02">
                     <div class="pr_name_02">
                         <div class="info_conbox_02">
-                            <div class="con_left_02">ÃÑ Á¦Ç° ±Ý¾×</div>
-                            <div class="con_right_02">1,000,000¿ø</div>
+                            <div class="con_left_02">ì´ ìƒí’ˆ ê¸ˆì•¡</div>
+                            <div class="con_right_02">1,000,000ì›</div>
                         </div>
                         <div class="info_conbox_02">
-                            <div class="con_left_02">ÃÑ EP</div>
+                            <div class="con_left_02">ì´ EP</div>
                             <div class="con_right_02">800,000</div>
                         </div>
                     </div>
@@ -66,21 +61,19 @@
         </div>
         <div class="order_info_list">
             <div class="info_title">
-                <p>¹è¼Û Á¤º¸</p>
+                <p>ë°°ì†¡ ì •ë³´</p>
                 <label for="del_info_con" class="open_btn"></label>
             </div>
             <div id="del_info_con" class="del_info_con">
                 <div class="del_rowline_flex mb15">
-                    <div class="del_info_btn">±âº» ¹è¼ÛÁö</div>
-                    <div class="del_info_btn">°ú°Å ¹è¼ÛÁö</div>
-                    <div class="del_info_btn">»õ·Î ÀÔ·Â</div>
+                    <a href="javascript:openModal(modal_del_history);" class="del_info_btn">ê³¼ê±° ë°°ì†¡ì§€</a>
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_name" class="del_info">¼öÃëÀÎ</label>
-                    <input id="del_info_name" class="del_info_name input_txt_style" placeholder="¼öÃëÀÎ" type="text">
+                    <label for="del_info_name" class="del_info">ë°›ëŠ”ì´</label>
+                    <input id="del_info_name" class="del_info_name input_txt_style" placeholder="ë°›ëŠ”ì´" type="text">
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_phone" class="del_info">ÈÞ´ë ÀüÈ­</label>
+                    <label for="del_info_phone" class="del_info">ë°›ëŠ” ì „í™”</label>
                     <div class="phone_box">
                         <input id="del_info_phone" class="del_info_phone input_txt_style" placeholder="000" type="text">
                         <div class="numbar"></div>
@@ -90,31 +83,31 @@
                     </div>
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_post" class="del_info">¿ìÆí ¹øÈ£</label>
+                    <label for="del_info_post" class="del_info">ìš°íŽ¸ ë²ˆí˜¸</label>
                     <div class="postbox">
                         <input id="del_info_post" class="del_info_post input_txt_style del_info_readonly" type="text" readonly>
-                        <div class="del_info_btn02">°Ë»ö</div>
+                        <div class="del_info_btn02">ê²€ìƒ‰</div>
                     </div>
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_address" class="del_info">ÁÖ¼Ò</label>
+                    <label for="del_info_address" class="del_info">ì£¼ì†Œ</label>
                     <input id="del_info_address" class="del_info_address input_txt_style del_info_readonly" type="text" readonly>
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_address" class="del_info">»ó¼¼ ÁÖ¼Ò</label>
+                    <label for="del_info_address" class="del_info">ìƒì„¸ ì£¼ì†Œ</label>
                     <input id="del_info_address" class="del_info_address input_txt_style" type="text">
                 </div>
             </div>
         </div>
         <div class="order_info_list">
             <div class="info_title">
-                <p>Ãß°¡ Á¤º¸</p>
+                <p>ì¶”ê°€ ì •ë³´</p>
                 <label for="add_info_con" class="open_btn"></label>
             </div>
             <div id="add_info_con" class="del_info_con">
                 <div class="del_rowline">
                     <label for="del_info_phone_02">
-                        <input id="del_info_phone_02" class="checkbox_st" type="checkbox"><span class="del_info del_info_phone_02">&nbsp;SMS¼ö½Å</span>
+                        <input id="del_info_phone_02" class="checkbox_st" type="checkbox"><span class="del_info del_info_phone_02">&nbsp;SMSìˆ˜ì‹ </span>
                     </label>
                     <div class="phone_box">
                         <input id="del_info_phone_02" class="del_info_phone input_txt_style" placeholder="000" type="text">
@@ -126,238 +119,239 @@
                 </div>
                 <div class="del_rowline mb25">
                     <label for="del_info_bill">
-                        <input id="del_info_bill" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;¼¼±Ý °è»ê¼­ / °Å·¡ ¸í¼¼¼­</span>
+                        <input id="del_info_bill" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;í˜„ê¸ˆ ì˜ìˆ˜ì¦ / ì„¸ê¸ˆ ê³„ì‚°ì„œ</span>
                     </label>
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_name02" class="del_info">¹ß¼ÛÀÎ</label>
-                    <input id="del_info_name02" class="del_info_name input_txt_style" placeholder="¹ß¼ÛÀÎ" type="text">
+                    <label for="del_info_name02" class="del_info">ë°œì†¡ì¸</label>
+                    <input id="del_info_name02" class="del_info_name input_txt_style" placeholder="ë°œì†¡ì¸" type="text">
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_memo" class="del_info">¿äÃ» »çÇ×</label>
+                    <label for="del_info_memo" class="del_info">ìš”ì²­ ì‚¬í•­</label>
                     <div id="del_info_memo" class="gl_select">
                         <div class="gl_select_btn">
-                            <div class="gl_select_text">¹è¼Û ¿äÃ» »çÇ×À» ¼±ÅÃÇØÁÖ¼¼¿ä.</div>
-                            <div class="gl_select_point">¡å</div>
+                            <div class="gl_select_text">ë°°ì†¡ ìš”ì²­ ì‚¬í•­ì„ ì„ íƒí•´ì£¼ì„¸ìš”.</div>
+                            <div class="gl_select_point">â–¼</div>
                         </div>
                         <div class="gl_select_dropdown">
                             <div class="gl_select_pick">-</div>
-                            <div class="gl_select_option">ºÎÀç ½Ã °æºñ½Ç¿¡ ¸Ã°ÜÁÖ¼¼¿ä.</div>
-                            <div class="gl_select_option">Á÷Á¢ ¼ö·ÉÇÏ°Ú½À´Ï´Ù.</div>
-                            <div class="gl_select_option">¹è¼Û Àü ¿¬¶ô ¹Ù¶ø´Ï´Ù.</div>
-                            <div class="gl_select_option">ºÎÀç ½Ã ¹® ¾Õ¿¡ ³õ¾ÆÁÖ¼¼¿ä.</div>
-                            <div class="gl_select_option">Á÷Á¢ ÀÔ·Â</div>
+                            <div class="gl_select_option">ë°°ì†¡ ì „ ì—°ë½ ë¶€íƒë“œë¦½ë‹ˆë‹¤.</div>
+                            <div class="gl_select_option">ë¶€ìž¬ ì‹œ ê²½ë¹„ì‹¤ì— ë§¡ê¸°ê² ìŠµë‹ˆë‹¤.</div>
+                            <div class="gl_select_option">ëŠ¦ê²Œ ë°›ê¸¸ ì›í•©ë‹ˆë‹¤.</div>
+                            <div class="gl_select_option">ë°°ì†¡ ì‹œ ë¬¸ ì•žì— ë†“ì•„ì£¼ì„¸ìš”.</div>
+                            <div class="gl_select_option">ì§ì ‘ ìž…ë ¥</div>
                         </div>
                     </div>
                 </div>
                 <div class="del_rowline_02">
-                    <label for="del_info_memo_02" class="del_info">Á÷Á¢ ÀÔ·Â</label>
+                    <label for="del_info_memo_02" class="del_info">ì§ì ‘ ìž…ë ¥</label>
                     <textarea id="del_info_memo_02" class="del_info_memo_02" type="text"></textarea>
                 </div>
             </div>
         </div>
         <div class="order_info_list memorywrap">
             <div class="del_rowline_03 memorybox">
-                <div class="del_info_memory"><span>*</span><p>ÇöÀç »óÇ°&¹è¼ÛÁö¸¦ ´ÙÀ½¿¡µµ µ¿ÀÏÇÏ°Ô ÁÖ¹®ÇÏ½Å´Ù¸é °£ÆíÁÖ¹®µî·ÏÀ» Ã¼Å©ÇÏ¼¼¿ä.</p></div>
+                <div class="del_info_memory"><span>*</span><p>í˜„ìž¬ ìƒí’ˆ&ë°°ì†¡ì§€ë¥¼ ë‹¤ìŒì—ë„ ë™ì¼í•˜ê²Œ ì£¼ë¬¸í•˜ì‹ ë‹¤ë©´ ê°„íŽ¸ì£¼ë¬¸ë“±ë¡ì„ ì²´í¬í•˜ì„¸ìš”.</p></div>
             </div>
             <label for="del_info_memory" class="memoryline">
-                <input id="del_info_memory" class="checkbox_st" type="checkbox"><span class="del_info_memory">&nbsp;°£ÆíÁÖ¹®µî·Ï</span>
+                <input id="del_info_memory" class="checkbox_st" type="checkbox"><span class="del_info_memory">&nbsp;ê°„íŽ¸ì£¼ë¬¸ë“±ë¡</span>
             </label>
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
-                <p>Æ÷ÀÎÆ®</p>
+                <p>í¬ì¸íŠ¸</p>
                 <label for="point_info_con" class="open_btn"></label>
             </div>
             <div id="point_info_con" class="del_info_con">
                 <div class="del_rowline">
-                    <label for="del_info_point" class="del_info_getpoint_01">°¡¿ë Æ÷ÀÎÆ®</label>
+                    <label for="del_info_point" class="del_info_getpoint_01">ì‚¬ìš© ê°€ëŠ¥ í¬ì¸íŠ¸</label>
                     <div id="del_info_point" class="del_info_getpoint_02">500,000 point</div>
                 </div>
                 <div class="del_rowline">
-                    <label for="del_info_usepoint" class="del_info_usepoint">»ç¿ë Æ÷ÀÎÆ®</label>
+                    <label for="del_info_usepoint" class="del_info_usepoint">ì‚¬ìš© í¬ì¸íŠ¸</label>
                     <input id="del_info_usepoint" class="del_info_usepoint input_right input_txt_style" placeholder="0" type="text">
                 </div>
                 <div class="del_rowline">
                     <label for="del_info_allpoint">
-                        <input id="del_info_allpoint" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;¸ðµç Æ÷ÀÎÆ® »ç¿ëÇÏ±â</span>
+                        <input id="del_info_allpoint" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;ì „ì²´ í¬ì¸íŠ¸ ì‚¬ìš©í•˜ê¸°</span>
                     </label>
-                    <div class="del_info_btn03">Ãë¼Ò</div>
+                    <div class="del_info_btn03">ì ìš©</div>
                 </div>
             </div>
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
-                <p>°£Æí°áÁ¦ ¹«ÀÌÀÚ ÇÒºÎ ¾È³»</p>
+                <p>ì‹ ìš©ì¹´ë“œ ë¬´ì´ìž í• ë¶€ ì•ˆë‚´</p>
                 <label for="card_benefit_info_con" class="open_btn"></label>
             </div>
             <div id="card_benefit_info_con" class="del_info_con">
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">»ï¼ºÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3°³¿ù)</div>
+                    <label class="del_info_getpoint_01">êµ­ë¯¼ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">ÀüºÏÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ë¹„ì”¨ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">±¤ÁÖÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4,5,6,7°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ì‚¼ì„±ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4,5,6,7ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">·Ôµ¥Ä«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4,5°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ì‹ í•œì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4,5ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">¿ì¸®Ä«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4,5°³¿ù)</div>
+                    <label class="del_info_getpoint_01">í˜„ëŒ€ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4,5ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">ºñ¾¾Ä«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4,5°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ë¡¯ë°ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4,5ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">±¹¹ÎÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4,5°³¿ù)</div>
+                    <label class="del_info_getpoint_01">í•˜ë‚˜ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4,5ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">Çö´ëÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ìš°ë¦¬ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">ÇÏ³ªSKÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4°³¿ù)</div>
+                    <label class="del_info_getpoint_01">í•˜ë‚˜SKì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">¼öÇùÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4,5°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ì”¨í‹°ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4,5ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">NH³óÇùÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4,5,6°³¿ù)</div>
+                    <label class="del_info_getpoint_01">NHë†í˜‘ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4,5,6ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">½ÅÇÑÄ«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ê´‘ì£¼ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_simplepay">
-                    <label class="del_info_getpoint_01">¿ÜÈ¯Ä«µå</label>
-                    <div class="del_info_simplepay_02">50,000¿ø ÀÌ»ó (2,3,4°³¿ù)</div>
+                    <label class="del_info_getpoint_01">ì „ë¶ì¹´ë“œ</label>
+                    <div class="del_info_simplepay_02">50,000ì› ì´ìƒ (2,3,4ê°œì›”)</div>
                 </div>
                 <div class="del_rowline_03">
-                    <div class="del_info_simplepay_03">¡Ø ¹ýÀÎ, ±â¾÷, Ã¼Å©, ¼±ºÒ, ±âÇÁÆ®Ä«µå Á¦¿Ü</div>
-                    <div class="del_info_simplepay_03">¡Ø ÀÏ¹Ý °áÁ¦´Â ¹«ÀÌÀÚ ÇÒºÎ ÇýÅÃÀÌ ¾ø½À´Ï´Ù.</div>
+                    <div class="del_info_simplepay_03">ë‹¨ ë²•ì¸, ê¸°í”„íŠ¸, ì²´í¬, ì„ ë¶ˆ, í¬ì¸íŠ¸ì¹´ë“œ ì œì™¸</div>
+                    <div class="del_info_simplepay_03">ë‹¨ ì¼ë°˜ ìƒì ì€ ì¹´ë“œì‚¬ ë¬´ì´ìž í• ë¶€ ì œì™¸ë©ë‹ˆë‹¤.</div>
                 </div>
             </div>
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
-                <p>µµ¸Å ÁÖ¹® °è¾à³»¿ë µ¿ÀÇ</p>
+                <p>ì£¼ë¬¸ ë™ì˜ ì‚¬í•­ ì•ˆë‚´</p>
                 <label for="agree_info_con" class="open_btn"></label>
             </div>
             <div id="agree_info_con" class="del_info_con">
-                <div class="del_agree_btn">
-                    <img src="/2025/images/icon/info.png"/>µµ¸Å ÁÖ¹® °è¾à¼­ È®ÀÎÇÏ±â
-                </div>
+                <a href="javascript:openModal();" class="del_agree_btn">
+                    <img src="/2025/images/icon/info.png"/>ì£¼ë¬¸ ë™ì˜ì„œ í™•ì¸í•˜ê¸°
+                </a>
                 <div class="del_rowline_03 agreebox">
-                    <div class="del_info_agree"><span>*</span><p>º» ÁÖ¹®¼­¿¡ ±âÀçµÈ ¸ðµç °è¾à »çÇ×À» Àß ÀÐ¾úÀ¸¹Ç·Î µ¿ÀÇÇÕ´Ï´Ù.</p></div>
+                    <div class="del_info_agree"><span>*</span><p>ë³¸ ì£¼ë¬¸ì„œëŠ” êµ¬ë§¤ìž ë³¸ì¸ë§Œ ì´ìš© ê°€ëŠ¥í•˜ì˜¤ë‹ˆ ì°¸ì¡°ë°”ëžë‹ˆë‹¤.</p></div>
                 </div>
                 <div class="del_rowline agreeline">
                     <div></div>
                     <label for="del_info_agree_01">
-                        <input id="del_info_agree_01" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;µ¿ÀÇÇÕ´Ï´Ù.</span>
+                        <input id="del_info_agree_01" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;ë™ì˜í•©ë‹ˆë‹¤.</span>
                     </label>
                 </div>
                 <div class="del_agree_btn mt30">
-                    <img src="/2025/images/icon/info.png"/>°³ÀÎÁ¤º¸ È°¿ë µ¿ÀÇ¼­ È®ÀÎÇÏ±â
+                    <img src="/2025/images/icon/info.png"/>ê°œì¸ì •ë³´ í™œìš© ë™ì˜ì„œ í™•ì¸í•˜ê¸°
                 </div>
                 <div class="del_rowline_03 agreebox">
-                    <div class="del_info_agree"><span>*</span><p>½ÅÃ»ÀÎÀº °³ÀÎÁ¤º¸ Ãë±Þ À§Å¹ ¹× Á¦°ø µ¿ÀÇ¸¦ °ÅºÎÇÒ ¼ö ÀÖ½À´Ï´Ù. (´Ü, µ¿ÀÇ¸¦ °ÅºÎÇÏ½Ç °æ¿ì ÁÖ¹® ¹× ¹è¼ÛÀÌ Á¦ÇÑµË´Ï´Ù.)</p></div>
-                    <div class="del_info_agree"><span>*</span><p>º» ÁÖ¹®¼­¿¡ ±âÀçµÈ ¸ðµç °è¾à ³»¿ëÀ» È®ÀÎÇÏ¿´À¸¸ç, °³ÀÎÁ¤º¸ÀÇ ¼öÁý ÀÌ¿ë/Á¦3ÀÚ Á¦°ø ¹× Ãë±Þ À§Å¹¿¡ µ¿ÀÇÇÕ´Ï´Ù.</p></div>
+                    <div class="del_info_agree"><span>*</span><p>ì‹ ì²­ìžëŠ” ê°œì¸ì •ë³´ ìˆ˜ì§‘ ë° ì´ìš©, ì œ3ìž ì œê³µ ë° í™œìš©ì— ë™ì˜í•©ë‹ˆë‹¤. (ë‹¨, ë™ì˜ë¥¼ ê±°ë¶€í•˜ì‹¤ ê²½ìš° ì£¼ë¬¸ ë° ì„œë¹„ìŠ¤ ì§„í–‰ì´ ë¶ˆê°€í•©ë‹ˆë‹¤.)</p></div>
+                    <div class="del_info_agree"><span>*</span><p>ë³¸ ì£¼ë¬¸ì„œëŠ” êµ¬ë§¤ìž ë³¸ì¸ë§Œ ì´ìš© ê°€ëŠ¥í•˜ì˜¤ë‹ˆ ì°¸ì¡°ë°”ëžë‹ˆë‹¤.</p></div>
                 </div>
                 <div class="del_rowline agreeline">
                     <div></div>
                     <label for="del_info_agree_02">
-                        <input id="del_info_agree_02" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;µ¿ÀÇÇÕ´Ï´Ù.</span>
+                        <input id="del_info_agree_02" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;ë™ì˜í•©ë‹ˆë‹¤.</span>
                     </label>
                 </div>
             </div>
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
-                <p>°áÁ¦ ¼ö´Ü</p>
+                <p>ê²°ì œ ì •ë³´</p>
                 <label for="payment_info_con" class="open_btn"></label>
             </div>
             <div id="payment_info_con" class="del_rowline_03 mb15">
-                <div class="del_pay_btn altpay" data-target="altpay">¾ÙÆ®ÆäÀÌ(Altpay) °£Æí°áÁ¦</div>
+                <div class="del_pay_btn altpay" data-target="altpay">ì•ŒíŠ¸íŽ˜ì´(Altpay) ê°„íŽ¸ê²°ì œ</div>
                 <div class="iframewraper paydetail" id="altpay">
                     <iframe src="/2025/components/altpay_card.asp" class="swiper-container altpay-swiper"></iframe>
                 </div>
-                <div class="del_pay_btn smspay" data-target="smspay">SMS °£Æí°áÁ¦</div>
+                <div class="del_pay_btn smspay" data-target="smspay">SMS ê°„íŽ¸ê²°ì œ</div>
                 <div class="del_smsline paydetail" id="smspay">
                     <div class="smsbox">
-                        <label for="del_info_sms" class="del_info_sms">SMS ÈÞ´ëÆù¹øÈ£</label>
-                        <input id="del_info_sms" class="del_info_sms input_txt_style" placeholder="SMS ¼ö½Å ¹ÞÀ¸½Ç ¹øÈ£" type="text">
+                        <label for="del_info_sms" class="del_info_sms">SMS ìˆ˜ì‹ ë²ˆí˜¸</label>
+                        <input id="del_info_sms" class="del_info_sms input_txt_style" placeholder="SMS ê²°ì œ ìˆ˜ì‹ í•  ë²ˆí˜¸" type="text">
                     </div>
                 </div>
-                <div class="del_pay_btn mobilepay" data-target="mobilepay">ARS °£Æí°áÁ¦</div>
+                <div class="del_pay_btn mobilepay" data-target="mobilepay">ARS ê°„íŽ¸ê²°ì œ</div>
                 <div class="del_smsline paydetail" id="mobilepay">
                     <div class="smsbox">
-                        <label for="del_info_ars" class="del_info_sms">ARS ÈÞ´ëÆù¹øÈ£</label>
-                        <input id="del_info_ars" class="del_info_sms input_txt_style" placeholder="ARS ¼ö½Å ¹ÞÀ¸½Ç ¹øÈ£" type="text">
+                        <label for="del_info_ars" class="del_info_sms">ARS ìˆ˜ì‹ ë²ˆí˜¸</label>
+                        <input id="del_info_ars" class="del_info_sms input_txt_style" placeholder="ARS ê²°ì œ ìˆ˜ì‹ í•  ë²ˆí˜¸" type="text">
                     </div>
                 </div>
-                <div class="del_pay_btn basicpay" data-target="creditcard">½Å¿ë Ä«µå ÀÏ¹Ý°áÁ¦</div>
+                <div class="del_pay_btn basicpay" data-target="creditcard">ì¼ë°˜ ì‹ ìš©ì¹´ë“œ ê²°ì œ</div>
                 <div class="paydetail" id="creditcard"></div>
-                <div class="del_pay_btn accountpay" data-target="accountpay">Àü¿ë°èÁÂ °áÁ¦</div>
+                <div class="del_pay_btn accountpay" data-target="accountpay">ê°€ìƒê³„ì¢Œ ê²°ì œ</div>
                 <div class="del_smsline paydetail" id="accountpay">
                     <div class="smsbox">
-                        <label for="del_info_account" class="del_info_sms">°èÁÂ ºñ¹Ð¹øÈ£</label>
-                        <input id="del_info_account" class="del_info_sms input_txt_style" placeholder="Àü¿ë °èÁÂ ºñ¹Ð¹øÈ£" type="text">
+                        <label for="del_info_account" class="del_info_sms">ê°€ìƒ ê³„ì¢Œ ë¹„ë°€ë²ˆí˜¸</label>
+                        <input id="del_info_account" class="del_info_sms input_txt_style" placeholder="ê°€ìƒ ê³„ì¢Œ ë¹„ë°€ë²ˆí˜¸" type="text">
                     </div>
                 </div>
             </div>
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
-                <p>°áÁ¦ ±Ý¾×</p>
+                <p>ìµœì¢… ê¸ˆì•¡</p>
             </div>
             <div class="info_box02">
                 <div class="pr_price_03">
                     <div class="info_conbox_03">
-                        <div class="con_left_03">ÃÑ Á¦Ç° ±Ý¾×</div>
-                        <div class="con_right_03">1,000,000¿ø</div>
+                        <div class="con_left_03">ì´ ìƒí’ˆ ê¸ˆì•¡</div>
+                        <div class="con_right_03">1,000,000ì›</div>
                     </div>
                     <div class="info_conbox_03">
-                        <div class="con_left_03">ÃÑ EP</div>
+                        <div class="con_left_03">ì´ EP</div>
                         <div class="con_right_03">800,000</div>
                     </div>
                     <div class="info_conbox_03">
-                        <div class="con_left_03">Æ÷ÀÎÆ® »ç¿ë</div>
+                        <div class="con_left_03">í¬ì¸íŠ¸ ì‚¬ìš©</div>
                         <div class="con_right_03">-100,000</div>
                     </div>
                     <div class="info_conbox_03">
-                        <div class="con_left_03">5¸¸¿ø ÀÌ»ó ¹è¼Ûºñ</div>
-                        <div class="con_right_03">¹«·á</div>
+                        <div class="con_left_03">5ë§Œì› ì´ìƒ ë°°ì†¡ë¹„</div>
+                        <div class="con_right_03">ë¬´ë£Œ</div>
                     </div>
                     <div class="info_conbox_03 mt20 mb10">
-                        <div class="con_left_04">ÃÖÁ¾ °áÁ¦ ±Ý¾×</div>
-                        <div class="con_right_04">900,000¿ø</div>
+                        <div class="con_left_04">ì‹¤ ê²°ì œ ê¸ˆì•¡</div>
+                        <div class="con_right_04">900,000ì›</div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="buy_navi">
             <div class="buy_navi_btn add_cart">
-                <p>Ãë¼Ò</p>
+                <p>ë‹´ê¸°</p>
             </div>
             <div class="buy_navi_btn buy_now">
-                <p>±¸¸Å</p>
+                <p>ê²°ì œ</p>
             </div>
         </div>
     </div>
 </div>
+<!--#include virtual="/2025/components/modal/modal_del_history.asp" --> <!-- ê³¼ê±° ë°°ì†¡ì§€ ëª¨ë‹¬ include -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="/2025/js/script.js?ver=091"></script>
+<script src="/2025/js/script.js?ver=092"></script>
 </body>
 </html>

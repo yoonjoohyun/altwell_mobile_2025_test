@@ -6,20 +6,20 @@
         <div class="product_contents">
             <div class="pr_con_01">
                 <div class="category_small">
-                    ÄÚ¾îº§
+                    ê±´ê°•ì‹í’ˆ
                 </div>
                 <div class="product_name">
-                    ´©º§¸¶¸® ¿ÀÇÂ¹ö½ºÆ® ¹Ùµð½´Ã÷(±×¸°)
+                    ì•ŒíŒŒë¹„ì•¤ë¹„ ë©€í‹°ë¹„íƒ€ë¯¼ ê³¨ë“œ(1ì„¸íŠ¸)
                 </div>
             </div>
             <div class="pr_con_02">
                 <div class="pr_member_price">
-                    <div class="price_member_text">È¸¿ø°¡</div>
-                    <div class="price_member_number">500,000¿ø</div>
+                    <div class="price_member_text">íšŒì›ê°€</div>
+                    <div class="price_member_number">500,000ì›</div>
                 </div>
                 <div class="pr_price">
-                    <div class="price_text">ÆÇ¸Å°¡</div>
-                    <div class="price_number">650,000¿ø</div>
+                    <div class="price_text">íŒë§¤ê°€</div>
+                    <div class="price_number">650,000ì›</div>
                 </div>
                 <div class="pr_ep">
                     <div class="ep_text">EP</div>
@@ -27,8 +27,8 @@
                 </div>
                 <div class="pr_size">
                     <div class="size_btn">
-                        <div class="size_text">»çÀÌÁî</div>
-                        <div class="size_point">¡å</div>
+                        <div class="size_text">ì„ íƒì˜µì…˜</div>
+                        <div class="size_point">â–¼</div>
                     </div>
                     <div class="size_dropdown">
                         <div class="size_pick">-</div>
@@ -42,7 +42,7 @@
                 <div class="pr_quantity">
                     <div class="number_box">
                         <div class="minus_btn">-</div>
-                        <div class="quantity_number">01<span>°³</span></div>
+                        <div class="quantity_number">01<span>ê°œ</span></div>
                         <div class="plus_btn">+</div>
                     </div>
                     <div class="pr_shop_cart">
@@ -59,20 +59,20 @@
         <div class="product_contents">
             <div class="pr_con_01">
                 <div class="category_small">
-                    ÄÚ¾îº§
+                    ê±´ê°•ì‹í’ˆ
                 </div>
                 <div class="product_name">
-                    ´©º§¸¶¸® ¿ÀÇÂ¹ö½ºÆ® ¹Ùµð½´Ã÷(±×¸°)
+                    ì•ŒíŒŒë¹„ì•¤ë¹„ ë©€í‹°ë¹„íƒ€ë¯¼ ê³¨ë“œ(1ì„¸íŠ¸)
                 </div>
             </div>
             <div class="pr_con_02">
                 <div class="pr_member_price">
-                    <div class="price_member_text">È¸¿ø°¡</div>
-                    <div class="price_member_number">500,000¿ø</div>
+                    <div class="price_member_text">íšŒì›ê°€</div>
+                    <div class="price_member_number">500,000ì›</div>
                 </div>
                 <div class="pr_price">
-                    <div class="price_text">ÆÇ¸Å°¡</div>
-                    <div class="price_number">500,000<span class="won_b">¿ø</span></div>
+                    <div class="price_text">íŒë§¤ê°€</div>
+                    <div class="price_number">500,000<span class="won_b">ì›</span></div>
                 </div>
                 <div class="pr_ep">
                     <div class="ep_text">EP</div>
@@ -80,8 +80,8 @@
                 </div>
                 <div class="pr_size">
                     <div class="size_btn">
-                        <div class="size_text">»çÀÌÁî</div>
-                        <div class="size_point">¡å</div>
+                        <div class="size_text">ì„ íƒì˜µì…˜</div>
+                        <div class="size_point">â–¼</div>
                     </div>
                     <div class="size_dropdown">
                         <div class="size_pick">-</div>
@@ -95,7 +95,7 @@
                 <div class="pr_quantity">
                     <div class="number_box">
                         <div class="minus_btn">-</div>
-                        <div class="quantity_number">01<span>°³</span></div>
+                        <div class="quantity_number">01<span>ê°œ</span></div>
                         <div class="plus_btn">+</div>
                     </div>
                     <div class="pr_shop_cart">
@@ -112,20 +112,20 @@
         <div class="product_contents">
             <div class="pr_con_01">
                 <div class="category_small">
-                    ÄÚ¾îº§
+                    ê±´ê°•ì‹í’ˆ
                 </div>
                 <div class="product_name">
-                    ´©º§¸¶¸® ¿ÀÇÂ¹ö½ºÆ® ¹Ùµð½´Ã÷(±×¸°)
+                    ì•ŒíŒŒë¹„ì•¤ë¹„ ë©€í‹°ë¹„íƒ€ë¯¼ ê³¨ë“œ(1ì„¸íŠ¸)
                 </div>
             </div>
             <div class="pr_con_02">
                 <div class="pr_member_price">
-                    <div class="price_member_text">È¸¿ø°¡</div>
-                    <div class="price_member_number">500,000¿ø</div>
+                    <div class="price_member_text">íšŒì›ê°€</div>
+                    <div class="price_member_number">500,000ì›</div>
                 </div>
                 <div class="pr_price">
-                    <div class="price_text">ÆÇ¸Å°¡</div>
-                    <div class="price_number">500,000<span class="won_b">¿ø</span></div>
+                    <div class="price_text">íŒë§¤ê°€</div>
+                    <div class="price_number">500,000<span class="won_b">ì›</span></div>
                 </div>
                 <div class="pr_ep">
                     <div class="ep_text">EP</div>
@@ -133,8 +133,8 @@
                 </div>
                 <div class="pr_size">
                     <div class="size_btn">
-                        <div class="size_text">»çÀÌÁî</div>
-                        <div class="size_point">¡å</div>
+                        <div class="size_text">ì„ íƒì˜µì…˜</div>
+                        <div class="size_point">â–¼</div>
                     </div>
                     <div class="size_dropdown">
                         <div class="size_pick">-</div>
@@ -148,7 +148,7 @@
                 <div class="pr_quantity">
                     <div class="number_box">
                         <div class="minus_btn">-</div>
-                        <div class="quantity_number">01<span>°³</span></div>
+                        <div class="quantity_number">01<span>ê°œ</span></div>
                         <div class="plus_btn">+</div>
                     </div>
                     <div class="pr_shop_cart">
@@ -165,20 +165,20 @@
         <div class="product_contents">
             <div class="pr_con_01">
                 <div class="category_small">
-                    ÄÚ¾îº§
+                    ê±´ê°•ì‹í’ˆ
                 </div>
                 <div class="product_name">
-                    ´©º§¸¶¸® ¿ÀÇÂ¹ö½ºÆ® ¹Ùµð½´Ã÷(±×¸°)
+                    ì•ŒíŒŒë¹„ì•¤ë¹„ ë©€í‹°ë¹„íƒ€ë¯¼ ê³¨ë“œ(1ì„¸íŠ¸)
                 </div>
             </div>
             <div class="pr_con_02">
                 <div class="pr_member_price">
-                    <div class="price_member_text">È¸¿ø°¡</div>
-                    <div class="price_member_number">500,000¿ø</div>
+                    <div class="price_member_text">íšŒì›ê°€</div>
+                    <div class="price_member_number">500,000ì›</div>
                 </div>
                 <div class="pr_price">
-                    <div class="price_text">ÆÇ¸Å°¡</div>
-                    <div class="price_number">500,000<span class="won_b">¿ø</span></div>
+                    <div class="price_text">íŒë§¤ê°€</div>
+                    <div class="price_number">500,000<span class="won_b">ì›</span></div>
                 </div>
                 <div class="pr_ep">
                     <div class="ep_text">EP</div>
@@ -186,8 +186,8 @@
                 </div>
                 <div class="pr_size">
                     <div class="size_btn">
-                        <div class="size_text">»çÀÌÁî</div>
-                        <div class="size_point">¡å</div>
+                        <div class="size_text">ì„ íƒì˜µì…˜</div>
+                        <div class="size_point">â–¼</div>
                     </div>
                     <div class="size_dropdown">
                         <div class="size_pick">-</div>
@@ -201,7 +201,7 @@
                 <div class="pr_quantity">
                     <div class="number_box">
                         <div class="minus_btn">-</div>
-                        <div class="quantity_number">01<span>°³</span></div>
+                        <div class="quantity_number">01<span>ê°œ</span></div>
                         <div class="plus_btn">+</div>
                     </div>
                     <div class="pr_shop_cart">
@@ -222,16 +222,16 @@
     <div class="product_contents">
         <div class="pr_con_01">
             <div class="category_small">
-                ½ºÅ²ÄÉ¾î
+                ê±´ê°•ê¸°ëŠ¥
             </div>
             <div class="product_name">
-                ºñ¿¡½Ã½º ¾îµå¹ê½ºµå ¸µÅ¬ ¾Ø ÆÛ¹Ö µà¿À
+                ë°”ì´ì˜¤ì‹œìŠ¤ ì–´ë“œë°´ìŠ¤ë“œ ë§í´ ì•¤ í¼ë° ë“€ì˜¤
             </div>
         </div>
         <div class="pr_con_02">
             <div class="pr_price">
-                <div class="price_text">È¸¿ø°¡</div>
-                <div class="price_number">380,000<span class="won_b">¿ø</span></div>
+                <div class="price_text">íšŒì›ê°€</div>
+                <div class="price_number">380,000<span class="won_b">ì›</span></div>
             </div>
             <div class="pr_ep">
                 <div class="ep_text">EP</div>
@@ -239,22 +239,22 @@
             </div>
             <div class="pr_size">
                 <div class="size_btn closeeyes">
-                    <div class="size_text">»çÀÌÁî</div>
-                    <div class="size_point">¡å</div>
+                    <div class="size_text">ì„ íƒì˜µì…˜</div>
+                    <div class="size_point">â–¼</div>
                 </div>
                 <div class="size_dropdown">
                     <div class="size_pick">-</div>
-                    <div class="size_option">A »çÀÌÁî</div>
-                    <div class="size_option">B »çÀÌÁî</div>
-                    <div class="size_option">C »çÀÌÁî</div>
-                    <div class="size_option">C »çÀÌÁî</div>
-                    <div class="size_option">C »çÀÌÁî</div>
+                    <div class="size_option">A ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">B ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">C ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">C ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">C ì„ íƒì˜µì…˜</div>
                 </div>
             </div>
             <div class="pr_quantity">
                 <div class="number_box">
                     <div class="minus_btn">-</div>
-                    <div class="quantity_number">01<span>°³</span></div>
+                    <div class="quantity_number">01<span>ê°œ</span></div>
                     <div class="plus_btn">+</div>
                 </div>
                 <div class="pr_shop_cart">
@@ -271,16 +271,16 @@
     <div class="product_contents">
         <div class="pr_con_01">
             <div class="category_small">
-                ½ºÅ²ÄÉ¾î
+                ê±´ê°•ê¸°ëŠ¥
             </div>
             <div class="product_name">
-                ºñ¿¡½Ã½º ÄÄÇÃ¸´ ±Û·Î¿ì Ä¿¹ö Äí¼Ç
+                ë°”ì´ì˜¤ì‹œìŠ¤ ìš¸íŠ¸ë¼ ë©€í‹° ì»¤ë¨¼ ìŠ¬ë¦¬
             </div>
         </div>
         <div class="pr_con_02">
             <div class="pr_price">
-                <div class="price_text">È¸¿ø°¡</div>
-                <div class="price_number">49,000<span class="won_b">¿ø</span></div>
+                <div class="price_text">íšŒì›ê°€</div>
+                <div class="price_number">49,000<span class="won_b">ì›</span></div>
             </div>
             <div class="pr_ep">
                 <div class="ep_text">EP</div>
@@ -288,19 +288,19 @@
             </div>
             <div class="pr_size">
                 <div class="size_btn">
-                    <div class="size_text">¿É¼Ç</div>
-                    <div class="size_point">¡å</div>
+                    <div class="size_text">ì˜µì…˜</div>
+                    <div class="size_point">â–¼</div>
                 </div>
                 <div class="size_dropdown">
                     <div class="size_pick">-</div>
-                    <div class="size_option">1È£(È­»çÇÑ º£ÀÌÁö)</div>
-                    <div class="size_option">2È£(Â÷ºÐÇÑ º£ÀÌÁö)</div>
+                    <div class="size_option">1í˜¸(í™”ì´íŠ¸ ë°ì´ì§€)</div>
+                    <div class="size_option">2í˜¸(í•‘í¬ ë°ì´ì§€)</div>
                 </div>
             </div>
             <div class="pr_quantity">
                 <div class="number_box">
                     <div class="minus_btn">-</div>
-                    <div class="quantity_number">01<span>°³</span></div>
+                    <div class="quantity_number">01<span>ê°œ</span></div>
                     <div class="plus_btn">+</div>
                 </div>
                 <div class="pr_shop_cart">
@@ -317,16 +317,16 @@
     <div class="product_contents">
         <div class="pr_con_01">
             <div class="category_small">
-                ÄÚ¾îº§
+                ê±´ê°•ì‹í’ˆ
             </div>
             <div class="product_name">
-                ´©º§¸¶¸® ¿ÀÇÂ¹ö½ºÆ® ¹Ùµð½´Ã÷(±×¸°)
+                ì•ŒíŒŒë¹„ì•¤ë¹„ ë©€í‹°ë¹„íƒ€ë¯¼ ê³¨ë“œ(1ì„¸íŠ¸)
             </div>
         </div>
         <div class="pr_con_02">
             <div class="pr_price">
-                <div class="price_text">È¸¿ø°¡</div>
-                <div class="price_number">500,000<span class="won_b">¿ø</span></div>
+                <div class="price_text">íšŒì›ê°€</div>
+                <div class="price_number">500,000<span class="won_b">ì›</span></div>
             </div>
             <div class="pr_ep">
                 <div class="ep_text">EP</div>
@@ -334,8 +334,8 @@
             </div>
             <div class="pr_size">
                 <div class="size_btn">
-                    <div class="size_text">»çÀÌÁî</div>
-                    <div class="size_point">¡å</div>
+                    <div class="size_text">ì„ íƒì˜µì…˜</div>
+                    <div class="size_point">â–¼</div>
                 </div>
                 <div class="size_dropdown">
                     <div class="size_pick">-</div>
@@ -349,7 +349,7 @@
             <div class="pr_quantity">
                 <div class="number_box">
                     <div class="minus_btn">-</div>
-                    <div class="quantity_number">01<span>°³</span></div>
+                    <div class="quantity_number">01<span>ê°œ</span></div>
                     <div class="plus_btn">+</div>
                 </div>
                 <div class="pr_shop_cart">
@@ -366,16 +366,16 @@
     <div class="product_contents">
         <div class="pr_con_01">
             <div class="category_small">
-                À£ºùÇü ½ÄÇ°
+                ê±´ê°•ê¸°ëŠ¥ ì œí’ˆ
             </div>
             <div class="product_name">
-                ÇÁ¸®¹Ì¾ö Å¸È÷Æ¼ ³ë´Ï 100
+                ë©€í‹°ë¹„íƒ€ë¯¼ íƒ€íŒŒí‹° ê³¨ë“œ 100
             </div>
         </div>
         <div class="pr_con_02">
             <div class="pr_price">
-                <div class="price_text">È¸¿ø°¡</div>
-                <div class="price_number">199,000<span class="won_b">¿ø</span></div>
+                <div class="price_text">íšŒì›ê°€</div>
+                <div class="price_number">199,000<span class="won_b">ì›</span></div>
             </div>
             <div class="pr_ep">
                 <div class="ep_text">EP</div>
@@ -383,22 +383,22 @@
             </div>
             <div class="pr_size">
                 <div class="size_btn closeeyes">
-                    <div class="size_text">»çÀÌÁî</div>
-                    <div class="size_point">¡å</div>
+                    <div class="size_text">ì„ íƒì˜µì…˜</div>
+                    <div class="size_point">â–¼</div>
                 </div>
                 <div class="size_dropdown">
                     <div class="size_pick">-</div>
-                    <div class="size_option">A »çÀÌÁî</div>
-                    <div class="size_option">B »çÀÌÁî</div>
-                    <div class="size_option">C »çÀÌÁî</div>
-                    <div class="size_option">C »çÀÌÁî</div>
-                    <div class="size_option">C »çÀÌÁî</div>
+                    <div class="size_option">A ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">B ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">C ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">C ì„ íƒì˜µì…˜</div>
+                    <div class="size_option">C ì„ íƒì˜µì…˜</div>
                 </div>
             </div>
             <div class="pr_quantity">
                 <div class="number_box">
                     <div class="minus_btn">-</div>
-                    <div class="quantity_number">01<span>°³</span></div>
+                    <div class="quantity_number">01<span>ê°œ</span></div>
                     <div class="plus_btn">+</div>
                 </div>
                 <div class="pr_shop_cart">

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="euc-kr">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿ÂπŸ±∏¥œ - æŸ∆Æ¿£ ∏πŸ¿œ ºÓ«Œ∏Ù</title>
+    <title>Ïû•Î∞îÍµ¨Îãà - Ïï®Ìä∏Ïõ∞ Î™®Î∞îÏùº ÏáºÌïëÎ™∞</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=052">
     <link rel="stylesheet" href="/2025/css/main.css?ver=052">
     <link rel="stylesheet" href="/2025/css/goods_cart.css?ver=052">
@@ -14,7 +14,7 @@
     <div class="detail_main_contents">
         <div class="category_navi">
             <div class="back_btn"></div>
-            <p>¿ÂπŸ±∏¥œ</p>
+            <p>Ïû•Î∞îÍµ¨Îãà</p>
         </div>
         <div class="pr_buy_info">
             <div class="buy_info_con_01">
@@ -29,27 +29,27 @@
                     <div class="pr_name">
                         <div class="name_box">
                             <div class="category_small">
-                                ƒ⁄æÓ∫ß
+                                Í±¥Í∞ïÏãùÌíà
                             </div>
                             <div class="product_name">
-                                ¥©∫ß∏∂∏Æ ø¿«¬πˆΩ∫∆Æ πŸµΩ¥√˜ (±◊∏∞)
+                                ÏïåÌååÎπÑÏï§ÎπÑ Î©ÄÌã∞ÎπÑÌÉÄÎØº Í≥®Îìú (1ÏÑ∏Ìä∏)
                             </div>
                         </div>
                         <div class="info_congap"></div>
                         <div class="info_conbox">
-                            <div class="con_left">»∏ø¯∞°</div>
-                            <div class="con_right">500,000ø¯</div>
+                            <div class="con_left">ÌöåÏõêÍ∞Ä</div>
+                            <div class="con_right">500,000Ïõê</div>
                         </div>
                         <div class="info_conbox">
                             <div class="con_left">EP</div>
                             <div class="con_right">400,000</div>
                         </div>
                         <div class="info_conbox_opt">
-                            <div class="con_left">ªÁ¿Ã¡Ó</div>
+                            <div class="con_left">ÏÑ†ÌÉùÏòµÏÖò</div>
                             <div class="con_right_opt pr_size">
                                 <div class="size_btn">
                                     <div class="size_text">choice</div>
-                                    <div class="size_point">°Â</div>
+                                    <div class="size_point">‚ñº</div>
                                 </div>
                                 <div class="size_dropdown">
                                     <div class="size_pick">-</div>
@@ -62,10 +62,10 @@
                             </div>
                         </div>
                         <div class="info_conbox_opt">
-                            <div class="con_left">ºˆ∑Æ</div>
+                            <div class="con_left">ÏàòÎüâ</div>
                             <div class="number_box">
                                 <div class="minus_btn">-</div>
-                                <div class="quantity_number">01<span>∞≥</span></div>
+                                <div class="quantity_number">01<span>Í∞ú</span></div>
                                 <div class="plus_btn">+</div>
                             </div>
                         </div>
@@ -84,27 +84,27 @@
                     <div class="pr_name">
                         <div class="name_box">
                             <div class="category_small">
-                                ƒ⁄æÓ∫ß
+                                Í±¥Í∞ïÏãùÌíà
                             </div>
                             <div class="product_name">
-                                ¥©∫ß∏∂∏Æ ø¿«¬πˆΩ∫∆Æ πŸµΩ¥√˜ (±◊∏∞)
+                                ÏïåÌååÎπÑÏï§ÎπÑ Î©ÄÌã∞ÎπÑÌÉÄÎØº Í≥®Îìú (1ÏÑ∏Ìä∏)
                             </div>
                         </div>
                         <div class="info_congap"></div>
                         <div class="info_conbox">
-                            <div class="con_left">»∏ø¯∞°</div>
-                            <div class="con_right">500,000ø¯</div>
+                            <div class="con_left">ÌöåÏõêÍ∞Ä</div>
+                            <div class="con_right">500,000Ïõê</div>
                         </div>
                         <div class="info_conbox">
                             <div class="con_left">EP</div>
                             <div class="con_right">400,000</div>
                         </div>
                         <div class="info_conbox_opt">
-                            <div class="con_left">ªÁ¿Ã¡Ó</div>
+                            <div class="con_left">ÏÑ†ÌÉùÏòµÏÖò</div>
                             <div class="con_right_opt pr_size">
                                 <div class="size_btn">
                                     <div class="size_text">choice</div>
-                                    <div class="size_point">°Â</div>
+                                    <div class="size_point">‚ñº</div>
                                 </div>
                                 <div class="size_dropdown">
                                     <div class="size_pick">-</div>
@@ -117,65 +117,10 @@
                             </div>
                         </div>
                         <div class="info_conbox_opt">
-                            <div class="con_left">ºˆ∑Æ</div>
+                            <div class="con_left">ÏàòÎüâ</div>
                             <div class="number_box">
                                 <div class="minus_btn">-</div>
-                                <div class="quantity_number">01<span>∞≥</span></div>
-                                <div class="plus_btn">+</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="buy_info_con_01">
-                <div class="info_checkline">
-                    <input class="checkbox_style" type="checkbox" value="" checked>
-                    <div class="delete_btn"></div>
-                </div>
-                <div class="info_box">
-                    <div class="pr_images">
-                        <img src="/2025/images/sample/thumbnail_sample_03.gif"/>
-                    </div>
-                    <div class="pr_name">
-                        <div class="name_box">
-                            <div class="category_small">
-                                ƒ⁄æÓ∫ß
-                            </div>
-                            <div class="product_name">
-                                ¥©∫ß∏∂∏Æ ø¿«¬πˆΩ∫∆Æ πŸµΩ¥√˜ (±◊∏∞)
-                            </div>
-                        </div>
-                        <div class="info_congap"></div>
-                        <div class="info_conbox">
-                            <div class="con_left">»∏ø¯∞°</div>
-                            <div class="con_right">500,000ø¯</div>
-                        </div>
-                        <div class="info_conbox">
-                            <div class="con_left">EP</div>
-                            <div class="con_right">400,000</div>
-                        </div>
-                        <div class="info_conbox_opt">
-                            <div class="con_left">ªÁ¿Ã¡Ó</div>
-                            <div class="con_right_opt pr_size">
-                                <div class="size_btn">
-                                    <div class="size_text">choice</div>
-                                    <div class="size_point">°Â</div>
-                                </div>
-                                <div class="size_dropdown">
-                                    <div class="size_pick">-</div>
-                                    <div class="size_option">S</div>
-                                    <div class="size_option">M</div>
-                                    <div class="size_option">L</div>
-                                    <div class="size_option">XL</div>
-                                    <div class="size_option">XXL</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info_conbox_opt">
-                            <div class="con_left">ºˆ∑Æ</div>
-                            <div class="number_box">
-                                <div class="minus_btn">-</div>
-                                <div class="quantity_number">01<span>∞≥</span></div>
+                                <div class="quantity_number">01<span>Í∞ú</span></div>
                                 <div class="plus_btn">+</div>
                             </div>
                         </div>
@@ -186,11 +131,11 @@
             <div class="buy_info_con_02">
                 <div class="pr_name_02">
                     <div class="info_conbox_02">
-                        <div class="con_left_02">√— ¡¶«∞ ±›æ◊</div>
-                        <div class="con_right_02">1,000,000ø¯</div>
+                        <div class="con_left_02">Ï¥ù ÏÉÅÌíà Í∏àÏï°</div>
+                        <div class="con_right_02">1,000,000Ïõê</div>
                     </div>
                     <div class="info_conbox_02">
-                        <div class="con_left_02">√— EP</div>
+                        <div class="con_left_02">Ï¥ù EP</div>
                         <div class="con_right_02">800,000</div>
                     </div>
                 </div>
@@ -199,10 +144,10 @@
         
         <div class="buy_navi">
             <div class="buy_navi_btn add_cart">
-                <p>√Îº“</p>
+                <p>Îã¥Í∏∞</p>
             </div>
             <div class="buy_navi_btn buy_now">
-                <p>±∏∏≈</p>
+                <p>Í≤∞Ï†ú</p>
             </div>
         </div>
     </div>

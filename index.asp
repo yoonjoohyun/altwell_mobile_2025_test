@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="euc-kr">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¾ÙÆ®À£ ¸ð¹ÙÀÏ ¼îÇÎ¸ô</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=044">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=044">
-    <link rel="stylesheet" href="/2025/css/best_items.css?ver=044">
+    <title>TEST ì•¨íŠ¸ì›° ëª¨ë°”ì¼ ì‡¼í•‘ëª°</title>
+    <link rel="stylesheet" href="/2025/css/index.css?ver=045">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=045">
+    <link rel="stylesheet" href="/2025/css/best_items.css?ver=045">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -38,71 +38,71 @@
                     <img src="/2025/images/icon/altnews_icon.png"/>
                 </div>
                 <div class="news_txt">
-                    ºñ¿¡½Ã½º ¾îµå¹ê½ºµå ¸µÅ¬ ¾Ø ÆÛ¹Ö µà¿À ·±Äª ¼¼¹Ì³ª °øÁö
+                    ë¹„ì—ì‹œìŠ¤ ì–´ë“œë°´ìŠ¤ë“œ ë§í´ ì•¤ í¼ë° ë“€ì˜¤ ëŸ°ì¹­ ì„¸ë¯¸ë‚˜ ê³µì§€
                 </div>
             </div>
             <div class="more_btn">
-                ´õº¸±â<div class="r_point arrow_right_icon"></div>
+                ë”ë³´ê¸°<div class="r_point arrow_right_icon"></div>
             </div>
         </div>
         <div class="swiper-container card_banner_slide">
             <div class="swiper-wrapper">
-                <div class="swiper-slide card_banner_text">½Å¿ëÄ«µå ¹«ÀÌÀÚ ÇÒºÎ ÇýÅÃ</div>
-                <div class="swiper-slide card_banner_text">Á¦ÈÞÄ«µå ÇýÅÃ ¾È³»</div>
+                <div class="swiper-slide card_banner_text">ì‹ ìš©ì¹´ë“œ ë¬´ì´ìž í• ë¶€ í˜œíƒ</div>
+                <div class="swiper-slide card_banner_text">ì œíœ´ì¹´ë“œ í˜œíƒ ì•ˆë‚´</div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
         <div class="best_items_title">
             <div class="mtt_bestitems">BEST ITEMS</div>
-            <div class="stt_bestitems">º£½ºÆ® ¾ÆÀÌÅÛ</div>
+            <div class="stt_bestitems">ë² ìŠ¤íŠ¸ ì•„ì´í…œ</div>
         </div>
         <!--#include virtual="/2025/components/best_items.asp" -->
         <div class="brand_story_title">
-            ºê·£µå ½ºÅä¸®
+            ë¸Œëžœë“œ ìŠ¤í† ë¦¬
         </div>
         <div class="brand_story_box">
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">Nouvelle Mariee</span>
-                    <span class="brand_k">´©º§¸¶¸®</span>
+                    <span class="brand_k">ëˆ„ë²¨ë§ˆë¦¬</span>
                 </div>
                 <img src="/2025/images/icon/nouvellemariee_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">IDOS</span>
-                    <span class="brand_k">¾ÆÀÌµµ½º</span>
+                    <span class="brand_k">ì•„ì´ë„ìŠ¤</span>
                 </div>
                 <img src="/2025/images/icon/idos_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">Alt Beauty</span>
-                    <span class="brand_k">¾ÙÆ®ºäÆ¼</span>
+                    <span class="brand_k">ì•¨íŠ¸ë·°í‹°</span>
                 </div>
                 <img src="/2025/images/icon/altbeauty_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">Alt Health</span>
-                    <span class="brand_k">¾ÙÆ®Çï½º</span>
+                    <span class="brand_k">ì•¨íŠ¸í—¬ìŠ¤</span>
                 </div>
                 <img src="/2025/images/icon/altheal_brand.jpg"/>
             </div>
             <div class="brand_btn">
                 <div class="brand_btn_txt">
                     <span class="brand_e">Alt Living</span>
-                    <span class="brand_k">¾ÙÆ®¸®ºù</span>
+                    <span class="brand_k">ì•¨íŠ¸ë¦¬ë¹™</span>
                 </div>
                 <img src="/2025/images/icon/altliving_brand.jpg"/>
             </div>
         </div>
         <div class="buywell_banner bottom_banner">
-            <p>Á¦ÈÞ ¼îÇÎ¸ô <span class="bb_t">"buy WELL"</span>¿¡¼­ <br>´Ù¾çÇÑ Á¦Ç°À» Àú·ÅÇÏ°Ô ÁÖ¹®ÇÏ¼¼¿ä!</p>
+            <p>ì œíœ´ ì‡¼í•‘ëª° <span class="bb_t">"buy WELL"</span>ì—ì„œ <br>ë‹¤ì–‘í•œ ì œí’ˆì„ ì €ë ´í•˜ê²Œ ì£¼ë¬¸í•˜ì„¸ìš”!</p>
             <img src="/2025/images/icon/buywell.png"/>
         </div>
         <div class="altwell_app_banner bottom_banner">
-            <p>¾ÙÆ®À£ <span class="bb_t">¼îÇÎ¸ô App</span><br>¾ÛÀ» ¼³Ä¡ÇÏ¿© Æí¸®ÇÏ°Ô ¼îÇÎÇÏ¼¼¿ä.</p>
+            <p>ì•¨íŠ¸ì›° <span class="bb_t">ì‡¼í•‘ëª° App</span><br>ì•±ì„ ì„¤ì¹˜í•˜ì—¬ íŽ¸ë¦¬í•˜ê²Œ ì‡¼í•‘í•˜ì„¸ìš”.</p>
             <img src="/2025/images/icon/altshopping.png"/>
         </div>
         <!--#include virtual="/2025/components/footer.asp" -->

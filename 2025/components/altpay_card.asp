@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="euc-kr">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Altpay Swiper Content</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=051">
@@ -18,7 +18,7 @@
                     <img src="/2025/images/sample/card_016.gif"/>
                     <div class="delete_btn"></div>
                 </div>
-                <div class="card_info_01">KB±¹¹ÎÄ«µå</div>
+                <div class="card_info_01">KBêµ­ë¯¼ì¹´ë“œ</div>
                 <div class="card_info_02">
                     <div class="credit_number">0000</div>
                     <div class="credit_number">0000</div>
@@ -26,72 +26,72 @@
                     <div class="credit_number">0000</div>
                 </div>
                 <select class="card_m_select">
-                    <option value="">5¸¸¿ø ÀÌ»ó ÃÖ´ë 5°³¿ù ¹«ÀÌÀÚ</option>
-                    <option value="1">2°³¿ù ¹«ÀÌÀÚ ÇÒºÎ</option>
-                    <option value="2">3°³¿ù ¹«ÀÌÀÚ ÇÒºÎ</option>
-                    <option value="3">4°³¿ù ¹«ÀÌÀÚ ÇÒºÎ</option>
-                    <option value="4">5°³¿ù ¹«ÀÌÀÚ ÇÒºÎ</option>
-                    <option value="5">6°³¿ù</option>
-                    <option value="6">7°³¿ù</option>
-                    <option value="7">8°³¿ù</option>
-                    <option value="8">9°³¿ù</option>
-                    <option value="9">10°³¿ù</option>
-                    <option value="10">11°³¿ù</option>
-                    <option value="11">12°³¿ù</option>
+                    <option value="">5ë§Œì› ì´ìƒ ìµœëŒ€ 5ê°œì›” í• ë¶€</option>
+                    <option value="1">2ê°œì›” í• ë¶€ ë¬´ì´ìž</option>
+                    <option value="2">3ê°œì›” í• ë¶€ ë¬´ì´ìž</option>
+                    <option value="3">4ê°œì›” í• ë¶€ ë¬´ì´ìž</option>
+                    <option value="4">5ê°œì›” í• ë¶€ ë¬´ì´ìž</option>
+                    <option value="5">6ê°œì›”</option>
+                    <option value="6">7ê°œì›”</option>
+                    <option value="7">8ê°œì›”</option>
+                    <option value="8">9ê°œì›”</option>
+                    <option value="9">10ê°œì›”</option>
+                    <option value="10">11ê°œì›”</option>
+                    <option value="11">12ê°œì›”</option>
                 </select>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
         <div class="swiper-slide">
             <div class="altpay_add">
-                <div class="circle_addbtn">+</div><div class="add_text">°áÁ¦ Ä«µå Ãß°¡</div>
+                <div class="circle_addbtn">+</div><div class="add_text">ìƒˆë¡œìš´ ì¹´ë“œ ì¶”ê°€</div>
             </div>
         </div>
     </div>
     <div class="next_card"><img src="/2025/images/icon/Arrow/chevron_right.png"/></div>
     <div class="prev_card"><img src="/2025/images/icon/Arrow/chevron_left.png"/></div>
 </div> 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
     document.addEventListener('DOMContentLoaded', function() {
         if (document.querySelector('.swiper-container.altpay-swiper')) {
             var altpaySwiper = new Swiper('.swiper-container.altpay-swiper', {
@@ -105,7 +105,7 @@
             centeredSlides: true,
             centeredSlidesBounds: true,
         });
-            // ÆäÀÌÁö ·Îµå ½Ã Ã¹ ½½¶óÀÌµå¸¦ Áß¾ÓÀ¸·Î °­Á¦ ÀÌµ¿
+            // swiper ë¡œë“œ í›„ ì²« ìŠ¬ë¼ì´ë“œë¥¼ ì¤‘ì•™ìœ¼ë¡œ ì´ë™
             altpaySwiper.slideTo(0, 0);
         }
     });
