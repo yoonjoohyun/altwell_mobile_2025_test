@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>주문 결제 - 앨트웰 모바일 쇼핑몰</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=012">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=012">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=012">
-    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=012">
-    <link rel="stylesheet" href="/2025/css/modal.css?ver=012">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=013">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=013">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=013">
+    <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=013">
+    <link rel="stylesheet" href="/2025/css/modal.css?ver=013">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
@@ -245,39 +245,6 @@
         </div>
         <div class="order_info_list"> 
             <div class="info_title">
-                <p>주문 동의 사항 안내</p>
-                <label for="agree_info_con" class="open_btn"></label>
-            </div>
-            <div id="agree_info_con" class="del_info_con">
-                <a href="javascript:openAgreeCheckModal();" class="del_agree_btn">
-                    <img src="/2025/images/icon/info.png"/>주문 동의서 확인하기
-                </a>
-                <div class="del_rowline_03 agreebox">
-                    <div class="del_info_agree"><span>*</span><p>본 주문서는 구매자 본인만 이용 가능하오니 참조바랍니다.</p></div>
-                </div>
-                <div class="del_rowline agreeline">
-                    <div></div>
-                    <label for="del_info_agree_01">
-                        <input id="del_info_agree_01" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;동의합니다.</span>
-                    </label>
-                </div>
-                <a href="javascript:openPersonalInfoCheckModal();" class="del_agree_btn mt30">
-                    <img src="/2025/images/icon/info.png"/>개인정보 활용 동의서 확인하기
-                </a>
-                <div class="del_rowline_03 agreebox">
-                    <div class="del_info_agree"><span>*</span><p>신청자는 개인정보 수집 및 이용, 제3자 제공 및 활용에 동의합니다. (단, 동의를 거부하실 경우 주문 및 서비스 진행이 불가합니다.)</p></div>
-                    <div class="del_info_agree"><span>*</span><p>본 주문서는 구매자 본인만 이용 가능하오니 참조바랍니다.</p></div>
-                </div>
-                <div class="del_rowline agreeline">
-                    <div></div>
-                    <label for="del_info_agree_02">
-                        <input id="del_info_agree_02" class="checkbox_st" type="checkbox"><span class="del_info_bill">&nbsp;동의합니다.</span>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="order_info_list"> 
-            <div class="info_title">
                 <p>결제 정보</p>
                 <label for="payment_info_con" class="open_btn"></label>
             </div>
@@ -353,7 +320,16 @@
 <!--#include virtual="/2025/components/modal/modal_del_history.asp" --> <!-- 과거 배송지 모달 include -->
 <!--#include virtual="/2025/components/modal/modal_agree_check.asp" --> <!-- 주문 동의서 모달 include -->
 <!--#include virtual="/2025/components/modal/modal_personal_info_check.asp" --> <!-- 개인정보 활용 동의서 모달 include -->
+
+<!--#include virtual="/2025/components/modal/jumin_update_sample.asp" --><!-- 주민번호 수집 팝업 -->
+<script>
+
+</script>
+
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="/2025/js/script.js?ver=011"></script>
+<script src="/2025/js/script.js?ver=015"></script>
+<script>
+
+</script>
 </body>
 </html>

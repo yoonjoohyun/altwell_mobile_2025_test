@@ -115,6 +115,9 @@
     appearance: none;
     outline: none;
 }
+    .input_text_style:focus {
+        border-color: #a0a0a0;
+    }
 
 .input_text_style::placeholder {
     color: #999;

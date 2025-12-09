@@ -239,17 +239,30 @@ document.addEventListener('DOMContentLoaded', function () {
     const memoryCheckbox = document.getElementById('del_info_memory');
     if (memoryCheckbox) {
         const updateMemoryLine = function() {
-             const memoryLine = memoryCheckbox.closest('.memoryline');
-             if (memoryLine) {
-                 if (memoryCheckbox.checked) {
-                     memoryLine.classList.add('active');
-                 } else {
-                     memoryLine.classList.remove('active');
-                 }
-             }
+            const memoryLine = memoryCheckbox.closest('.memoryline');
+            if (memoryLine) {
+                if (memoryCheckbox.checked) {
+                    memoryLine.classList.add('active');
+                } else {
+                    memoryLine.classList.remove('active');
+                }
+            }
         };
         memoryCheckbox.addEventListener('change', updateMemoryLine);
         // 초기 상태 반영
         updateMemoryLine();
+    }
+
+    // 페이지 로드 시 특정 모달 자동 팝업 처리 (ex: order_write.asp)
+    // jumin_update_sample.asp 모달이 존재할 경우 자동으로 띄웁니다.
+    const juminModalTarget = document.getElementById('jumin_update_sample');
+    if (juminModalTarget) {
+        // 모달 띄우기 함수 호출 (모달 파일 내에 정의된 함수 우선 사용)
+        if (typeof openJuminUpdateSampleModal === 'function') {
+            openJuminUpdateSampleModal();
+        } else {
+            // 함수가 없으면 직접 스타일 제어
+            juminModalTarget.style.display = 'flex';
+        }
     }
 });

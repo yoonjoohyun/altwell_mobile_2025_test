@@ -1,8 +1,8 @@
 
 .detail_main_contents{
     width:100%;
-    padding-top:120px;/*topnavi����*/
-    padding-bottom:50px;/*bottomnavi����*/
+    padding-top:120px;
+    padding-bottom:50px;
     height:auto;
     position:relative;
 }
@@ -51,10 +51,7 @@
         font-weight:600;
     }
 
-/***  �� *******************************/
 
-
-/*** �����ϱ� ��ư �� *******************************/
 .buy_navi{
     position:fixed;
     bottom:0;
@@ -98,7 +95,7 @@
     }
 
 
-/*** ��ٱ���? ���� *******************************/
+
 .pr_buy_info{
     padding:0 20px 0 20px;
     width:100%;
@@ -346,12 +343,12 @@
 
 
 
-/*** ���? ���� �� *******************************/
+
 .del_info_con{
 
 }
 
 
 
-/*** �ִϸ��̼� ���� �� *******************************/
+
 

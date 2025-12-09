@@ -1,8 +1,8 @@
 
 .detail_main_contents{
     width:100%;
-    padding-top:120px;/*topnavi높이*/
-    padding-bottom:50px;/*buy_navi높이*/
+    padding-top:120px;
+    padding-bottom:50px;
     height:auto;
     position:relative;
 }
@@ -51,7 +51,7 @@
         font-weight:600;
     }
 
-/*** 제품 정보 ↓ *******************************/
+
     
     .product{
         padding:20px 20px 0 20px;
@@ -321,7 +321,7 @@
 
 
 
-/*** 구매 네비게이션 ↓ *******************************/
+
 .buy_navi{
     position:fixed;
     bottom:0;
@@ -366,5 +366,5 @@
 
 
 
-/*** 애니메이션 설정 ↓ *******************************/
+
 

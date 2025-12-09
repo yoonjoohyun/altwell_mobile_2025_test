@@ -1,0 +1,157 @@
+.order_main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+/* Category Navigation (from order_write.css) */
+.category_navi {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.back_btn {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.back_btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    transform: translate(-75%, -50%) rotate(-45deg);
+}
+
+.category_navi p {
+    color: #555;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+/* Info Section Styles (Adapted from member_cert_write_17.css) */
+.info_section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.section_title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ee3338; /* 메인 컬러 포인트 */
+}
+
+/* Data Display Styles */
+.data_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 0;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.data_row:last-child {
+    border-bottom: none;
+}
+
+.data_label {
+    width: 35%;
+    font-size: 1.4rem;
+    color: #777;
+    font-weight: 500;
+    word-break: keep-all;
+}
+
+.data_value {
+    width: 65%;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 400;
+    text-align: right;
+    word-break: break-all;
+    line-height: 1.4;
+}
+
+.data_value.highlight {
+    color: #ee3338;
+    font-weight: 600;
+}
+
+.data_value.blue_text {
+    color: #118DBB; /* 기존 레거시 파란색 대체 */
+    font-weight: 600;
+}
+
+/* Button Styles */
+.btn_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+}
+
+.btn_common {
+    flex: 1;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_cancel {
+    background-color: #838383;
+    color: #fff;
+    border: 1px solid #838383;
+}
+
+.btn_confirm {
+    background-color: #118DBB; /* 요청된 기존 버튼색 유지 (리뉴얼 컨셉에 맞게 메인컬러로 변경 고려 가능하나, 3단계 강조색일 수 있어 유지) */
+    /* 혹은 메인 컬러 사용 시: background-color: #ee3338; */
+    color: #fff;
+    border: 1px solid #118DBB;
+}
+/* 리뉴얼 규칙상 메인컬러 #ee3338 사용 권장되므로, 요청사항의 '리뉴얼' 취지에 맞춰 메인컬러로 변경 */
+.btn_confirm.renewal_style {
+    background-color: #ee3338;
+    border: 1px solid #ee3338;
+}
+
+/* Address Box Special Style */
+.address_box {
+    text-align: right;
+}
+.address_zip {
+    font-size: 1.3rem;
+    color: #999;
+    margin-bottom: 4px;
+}
+
