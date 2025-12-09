@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>디슈머 등록 정보 확인</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=050">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=050">
-    <link rel="stylesheet" href="/2025/css/member_cert_write_chk_17.css?ver=010">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=051">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=051">
+    <link rel="stylesheet" href="/2025/css/member_cert_write_chk_17.css?ver=051">
 </head>
 <body>
 
@@ -23,43 +23,32 @@
         <form name="frm" method="post">
             <!-- 섹션 1: 추천인 및 후원인 정보 -->
             <div class="info_section">
-                <p class="section_title">추천인 및 후원인 정보</p>
+                <div class="section_title">추천인 및 후원인 정보<img src="/2025/images/icon/info.png"></div>
                 
                 <div class="data_row">
-                    <span class="data_label">[추천디슈머] No</span>
-                    <span class="data_value highlight">406006205</span>
-                    <input name="recruit_disno" type="hidden" value="406006205">
+                    <span class="data_label">추천디슈머</span>
+                    <div class="data_value_box">
+                        <span class="data_value highlight">No.406006205</span>
+                        <span class="data_value">윤주현</span>
+                    </div>
                 </div>
-                <div class="data_row">
-                    <span class="data_label">이름</span>
-                    <span class="data_value">앨트웰</span>
-                    <input name="recruit_disname" type="hidden" value="앨트웰">
-                </div>
-                
-                <div style="margin: 10px 0; border-bottom: 1px dashed #e9e9e9;"></div>
 
                 <div class="data_row">
-                    <span class="data_label">[후원디슈머] No</span>
-                    <span class="data_value blue_text">406006205</span>
-                    <input name="recom_disno" type="hidden" value="406006205">
-                </div>
-                <div class="data_row">
-                    <span class="data_label">[후원디슈머] 이름</span>
-                    <span class="data_value">앨트웰</span>
-                    <input name="recom_disname" type="hidden" value="앨트웰">
+                    <span class="data_label">후원디슈머</span>
+                    <div class="data_value_box">
+                        <span class="data_value blue_text">No.406006205</span>
+                        <span class="data_value">윤주현</span>
+                    </div>
                 </div>
             </div>
 
             <!-- 섹션 2: 디슈머 가입신청자 정보 -->
             <div class="info_section">
-                <p class="section_title">디슈머 가입신청자 정보</p>
+                <div class="section_title">디슈머 가입신청자 정보<img src="/2025/images/icon/info.png"></div>
 
                 <div class="data_row">
                     <span class="data_label">이름</span>
                     <span class="data_value">윤주현</span>
-                    <input type="hidden" name="jumin1" value="920208">
-                    <input type="hidden" name="jumin2" value="1">
-                    <input type="hidden" name="name" value="윤주현">
                 </div>
 
                 <div class="data_row">
@@ -67,10 +56,6 @@
                     <span class="data_value">
                         양력 1992년 02월 08일
                     </span>
-                    <input type="hidden" name="birth_gbn" value="1">
-                    <input name="birth_year" type="hidden" value="1992">
-                    <input name="birth_month" type="hidden" value="02">
-                    <input name="birth_day" type="hidden" value="08">
                 </div>
 
                 <div class="data_row">
@@ -79,30 +64,22 @@
                         우리은행<br>
                         1002452364698
                     </span>
-                    <input type="hidden" name="bank_cod" value="20">
-                    <input type="hidden" name="bank_reg" value="1002452364698">
                 </div>
 
-                <div class="data_row">
+                <div class="data_row topalign">
                     <span class="data_label">주민등록상 주소</span>
                     <div class="data_value address_box">
                         <div class="address_zip">(052-20)</div>
                         서울 강동구 고덕동 228 -1
                     </div>
-                    <input name="zip1_1" type="hidden" value="052">
-                    <input name="zip1_2" type="hidden" value="20">
-                    <input name="addr1" type="hidden" value="서울 강동구 고덕동 228  -1">
                 </div>
 
-                <div class="data_row">
-                    <span class="data_label">실거주지 주소</span>
+                <div class="data_row topalign">
+                    <span class="data_label topalign">실거주지 주소</span>
                     <div class="data_value address_box">
                         <div class="address_zip">(052-20)</div>
                         서울 강동구 고덕동 228 -1
                     </div>
-                    <input name="zip2_1" type="hidden" value="052">
-                    <input name="zip2_2" type="hidden" value="20">
-                    <input name="addr2" type="hidden" value="서울 강동구 고덕동 228  -1">
                 </div>
 
                 <div class="data_row">
@@ -110,9 +87,6 @@
                     <span class="data_value">
                         010-5125-8018
                     </span>
-                    <input name="tel1_1" type="hidden" value="010">
-                    <input name="tel1_2" type="hidden" value="5125">
-                    <input name="tel1_3" type="hidden" value="8018">
                 </div>
 
                 <div class="data_row">
@@ -120,37 +94,30 @@
                     <span class="data_value">
                         010-5125-8018
                     </span>
-                    <input name="tel2_1" type="hidden" value="010">
-                    <input name="tel2_2" type="hidden" value="5125">
-                    <input name="tel2_3" type="hidden" value="8018">
                 </div>
 
                 <div class="data_row">
                     <span class="data_label">이메일</span>
                     <span class="data_value">-</span>
-                    <input name="email" type="hidden" value="">
                 </div>
 
                 <div class="data_row">
                     <span class="data_label">활동지사</span>
                     <span class="data_value">서울지사</span>
-                    <input type="hidden" name="area_cod" value="15">
                 </div>
 
                 <div class="data_row">
-                    <span class="data_label">사업자등록증<br><span style="font-size:1.2rem; font-weight:normal;">(세무서발행)</span></span>
+                    <span class="data_label">사업자등록증<br><span style="font-size:1.2rem; font-weight:normal; line-height:24px;">(세무서발행)</span></span>
                     <span class="data_value">무</span>
-                    <input type="hidden" name="biz_lice" value="2">
                 </div>
 
                 <div class="data_row">
                     <span class="data_label">디슈머 활동 유형</span>
-                    <span class="data_value">
-                        자가소비형
-                        <br>
-                        <span style="font-size:1.2rem; color:#ee3338;">(사업자 등록증이 없는 경우)</span>
+                    
+                    <span class="data_value_box">
+                        <span class="data_value">자가소비형</span>
+                        <span class="data_value_02">(사업자 등록증이 없는 경우)</span>
                     </span>
-                    <input type="hidden" name="act_gbn" value="N">
                 </div>
             </div>
 
@@ -173,7 +140,7 @@
         // 기존 로직 구현 (예: 폼 서브밋)
         // document.frm.action = "next_process.asp";
         // document.frm.submit();
-        alert("3단계 확인이 완료되었습니다.");
+        alert("디슈머 등록이 완료되었습니다.");
     }
 </script>
 

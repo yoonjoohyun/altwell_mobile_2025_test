@@ -50,29 +50,58 @@
 /* Info Section Styles (Adapted from member_cert_write_17.css) */
 .info_section {
     background-color: #fff;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-top: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
+    margin: 10px auto; /* 상하 10px, 좌우 자동(중앙 정렬) */
+    width: 95%; /* 전체 너비의 95% 사용 */
+    max-width: 600px; /* 너무 넓어지지 않도록 최대 너비 설정 */
+    border-radius: 5px; /* 요청하신 border-round 5px 적용 */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* 살짝 그림자를 주어 박스 느낌 강조 */
+    border: 1px solid #e9e9e9; /* 테두리 추가 */
+    position:relative;
+    padding-bottom:5px;
 }
 
 .section_title {
+    width:100%;
     font-size: 1.6rem;
-    font-weight: 700;
-    color: #121212;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #ee3338; /* 메인 컬러 포인트 */
+    font-weight: 600;
+    color: #fff;
+    background-color:#ee3338;
+    border-radius:5px 5px 0 0;
+    padding:6px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+    .section_title img{
+        width:20px;
+        height:20px;
+        margin-left:10px;
+        filter:brightness(0) invert(1);
+    }
 
 /* Data Display Styles */
 .data_row {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 8px 0;
-    border-bottom: 1px solid #f9f9f9;
+    align-items: center; /* 세로 중앙 정렬로 높이 일정하게 맞춤 */
+    padding: 10px 0; /* 상하 패딩을 늘려 높이 확보 */
+    min-height: 45px; /* 최소 높이 설정 */
+    padding:10px 15px;
+    position:relative;
 }
+    .data_row:before{
+        content:'';
+        position:absolute;
+        bottom:0;
+        left:50%;
+        transform:translateX(-50%);
+        width:calc(100% - 30px);
+        height:1px;
+        background-color:#f9f9f9;
+    }
+    .data_row:last-child:before{
+        display:none;
+    }
 
 .data_row:last-child {
     border-bottom: none;
@@ -84,17 +113,40 @@
     color: #777;
     font-weight: 500;
     word-break: keep-all;
+    display: flex;
 }
 
+/* 공통 값 스타일 */
 .data_value {
-    width: 65%;
     font-size: 1.5rem;
     color: #333;
     font-weight: 400;
-    text-align: right;
-    word-break: break-all;
     line-height: 1.4;
+    text-align: right;
 }
+    .data_value_02 {
+        font-size:1.3rem;
+        text-align:right;
+        color:#ee3338;
+    }
+
+/* 1. data_row의 직계 자식인 data_value (일반적인 텍스트 값) */
+.data_row > .data_value {
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+    .topalign{
+        align-items:flex-start;
+    }
+
+.data_value_box {
+    display:flex;
+    flex-direction:column;
+    justify-content:right;
+}
+
+/* div 안의 data_value들은 너비 자동 설정 */
 
 .data_value.highlight {
     color: #ee3338;
@@ -110,8 +162,11 @@
 .btn_box {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px 5px; /* 좌우 패딩 축소 (info_section 너비와 비율 맞춤) */
     gap: 10px;
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .btn_common {
@@ -148,10 +203,12 @@
 /* Address Box Special Style */
 .address_box {
     text-align: right;
+    display: block !important; /* 주소박스는 flex 해제하여 줄바꿈 허용 */
+    max-width:60%;
 }
 .address_zip {
     font-size: 1.3rem;
     color: #999;
     margin-bottom: 4px;
+    display: block; /* 줄바꿈 */
 }
-
