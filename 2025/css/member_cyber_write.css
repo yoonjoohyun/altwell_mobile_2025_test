@@ -15,7 +15,7 @@
     background-color: #fff;
     padding: 15px 20px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #eee;
 }
 
@@ -36,9 +36,7 @@
 .input_row_flex {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     gap: 10px;
-    margin-top: 15px;
 }
 
 .input_row_flex_jumin {
@@ -174,9 +172,10 @@
 }
 
 .btn_medium {
-    padding: 5px 20px;
+    padding: 8px 20px;
     font-size: 1.5rem;
-    min-width:150px;
+    width:150px;
+    margin:0 auto;
 }
 
 /* .icon_down 스타일은 Caret_Down_MD.png 이미지 사용으로 인해 제거됨 */
@@ -195,8 +194,7 @@
 }
 
 .checkbox_group {
-    padding: 20px 0 5px 0;
-    border-top: 1px solid #f5f5f5;
+    padding: 10px 0;
 }
 
 .checkbox_group input[type="checkbox"] {
@@ -272,6 +270,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 10px; /* list_item_flex 간격 추가 */
 }
 
 .list_item_title {
@@ -294,6 +293,10 @@
 .button_row_center {
     text-align: center;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .full_width {
@@ -327,6 +330,8 @@
     border-color: var(--primary-color, #ee8d33);
     color: #fff;
 }
+
+
 
 
 .btn_common {

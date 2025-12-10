@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>실명 확인 (1단계)</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=047">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=047">
-    <link rel="stylesheet" href="/2025/css/member_cert_join_chk1_18.css?ver=047">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/member_cert_join_chk1_18.css?ver=0111">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     <!--#include virtual="/2025/components/top_navi.asp" -->
     <div class="order_main_contents">
         <div class="category_navi">
-            <div class="back_btn"></div>
+            <div class="back_btn" onclick="history.back()"></div>
             <p>실명 확인 (1단계)</p>
         </div>
 
@@ -61,7 +61,7 @@
                 </div>
                 
                 <div class="button_group">
-                    <a href="javascript:check('sms')" class="member_action_btn primary_btn btn_inline">휴대폰번호 인증</a>
+                    <a href="/2025/online_member/member_cert_write_17.asp" class="member_action_btn primary_btn btn_inline">휴대폰번호 인증</a>
                     <a href="javascript:check('ipin')" class="member_action_btn secondary_btn btn_inline">아이핀 인증</a><br>
                     <p class="cert_info_text">※휴대폰 인증 또는 아이핀 인증을 선택하세요</p>
                 </div>

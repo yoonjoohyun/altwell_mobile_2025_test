@@ -4,13 +4,15 @@
     padding-bottom: 70px; /* bottomnavi */
     height: auto;
     position: relative;
+    background-color: #fcfcfc;
 }
+
 
 
 /* Info Section Styles (Adapted from member_cert_write_17.css) */
 .info_section {
     background-color: #fff;
-    margin: 15px auto; /* 상하 10px, 좌우 자동(중앙 정렬) */
+    margin: 10px auto; /* 상하 10px, 좌우 자동(중앙 정렬) */
     width: 95%; /* 전체 너비의 95% 사용 */
     max-width: 600px; /* 너무 넓어지지 않도록 최대 너비 설정 */
     border-radius: 5px; /* 요청하신 border-round 5px 적용 */
@@ -30,7 +32,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1); /* 살짝 그림자를 주어 박스 느낌 강조 */
 }
     .section_title img{
         width:20px;
@@ -128,6 +129,8 @@
     max-width: 600px;
     margin: 0 auto;
 }
+
+
 
 .btn_common {
     flex: 1;

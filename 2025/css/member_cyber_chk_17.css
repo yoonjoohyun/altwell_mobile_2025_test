@@ -1,0 +1,72 @@
+
+
+.cyber_chk_content {
+    width:calc(100% - 20px);
+    padding:15px 15px;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin:20px auto;
+}
+
+.cyber_chk_content .input_group {
+    margin-bottom: 10px;
+}
+
+.cyber_chk_content .input_box {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.cyber_chk_content .input_box::placeholder {
+    color: #b8b8b8;
+    font-weight:400;
+}
+
+.cyber_chk_content .main_btn_style {
+    display: block;
+    width: 100%;
+    padding: 13px 0;
+    background-color: #ee3338;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cyber_chk_content .cs_center_btn {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #fff;
+    color: #555;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.cyber_chk_content .notice_text {
+    font-size: 1.4rem;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cyber_chk_content .input_box:focus {
+    border: 1px solid #757575;
+    outline: none;
+    background-color: #ffffff;
+}

@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>회원 가입</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=046">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=046">
-    <link rel="stylesheet" href="/2025/css/member_main.css?ver=046">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/member_main.css?ver=0111">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     <!--#include virtual="/2025/components/top_navi.asp" -->
     <div class="main_contents">
         <div class="category_navi">
-            <div class="back_btn"></div>
+            <div class="back_btn" onclick="history.back()"></div>
             <p>회원 가입</p>
         </div>
         <div class="member_main_title">
@@ -31,7 +31,7 @@
                 <p class="member_description">
                     디슈머(판매원)으로 정식 등록 후 온라인 활동(주문)을 하기 위한 가입 절차입니다.
                 </p>
-                <button class="member_action_btn secondary_btn">온라인 회원가입</button>
+                <a href="/2025/online_member/member_cyber_chk_17.asp" class="member_action_btn secondary_btn">온라인 회원가입</a>
             </div>
         </div>
         <!--#include virtual="/2025/components/footer.asp" -->

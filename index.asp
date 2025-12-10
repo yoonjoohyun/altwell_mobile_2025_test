@@ -107,7 +107,7 @@
         </div>
         <!--#include virtual="/2025/components/footer.asp" -->
     </div>
-<!--#include virtual="/2025/components/bottom_navi.asp" -->
+<!--#include virtual="/2025/components/bottom_navi2.asp" -->
 </div>
 
 

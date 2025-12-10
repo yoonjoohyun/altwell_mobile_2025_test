@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>앨트웰 디슈머 등록 신청</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=045">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=045">
-    <link rel="stylesheet" href="/2025/css/member_cert_join.css?ver=045">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/member_cert_join.css?ver=0111">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     <!--#include virtual="/2025/components/top_navi.asp" -->
     <div class="order_main_contents">
         <div class="category_navi">
-            <div class="back_btn"></div>
+            <div class="back_btn" onclick="history.back()"></div>
             <p>앨트웰 디슈머 등록 신청</p>
         </div>
 

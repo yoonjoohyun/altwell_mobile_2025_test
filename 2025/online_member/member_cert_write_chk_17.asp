@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>디슈머 등록 정보 확인</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=051">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=051">
-    <link rel="stylesheet" href="/2025/css/member_cert_write_chk_17.css?ver=051">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=0112">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=0112">
+    <link rel="stylesheet" href="/2025/css/member_cert_write_chk_17.css?ver=0112">
 </head>
 <body>
 
@@ -124,7 +124,7 @@
             <!-- 하단 버튼 영역 -->
             <div class="btn_box">
                 <a href="javascript:history.back()" class="btn_common btn_cancel">취소</a>
-                <a href="javascript:finish();" class="btn_common btn_confirm renewal_style">확인(3단계)</a>
+                <a href="javascript:finish();" class="btn_common btn_confirm">확인(3단계)</a>
             </div>
         </form>
 

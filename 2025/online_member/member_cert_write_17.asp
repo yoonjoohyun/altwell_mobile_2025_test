@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>디슈머 등록 신청</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=050">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=050">
-    <link rel="stylesheet" href="/2025/css/member_cert_write_17.css?ver=050">
-    <link rel="stylesheet" href="/2025/css/modal.css?ver=052"> <!-- 모달 CSS 추가 -->
+    <link rel="stylesheet" href="/2025/css/index.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/member_cert_write_17.css?ver=0111">
+    <link rel="stylesheet" href="/2025/css/modal.css?ver=0111"> <!-- 모달 CSS 추가 -->
 </head>
 <body>
 
@@ -15,7 +15,7 @@
     <!--#include virtual="/2025/components/top_navi.asp" -->
     <div class="order_main_contents">
         <div class="category_navi">
-            <div class="back_btn"></div>
+            <div class="back_btn" onclick="history.back()"></div>
             <p>디슈머 등록 신청</p>
         </div>
 
@@ -89,7 +89,6 @@
                 </div>
             </div>
 
-            <div class="divider"></div>
 
             <div class="info_section">
                 <p class="section_title">거래은행</p>
@@ -245,15 +244,15 @@
                 </div>
             </div>
             
-            <div class="info_section">
-                <div class="input_row_flex">
-                    <a href="" class="member_action_btn secondary_btn_02 btn_small">취소</a>
-                    <a href="" class="member_action_btn secondary_btn btn_small">신청(2단계)</a>
+            <div class="input_row_flex">
+                <a href="" class="btn_common btn_cancel">취소</a>
+                <a href="/2025/online_member/member_cert_write_chk_17.asp" class="btn_common btn_confirm ">신청(2단계)</a>
             </div>
         </div>
 
-        <!--#include virtual="/2025/components/footer.asp" -->
+        
     </div>
+    <!--#include virtual="/2025/components/footer.asp" -->
     <!--#include virtual="/2025/components/bottom_navi.asp" -->
 </div>
 

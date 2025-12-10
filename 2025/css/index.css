@@ -29,10 +29,49 @@ html{
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #fcfcfc;
+    background: #f8f8f8;
     color: #121212;
     font-size:1.6rem;
 }
+
+
+/*back버튼*/
+
+.category_navi{
+    position:relative;
+    width:100%;
+    height:42px;
+    background-color:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:1px solid #eee;
+}
+    .back_btn{
+        position:absolute;
+        top:50%;
+        left:15px;
+        transform:translateY(-50%);
+        width:22px;
+        height:22px;
+        cursor:pointer;
+    }
+    .back_btn::before{
+        content:'';
+        position:absolute;
+        top:50%;
+        left:50%;
+        width:10px;
+        height:10px;
+        border-top:1px solid #999;
+        border-left:1px solid #999;
+        transform: translate(-75%, -50%) rotate(-45deg);
+    }
+    .category_navi p{
+        color:#555;
+        font-weight:600;
+    }
+
 
 /* 전체 스크롤바 */
 ::-webkit-scrollbar {
