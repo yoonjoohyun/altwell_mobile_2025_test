@@ -1,0 +1,104 @@
+.order_main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+
+.mypage_disumer_box {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #f6f6f6;
+}
+
+    .level_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+        .level_text {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+            .icon_box img {
+                display:block;
+                width: 28px;
+                height: auto;
+            }
+            .icon_box p {
+                font-size: 1.8rem;
+                font-weight: 800;
+                color: #333;
+            }
+            .icon_box span {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: #777;
+            }
+        .disumer_name {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #333;
+            font-weight:800;
+        }
+        .cheer_text {
+            display:block;
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #777;
+            line-height: 1.4;
+            margin-top: 30px;
+        }
+        .upgrade_condition {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #777;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .upgrade_condition img{
+            width: 18px;
+            height: auto;
+            opacity: 0.5;
+        }
+        .level_box p span {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #777;
+        }
+
+
+
+.mypage_menu {
+    width: 100%;
+}
+    .mypage_menu_item{
+        border-bottom: 1px solid #f6f6f6;
+        background-color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mypage_menu_item p{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #333;
+    }
+    .mypage_menu_item img{
+        width: 20px;
+        height: 20px;
+    }
+
+
