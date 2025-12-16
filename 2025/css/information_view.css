@@ -11,66 +11,80 @@
 .mypage_disumer_box {
     width: 100%;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #f6f6f6;
+    padding: 30px 20px;
+    background: linear-gradient(290deg, #EE3338 0%, #EE4933 29%, #EE3362 100%);
 }
 
     .level_box {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
     }
+        .level_box img{
+            width: 34px;
+            height: auto;
+        }
         .level_text {
             display: flex;
-            align-items: center;
+            align-items: left;
             flex-direction: column;
             justify-content: center;
         }
-            .icon_box img {
-                display:block;
-                width: 28px;
-                height: auto;
+            .level_text p {
+                line-height: 1.2;
+                font-size: 1.4rem;
+                color: #fff;
             }
-            .icon_box p {
+            .level_box p span.level_main{
                 font-size: 1.8rem;
                 font-weight: 800;
-                color: #333;
+                color: #fff;
+                margin-right: 3px;
             }
-            .icon_box span {
+            .level_box p span.level_basic{
                 font-size: 1.4rem;
-                font-weight: 400;
-                color: #777;
+                font-weight: 300;
+                color: #fff;
+                opacity: 0.9;
             }
-        .disumer_name {
+            .level_box p.level_sub{
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: #fff;
+            }
+        .my_name {
             font-size: 2rem;
             font-weight: 600;
-            color: #333;
+            color: #fff;
             font-weight:800;
+            text-align: center;
+            margin-top: 5px;
         }
         .cheer_text {
             display:block;
             text-align: center;
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-weight: 400;
-            color: #777;
+            color: #fff;
             line-height: 1.4;
-            margin-top: 30px;
+            margin-top: 10px;
         }
         .upgrade_condition {
             font-size: 1.4rem;
             font-weight: 400;
-            color: #777;
+            color: #fff;
             display:flex;
             align-items: center;
             justify-content: center;
             margin-top: 10px;
         }
         .upgrade_condition img{
+            display:inline-block;
+            margin-top: 2px;
             width: 18px;
             height: auto;
-            opacity: 0.5;
+            filter:brightness(0) invert(1);
         }
         .level_box p span {
             font-size: 1.4rem;
@@ -102,3 +116,38 @@
     }
 
 
+
+.idos_info {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    background-color: #4B77D7;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+    .idos_info_title {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #fff;
+    }
+    .idos_info_text {
+        font-size: 1.4rem;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #DAEDF4;
+    }
+
+
+.logout_btn {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+    .logout_btn p {
+        display: inline-block;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #999;
+        padding: 2px 3px;
+        border-bottom: 1px solid #bdbdbd;
+    }
