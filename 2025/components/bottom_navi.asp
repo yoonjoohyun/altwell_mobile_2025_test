@@ -10,16 +10,16 @@
     <div class="menu_btn_box">
         <div class="bicon_box altnews">
             <img src="/2025/images/icon/altnews_icon.png"/>
-            <a>알트뉴스</a>
+            <a>앨트뉴스</a>
         </div>
         <div class="bicon_box easycheck">
             <img src="/2025/images/icon/easycheck_icon.png"/>
-            <a>간편체크</a>
+            <a>이지체크</a>
         </div>
         <div class="bicon_box empty_box"></div>
         <div class="bicon_box business">
             <img src="/2025/images/icon/business_icon.png"/>
-            <a>사업자회</a>
+            <a>마이오피스</a>
         </div>
         <div class="bicon_box autoship">
             <img src="/2025/images/icon/autoship_icon.png"/>

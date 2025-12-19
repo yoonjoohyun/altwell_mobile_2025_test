@@ -1,0 +1,227 @@
+.order_main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+
+
+.mypage_menu {
+    width: 100%;
+}
+    .mypage_menu_item{
+        border-bottom: 1px solid #f6f6f6;
+        background-color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mypage_menu_item p{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #333;
+    }
+    .mypage_menu_item img{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .mypage_disumer_box {
+        width: 100%;
+        background-color: #fff;
+        padding: 30px 20px;
+        background-color: #213e5c;
+    }
+        .office_intro{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    
+        .level_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+            .level_box img{
+                width: 34px;
+                height: auto;
+            }
+            .level_text {
+                display: flex;
+                align-items: left;
+                flex-direction: column;
+                justify-content: center;
+            }
+                .level_text p {
+                    line-height: 1.2;
+                    font-size: 1.4rem;
+                    color: #fff;
+                }
+                .level_box p span.level_main{
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    color: #fff;
+                    margin-right: 3px;
+                }
+                .level_box p span.level_basic{
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    color: #cdd6e2;
+                }
+                .level_box p.level_sub{
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    color: #fff;
+                }
+            .my_name {
+                font-size: 2rem;
+                font-weight: 600;
+                color: #fff;
+                text-align: center;
+            }
+            .cheer_text {
+                display:block;
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 400;
+                color: #fff;
+                line-height: 1.4;
+                margin-top: 10px;
+            }
+            .upgrade_condition {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: #fff;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+            }
+            .upgrade_condition img{
+                display:inline-block;
+                margin-top: 2px;
+                width: 18px;
+                height: auto;
+                filter:brightness(0) invert(1);
+            }
+            .level_box p span {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: #777;
+            }
+
+        .business_info{
+            color:#fff;
+            text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .e-mail{
+            font-size:1.4rem;
+            font-weight:400;
+            color:#cdd6e2;
+            width:fit-content;
+        }
+        .invite_btn{
+            background-color: #fff;
+            color:#213e5c;
+            padding:5px 20px;
+            border-radius: 5px;
+            font-size:1.5rem;
+            font-weight:600;
+            cursor:pointer;
+            margin-top: 20px;
+            width:fit-content;
+        }
+
+        .tell{
+            font-size:1.4rem;
+            font-weight:400;
+            color:#cdd6e2;
+            margin-top: 10px;
+            width:fit-content;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .tell span{
+            font-size:1.4rem;
+            font-weight:400;
+            margin-top: 10px;
+            width:fit-content;
+        }
+        .tell span:last-child{
+            margin-left: 10px;
+        }
+        .tell span:last-child::before{
+            content: '|';
+            margin-right: 10px;
+            height: 40%;
+        }
+        
+
+        .edu_plane {
+            width: calc(100% - 20px);
+            min-height:110px;
+            margin:0 auto;
+            background-color: #ee3338;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+            .edu_plane_title {
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+            }
+                .edu_plane_title span:first-child {
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                    color: #fff;
+                }
+                .edu_plane_title span:last-child {
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #fff;
+                }
+
+            .edu_plane_list {
+                display: flex;
+                flex-direction: column;
+            }
+                .edu_plane_item {
+                    padding: 5px 0;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #333;
+                    display:flex;
+                    align-items: center;
+                    justify-content: left;
+                    background-color: #fff;
+                    border-radius:5px;
+                    margin-bottom: 5px;
+                }
+                .edu_plane_item_time {
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    color: #333;
+                    margin-right:10px;
+                    padding: 2px 10px;
+                }
