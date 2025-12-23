@@ -12,31 +12,45 @@
 
 <div class="wrap">
     <!--#include virtual="/2025/components/top_navi.asp" -->
-    <div class="main_contents">
+    <div class="order_main_contents">
         <div class="category_navi">
             <div class="back_btn" onclick="history.back()"></div>
             <p>소비회원 가입</p>
         </div>
-        <div class="cyber_chk_content">
-            <form name="form" method="post">
-                <input type="hidden" name="stay_url" value="https://m.altwell.co.kr/online_member/member_cert_finish.asp">
-                <div class="input_group">
-                    <span style="font-size:1.3rem; font-weight:400; color:#777; margin-left:5px;">성명</span>
-                    <input class="input_box" type="text" name="member_no" value="425000248" maxlength="9" placeholder="디슈머 번호 9자리를 입력하세요" data-clear-btn="true" data-corners="false"/>
+
+        <div class="member_cert_content">
+            <div class="info_section">
+                <div class="list_item_flex">
+                    <p class="list_item_title">성명</p>
+                    <div class="list_item_field">
+                        <input type="text" class="input_text_style full_width" name="firstname"/>
+                    </div>
                 </div>
-                <div class="input_group">
-                    <span style="font-size:1.3rem; font-weight:400; color:#777; margin-left:5px;">성별</span>
-                    <input class="input_box" name="pwd" type="password" value="" maxlength="7" placeholder="생년월일 6자리를 입력하세요" data-clear-btn="true" data-corners="false"/>
+                <div class="list_item_flex">
+                    <p class="list_item_title">성별</p>
+                    <div class="list_item_field">
+                        <fieldset class="radio_group">
+                            <input type="radio" name="wedding" id="radio-choice-21" value="Y"  />
+                            <label for="radio-choice-21">남자</label>
+                            <input style="margin-left:10px;" type="radio" name="wedding" id="radio-choice-22" value="N"  checked/>
+                            <label for="radio-choice-22">여자</label>
+                        </fieldset>
+                    </div>
                 </div>
-            </form>
-            <a href="/2025/online_member/member_cyber_cert_17.asp" class="main_btn_style">온라인 회원가입하기</a>
+                <div class="list_item_flex">
+                    <p class="list_item_title">생년 월일</p>
+                    <div class="list_item_field">
+                        <input type="password" class="input_text_style full_width" name="birth" placeholder="6자리 (예:920101)" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="button_row_center">
+                <a href="/2025/online_member/member_cert_write_17_c.asp" class="btn_common btn_confirm">본인 확인</a>
+            </div>
         </div>
-        <div class="cyber_chk_content">
-            <a href="tel:1588-2161" class="cs_center_btn">CS센터 연결하기 (1588-2161)</a>
-            <p class="notice_text">* 기타 문의가 있는 경우 CS센터 연결하기를 클릭하세요.</p>
-        </div>
+        <!--#include virtual="/2025/components/footer.asp" -->
     </div>
-    <!--#include virtual="/2025/components/footer.asp" -->
     <!--#include virtual="/2025/components/bottom_navi.asp" -->
 </div>
 
