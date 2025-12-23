@@ -4,7 +4,6 @@
     padding-bottom: 70px; /* bottomnavi */
     height: auto;
     position: relative;
-    background-color: #fcfcfc;
 }
 
 
@@ -35,7 +34,7 @@
     .mypage_disumer_box {
         width: 100%;
         background-color: #fff;
-        padding: 30px 20px;
+        padding: 30px 20px 20px 20px;
         background-color: #213e5c;
     }
         .office_intro{
@@ -62,28 +61,28 @@
                 justify-content: center;
             }
                 .level_text p {
-                    line-height: 1.2;
-                    font-size: 1.4rem;
+                    line-height: 1.3;
+                    font-size: 1.5rem;
                     color: #fff;
                 }
                 .level_box p span.level_main{
-                    font-size: 1.6rem;
+                    font-size: 1.8rem;
                     font-weight: 600;
                     color: #fff;
                     margin-right: 3px;
                 }
                 .level_box p span.level_basic{
-                    font-size: 1.4rem;
+                    font-size: 1.6rem;
                     font-weight: 300;
                     color: #cdd6e2;
                 }
                 .level_box p.level_sub{
-                    font-size: 1.5rem;
+                    font-size: 1.7rem;
                     font-weight: 500;
                     color: #fff;
                 }
             .my_name {
-                font-size: 2rem;
+                font-size: 2.3rem;
                 font-weight: 600;
                 color: #fff;
                 text-align: center;
@@ -128,20 +127,21 @@
             flex-direction: column;
         }
         .e-mail{
-            font-size:1.4rem;
+            font-size:1.5rem;
             font-weight:400;
             color:#cdd6e2;
             width:fit-content;
+            margin-top: 3px;
         }
         .invite_btn{
             background-color: #fff;
             color:#213e5c;
-            padding:5px 20px;
+            padding:4px 15px;
             border-radius: 5px;
-            font-size:1.5rem;
+            font-size:1.4rem;
             font-weight:600;
             cursor:pointer;
-            margin-top: 20px;
+            margin-top: 30px;
             width:fit-content;
         }
 
@@ -149,7 +149,6 @@
             font-size:1.4rem;
             font-weight:400;
             color:#cdd6e2;
-            margin-top: 10px;
             width:fit-content;
             display:flex;
             align-items: center;
@@ -177,8 +176,9 @@
             margin:0 auto;
             background-color: #ee3338;
             padding: 10px 15px;
-            border-radius: 5px;
-            margin-top: 20px;
+            border-radius: 10px;
+            margin-top: 10px;
+            filter:drop-shadow(0 1px 2px rgba(0,0,0,0.2));
         }
             .edu_plane_title {
                 font-size: 1.6rem;
@@ -225,3 +225,8 @@
                     margin-right:10px;
                     padding: 2px 10px;
                 }
+
+
+
+
+    

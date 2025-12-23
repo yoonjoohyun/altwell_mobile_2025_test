@@ -41,13 +41,19 @@
             <ul>
                 <a href="">
                     <li class="mypage_menu_item">
-                        <p>주문/교환/반품 내역</p>
+                        <p>주문/반품 내역</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
                 <a href="">
                     <li class="mypage_menu_item">
-                        <p>주문 배송 조회</p>
+                        <p>누벨마리 교환 내역</p>
+                        <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
+                    </li>
+                </a>
+                <a href="">
+                    <li class="mypage_menu_item">
+                        <p>SCP/SCP Plus 접수</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
@@ -59,19 +65,19 @@
                 </a>
                 <a href="">
                     <li class="mypage_menu_item">
-                        <p>후원 수당 조회</p>
+                        <p>고객 관리</p>
+                        <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
+                    </li>
+                </a>
+                <a href="">
+                    <li class="mypage_menu_item">
+                        <p>수당내역 조회</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
                 <a href="">
                     <li class="mypage_menu_item">
                         <p>간편 주문</p>
-                        <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
-                    </li>
-                </a>
-                <a href="">
-                    <li class="mypage_menu_item">
-                        <p>하위 라인</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
