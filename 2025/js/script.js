@@ -265,4 +265,34 @@ document.addEventListener('DOMContentLoaded', function () {
             juminModalTarget.style.display = 'flex';
         }
     }
+
+    // EP Category Tab functionality
+    const epItems = document.querySelectorAll('.ep_category .ep_item');
+    const epCons = document.querySelectorAll('.ep_box .ep_con');
+
+    epItems.forEach(item => {
+        item.addEventListener('click', function() {
+            // Remove 'active' class from all ep_items and ep_cons
+            epItems.forEach(e => e.classList.remove('active'));
+            epCons.forEach(e => e.classList.remove('active'));
+
+            // Add 'active' class to the clicked ep_item
+            this.classList.add('active');
+
+            // Get the target ep_con ID from the data-target attribute
+            const targetId = this.dataset.target;
+            if (targetId) {
+                const targetCon = document.querySelector('.ep_box .' + targetId);
+                if (targetCon) {
+                    targetCon.classList.add('active');
+                }
+            }
+        });
+    });
+
+    // Initialize: show the first ep_con by default
+    if (epItems.length > 0 && epCons.length > 0) {
+        epItems[0].classList.add('active');
+        epCons[0].classList.add('active');
+    }
 });
