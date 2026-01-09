@@ -1,0 +1,321 @@
+.main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+}
+
+
+.underline_category{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 5px 9px 5px 13px;
+}
+    .underline_item{
+        font-size:1.4rem;
+        font-weight:400;
+        background-color:#fff;
+        border-radius:5px;
+        padding:2px 6px;
+        margin:4px 3px;
+        border:1px solid #e9e9e9;
+        color:#999;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .underline_item.active {
+        color: #ee3338;
+        font-weight: bold;
+        border: 1px solid #ee3338;
+    }
+
+
+.box_tab{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:space-evenly;
+}
+    .tab{
+        width:100%;
+        height:auto;
+        text-align:center;
+        font-size:1.4rem;
+        font-weight:500;
+        color:#a7a7a7;
+        padding:5px 10px;
+        border-radius:5px 5px 0 0;
+        border-top:1px solid #e9e9e9;
+        border-left:1px solid #e9e9e9;
+        border-right:1px solid #e9e9e9;
+        border-bottom:1px solid #ee3338;
+        cursor:pointer;
+    }
+    .tab.active{
+        background-color:#ffffff;
+        color:#ee3338;
+        font-size:1.4rem;
+        font-weight:600;
+        border-radius:5px 0 0 0;
+        border-top:1px solid #ee3338;
+        border-left:1px solid #ee3338;
+        border-right:none;
+        border-bottom:1px solid #fff;
+    }
+
+    .underline_box{
+        width:100%;
+        height:auto;
+        padding:15px 10px;
+        align-items:center;
+        background-color:#fff;
+    }
+        .item_box{
+            width:100%;
+            height:auto;
+            align-items:center;
+        }
+        .date_box{
+            font-size:1.5rem;
+            font-weight:600;
+            color:#fff;
+            padding:5px 15px;
+            background-color:#ee3338;
+            border-radius:5px 5px 0 0;
+        }
+
+        .input_select_style {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #e9e9e9;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight:500;
+            color: #555;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 16px;
+            outline: none;
+        }
+
+
+        .search_group{
+            display:flex;
+            gap:10px;
+            align-items:center;
+            margin-bottom:10px;
+        }
+
+        
+        
+        .input_text_style{
+            width:100%;
+            font-size:1.5rem;
+            font-weight:500;
+            padding:8px 10px;
+            color:#555;
+            border-radius:5px;
+            -webkit-appearance: none;
+            -moz-appearance:none;
+            appearance:none;
+            border: 1px solid #e9e9e9;
+            outline:none;
+            background-color:#ffffff;
+            transition: background-color 0.3s ease;
+        }
+            .input_txt_style:focus{
+                border:1px solid #777;
+                outline:none;
+                background-color:#ffffff;
+            }
+            .input_txt_style:focus::placeholder{
+                color:#f0f0f0;
+            }
+            .input_txt_style::placeholder{
+                color:#c9c9c9;
+                font-size:1.5rem;
+                font-weight:300;
+            }
+        
+        
+
+        .check_btn{
+            min-width:100px;
+            padding:6px 10px;
+            border:1px solid #e9e9e9;
+            border-radius:5px;
+            font-weight:500;
+            font-size:1.5rem;
+            color:#555;
+            background-color:#fff;
+        }
+        .check_btn:hover{
+            background-color:#eee;
+            color:#333;
+        }
+
+
+        .table_select_box{
+            width:130px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:7px;
+            margin-top:10px;
+            margin-bottom:5px;
+            padding:5px 0;
+            padding-left:10px;
+            background-color:#f8f8f8;
+            border-radius:5px;
+            position:relative;
+            margin-left:auto;
+            border:1px solid #e9e9e9;
+        }
+            .table_select_box_text{
+                display:inline-block;
+                text-align:center;
+                font-size:1.4rem;
+                font-weight:500;
+                color:#333;
+            }
+            .table_select_box img{
+                width:20px;
+                display:block;
+                opacity:0.6;
+            }
+            .column_select_box{
+                width:130px;
+                position:absolute;
+                top:calc(100% - 3px);
+                right:-1px;
+                background-color:#fff;
+                padding:2px 10px;
+                flex-direction:column;
+                box-shadow:inset 0 0 1px 0 #a5a5a5;
+                max-height: 0;
+                opacity: 0;
+                overflow: hidden;
+                border-left:1px solid #e9e9e9;
+                border-right:1px solid #e9e9e9;
+                border-bottom:1px solid #e9e9e9;
+                transition: max-height 0.1s ease-out, opacity 0.3s ease-out;
+            }
+            .table_select_box.active .column_select_box {
+                max-height: 340px; /* 충분히 큰 값으로 설정 */
+                opacity: 1;
+                display: flex; /* active 클래스 추가 시 보임 */
+                z-index: 100;
+            }
+                .column_item{
+                    width:100%;
+                    display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                    padding:5px 5px;
+                    border-bottom:1px solid #e9e9e9;
+                }
+                    .column_item:last-child{
+                        border-bottom:none;
+                    }
+                    .column_item label{
+                        width:100%;
+                        text-align:right;
+                    }
+
+                .column_item_text{
+                    font-size:1.4rem;
+                    font-weight:500;
+                    color:#333;
+                    margin-left:5px;
+                }
+
+
+.hidden-column {
+    display: none !important;
+}
+
+
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pagination button{
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 2px 6px;
+    margin: 0 2px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #555;
+    border-radius: 5px;
+}
+
+.pagination button.active{
+    background-color: #ee3338;
+    color: #fff;
+    border-color: #ee3338;
+}
+
+.pagination button.arrow-btn{
+    padding: 2px 4px;
+}
+
+.pagination button.arrow-btn img {
+    width: 16px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.pagination button.arrow-btn.disabled{
+    background-color: #f8f8f8;
+    color: #bbb;
+    border-color: #eee;
+    cursor: not-allowed;
+}
+
+.pagination button.arrow-btn.disabled img{
+    opacity: 0.3;
+}
+
+.pagination button.arrow-btn-edge{
+    display: flex; /* 두 개의 아이콘을 나란히 정렬 */
+    align-items: center;
+    justify-content: center;
+    padding: 2px 4px;
+}
+
+.pagination button.arrow-btn-edge img {
+    width: 16px; /* 이미지 크기 설정 */
+    height: auto;
+}
+
+.pagination button.arrow-btn-edge.disabled{
+    background-color: #f8f8f8;
+    color: #bbb;
+    border-color: #eee;
+    cursor: not-allowed;
+}
+.pagination button.arrow-btn-edge.disabled img{
+    opacity: 0.3;
+}
+
+
+.dubble_arrow_left{
+    margin-right:-10px;
+}
+.dubble_arrow_right{
+    margin-left:-10px;
+}

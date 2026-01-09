@@ -267,22 +267,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // EP Category Tab functionality
-    const epItems = document.querySelectorAll('.ep_category .ep_item');
-    const epCons = document.querySelectorAll('.ep_box .ep_con');
+    const subItems = document.querySelectorAll('.sub_category .sub_item');
+    const subCons = document.querySelectorAll('.sub_box .sub_con');
 
-    epItems.forEach(item => {
+    subItems.forEach(item => {
         item.addEventListener('click', function() {
-            // Remove 'active' class from all ep_items and ep_cons
-            epItems.forEach(e => e.classList.remove('active'));
-            epCons.forEach(e => e.classList.remove('active'));
+            // Remove 'active' class from all sub_items and sub_cons
+            subItems.forEach(e => e.classList.remove('active'));
+            subCons.forEach(e => e.classList.remove('active'));
 
-            // Add 'active' class to the clicked ep_item
+            // Add 'active' class to the clicked sub_item
             this.classList.add('active');
 
-            // Get the target ep_con ID from the data-target attribute
+            // Get the target sub_con ID from the data-target attribute
             const targetId = this.dataset.target;
             if (targetId) {
-                const targetCon = document.querySelector('.ep_box .' + targetId);
+                const targetCon = document.querySelector('.sub_box .' + targetId);
                 if (targetCon) {
                     targetCon.classList.add('active');
                 }
@@ -291,8 +291,58 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Initialize: show the first ep_con by default
-    if (epItems.length > 0 && epCons.length > 0) {
-        epItems[0].classList.add('active');
-        epCons[0].classList.add('active');
+    // Initialize: show the first ep_con by default
+    if (subItems.length > 0 && subCons.length > 0) {
+        subItems[0].classList.add('active');
+        subCons[0].classList.add('active');
     }
+
+    // Table column select box toggle functionality
+    const tableSelectBox = document.querySelector('.table_select_box');
+    if (tableSelectBox) {
+        tableSelectBox.addEventListener('click', function(event) {
+            event.stopPropagation(); // Prevent document click from immediately closing it
+            this.classList.toggle('active');
+        });
+    }
+
+    document.addEventListener('click', function(event) {
+        if (tableSelectBox && !tableSelectBox.contains(event.target)) {
+            tableSelectBox.classList.remove('active');
+        }
+    });
+
+    // Column visibility toggle functionality
+    const columnCheckboxes = document.querySelectorAll('.column_select_box input[type="checkbox"]');
+
+    columnCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const columnId = this.dataset.column;
+            const header = document.querySelector('th[data-column="' + columnId + '"]');
+            const cells = document.querySelectorAll('td[data-column="' + columnId + '"]');
+
+            if (this.checked) {
+                if (header) header.classList.remove('hidden-column');
+                cells.forEach(cell => cell.classList.remove('hidden-column'));
+            } else {
+                if (header) header.classList.add('hidden-column');
+                cells.forEach(cell => cell.classList.add('hidden-column'));
+            }
+        });
+    });
+
+    // Initialize column visibility based on checkbox state
+    columnCheckboxes.forEach(checkbox => {
+        const columnId = checkbox.dataset.column;
+        const header = document.querySelector('th[data-column="' + columnId + '"]');
+        const cells = document.querySelectorAll('td[data-column="' + columnId + '"]');
+
+        if (checkbox.checked) {
+            if (header) header.classList.remove('hidden-column');
+            cells.forEach(cell => cell.classList.remove('hidden-column'));
+        } else {
+            if (header) header.classList.add('hidden-column');
+            cells.forEach(cell => cell.classList.add('hidden-column'));
+        }
+    });
 });

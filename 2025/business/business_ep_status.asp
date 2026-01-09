@@ -6,7 +6,7 @@
     <title>EP 현황 - 마이 오피스</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=0116">
     <link rel="stylesheet" href="/2025/css/main.css?ver=0116">
-    <link rel="stylesheet" href="/2025/css/business_ep_status.css?ver=0120">
+    <link rel="stylesheet" href="/2025/css/business_ep_status.css?ver=0121">
 </head>
 <body>
 
@@ -19,19 +19,19 @@
             <p>EP 현황</p>
         </div>
         
-        <div class="ep_category">
-            <div class="ep_item active" data-target="sponsor_ep_item">후원수당 EP</div>
-            <div class="ep_item" data-target="period_ep_item">기간별 EP</div>
-            <div class="ep_item" data-target="upgrade_ep_item">승급 EP</div>
+        <div class="sub_category">
+            <div class="sub_item active" data-target="sponsor_ep_item">후원수당 EP</div>
+            <div class="sub_item" data-target="period_ep_item">기간별 EP</div>
+            <div class="sub_item" data-target="upgrade_ep_item">승급 EP</div>
         </div>
 
-        <div class="ep_box">
-            <div class="sponsor_ep_item ep_con active">
+        <div class="sub_box">
+            <div class="sponsor_ep_item sub_con active">
                 <div class="explain_box03">
                     ※순SEP, 순GEP 실적에서 필터EP는 제외됩니다.
                     <br>(후원수당/인센티브의 EP인정기준은 동일)
                 </div>
-                <div class="ep_con_share">
+                <div class="sub_con_share">
                     <div class="item_box">
                         <div class="date_box">2025년 11월</div>
                         <div class="con_box_wrap">
@@ -44,9 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sponsor_ep_item active">
-            </div>
-            <div class="period_ep_item ep_con">
+            <div class="period_ep_item sub_con">
                 <div class="explain_box">
                     승급 시 사용가능 EP : 146,583,485
 
@@ -58,7 +56,7 @@
                     <span style="display:block; margin-top:5px;">· 조회하신 실적은 전일 기준입니다.</span> 
                     <span style="display:block; margin-top:5px;">· 순 S.E.P를 클릭하시면 주문내역을 확인하실 수 있습니다.</span>
                 </div>
-                <div class="ep_con_share">
+                <div class="sub_con_share">
                     <div class="item_box">
                         <div class="date_box">2025년 11월 / 지위 [RF]</div>
                         <div class="con_box_wrap">
@@ -71,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="upgrade_ep_item ep_con">
+            <div class="upgrade_ep_item sub_con">
                 <div class="explain_box">
                     한봉호 님의 현지위 [R.F]
                     <br>승급일은 2008.04.01입니다
@@ -80,7 +78,7 @@
                     · 승급 시 사용가능 EP는 현 지위에서 다음단계 승급시 사용가능한 EP입니다
                     <span style="display:block; margin-top:5px;">· 하위라인은 실적이 가장 많은 4개 라인을 보여주며, 사용가능 EP는 현지위에서 승급 시 사용할 수 있는 라인 별 EP합을 나타냅니다.</span>
                 </div>
-                <div class="ep_con_share">
+                <div class="sub_con_share">
                     <div class="item_box">
                         <div class="date_box">2025년 11월 / 지위 [RF]</div>
                         <div class="con_box_wrap">
@@ -99,7 +97,7 @@
     <!--#include virtual="/2025/components/bottom_navi.asp" -->
 </div>
     
-<script src="/2025/js/script.js?ver=013"></script>
+<script src="/2025/js/script.js?ver=015"></script>
 
 
 </body>

@@ -7,14 +7,14 @@
 }
 
 
-.ep_category{
+.sub_category{
     width:100%;
     height:auto;
     padding:10px 20px;
     display:flex;
     align-items:center;
 }
-    .ep_item{
+    .sub_item{
         font-size:1.4rem;
         font-weight:400;
         background-color:#fff;
@@ -27,29 +27,29 @@
         position: relative;
     }
 
-    .ep_item.active {
+    .sub_item.active {
         color: #ee3338;
         font-weight: bold;
         border: 1px solid #ee3338;
     }
 
-    .ep_con {
+    .sub_con {
         display: none; /* Hidden by default */
     }
 
-    .ep_con.active {
+    .sub_con.active {
         display: block; /* Shown when active */
     }
 
 
 
-    .ep_box{
+    .sub_box{
         width:100%;
         height:auto;
         padding:0 20px;
         align-items:center;
     }
-        .ep_con_share{
+        .sub_con_share{
             width:100%;
             height:auto;
             background-color:#fff;
