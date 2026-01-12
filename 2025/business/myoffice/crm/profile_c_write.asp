@@ -6,7 +6,7 @@
     <title>고객리스트 - 마이 오피스</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=0129">
     <link rel="stylesheet" href="/2025/css/main.css?ver=0129">
-    <link rel="stylesheet" href="/2025/css/profile_c_write.css?ver=0133">
+    <link rel="stylesheet" href="/2025/css/profile_c_write.css?ver=0136">
 </head>
 <body>
 
@@ -71,7 +71,7 @@
                     <input type="text" id="married_date" class="input_text_style" placeholder="결혼기념일" maxlength="8">
                 </div>
                 <div style="padding-top:10px;" class="write_list">
-                    <label for="timing" class="long_label">연락 가능<br>시간대</label>
+                    <label for="timing" class="long_label">연락 가능 시간대</label>
                     <div class="radio_group">
                         <input class="profile_radio" type="radio" name="timing" id="am" value="am" checked="checked" />
                         <label class="profile_label" for="am">오전</label>
@@ -181,15 +181,120 @@
                 <div class="write_list write_list08">
                     <label for="list08">피부 민감도</label>
                     <div class="radio_group_03">
-                        <input class="profile_radio_03" type="radio" name="list08" id="20" value="20" />
-                        <label class="profile_label_03" for="20">자주 붉어지거나 간지러움</label>
-                        <input class="profile_radio_03" type="radio" name="list08" id="21" value="21" />
-                        <label class="profile_label_03" for="21">가끔씩 건조하고 불편함</label>
-                        <input class="profile_radio_03" type="radio" name="list08" id="22" value="22" />
-                        <label class="profile_label_03" for="22">민감하지 않음</label>
+                        <input class="profile_radio_03" type="radio" name="list08" id="24" value="20" />
+                        <label class="profile_label_03" for="24">자주 붉어지거나 간지러움</label>
+                        <input class="profile_radio_03" type="radio" name="list08" id="25" value="21" />
+                        <label class="profile_label_03" for="25">가끔씩 건조하고 불편함</label>
+                        <input class="profile_radio_03" type="radio" name="list08" id="26" value="22" />
+                        <label class="profile_label_03" for="26">민감하지 않음</label>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="underline_box mt20">
+            <div style="padding-top:10px;"class="sub_group">
+                <div class="sub_title">현재 사용 중인 피부 케어스텝 (복수 선택 가능)</div>
+            </div>
+            <div class="write_box">
+                <div class="write_list02">
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="27" value="27" />
+                    <label class="profile_label_04" for="27">클렌저</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="28" value="28" />
+                    <label class="profile_label_04" for="28">스킨</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="29" value="29" />
+                    <label class="profile_label_04" for="29">에센스/세럼</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="30" value="30" />
+                    <label class="profile_label_04" for="30">아이</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="31" value="31" />
+                    <label class="profile_label_04" for="31">로션</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="32" value="32" />
+                    <label class="profile_label_04" for="32">크림</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="33" value="33" />
+                    <label class="profile_label_04" for="33">선케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="34" value="34" />
+                    <label class="profile_label_04" for="34">파운데이션/CC크림</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="35" value="35" />
+                    <label class="profile_label_04" for="35">시트마스크</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="36" value="36" />
+                    <label class="profile_label_04" for="36">각질관리</label>
+                </div>
+            </div>
+        </div>
+        <div class="underline_box mt20">
+            <div style="padding-top:10px;"class="sub_group">
+                <div class="sub_title">현재 사용하고 계신 브랜드를 적어주세요.</div>
+            </div>
+            <div class="write_box">
+                <div class="write_list">
+                    <label for="name" class="long_label">스킨케어 브랜드</label>
+                    <input type="text" id="skincare_brand" class="input_text_style" placeholder="브랜드명">
+                </div>
+                <div class="write_list">
+                    <label for="list09">만족도</label>
+                    <div class="radio_group_02">
+                        <input class="profile_radio_02" type="radio" name="list09" id="37" value="37" />
+                        <label class="profile_label_02" for="37">상</label>
+                        <input class="profile_radio_02" type="radio" name="list09" id="38" value="38" />
+                        <label class="profile_label_02" for="38">중</label>
+                        <input class="profile_radio_02" type="radio" name="list09" id="39" value="39" />
+                        <label class="profile_label_02" for="39">하</label>
+                    </div>
+                </div>
+                <div class="write_list mt20">
+                    <label for="name" class="long_label">메이크업 브랜드</label>
+                    <input type="text" id="makeup_brand" class="input_text_style" placeholder="브랜드명">
+                </div>
+                <div class="write_list"> 
+                    <label for="list10">만족도</label>
+                    <div class="radio_group_02">
+                        <input class="profile_radio_02" type="radio" name="list10" id="40" value="40" />
+                        <label class="profile_label_02" for="40">상</label>
+                        <input class="profile_radio_02" type="radio" name="list10" id="41" value="41" />
+                        <label class="profile_label_02" for="41">중</label>
+                        <input class="profile_radio_02" type="radio" name="list10" id="42" value="42" />
+                        <label class="profile_label_02" for="42">하</label>
+                    </div>
+                </div>
+                <div class="write_list write_list08">
+                    <label for="list11">이유</label>
+                    <div class="radio_group_03">
+                        <textarea class="input_text_style txt_box" cols="30" rows="10" placeholder=""></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="underline_box mt20">
+            <div style="padding-top:10px;"class="sub_group">
+                <div class="sub_title">뷰티클래스를 통해 어떤 부분을 집중 관리하고 싶으신가요? (복수선택 가능)</div>
+            </div>
+            <div class="write_box">
+                <div class="write_list02">
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="43" value="43" />
+                    <label class="profile_label_04" for="43">탄력케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="44" value="44" />
+                    <label class="profile_label_04" for="44">주름케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="45" value="45" />
+                    <label class="profile_label_04" for="45">모공케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="46" value="46" />
+                    <label class="profile_label_04" for="46">각질케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="47" value="47" />
+                    <label class="profile_label_04" for="47">아이케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="48" value="48" />
+                    <label class="profile_label_04" for="48">수분/보습</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="49" value="49" />
+                    <label class="profile_label_04" for="49">미백케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="50" value="50" />
+                    <label class="profile_label_04" for="50">메이크업</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="51" value="51" />
+                    <label class="profile_label_04" for="51">바디케어</label>
+                    <input class="profile_checkbox" type="checkbox" name="list09" id="52" value="52" />
+                    <label class="profile_label_04" for="52">립&핸드</label>
+                </div>
+            </div>
+        </div>
+        <div class="button_wrap">
+            <a href="#" class="cancel_btn">취소</a>
+            <a href="#" class="register_btn">등록</a>
         </div>
         <!--#include virtual="/2025/components/footer.asp" -->
     </div>

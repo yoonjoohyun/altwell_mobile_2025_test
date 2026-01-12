@@ -103,7 +103,9 @@
             font-size:1.5rem;
             color:#838383;
             background-color:#fff;
-            margin-bottom:10px;
+            margin-bottom:15px;
+            word-break: keep-all;
+            padding:0 20px;
         }
 
 
@@ -231,16 +233,22 @@
         margin-bottom:10px;
     }
         .write_list label{
-            min-width:100px;
+            min-width:130px;
             font-size:1.5rem;
             font-weight:500;
             color:#333;
             text-align:right;
             padding-right:20px;
+            word-break: keep-all;
         }
+        @media (max-width: 450px) {
+            .write_list label{
+                min-width:100px;
+            }
             .long_label{
                 line-height:1.1;
             }
+        }
         .write_list input{
             width:100%;
             font-size:1.5rem;
@@ -355,4 +363,79 @@
     .write_list08{
         align-items:flex-start;
         padding-top:10px;
+    }
+
+    .write_list02{
+        display:flex;
+        justify-content:center;
+        align-items:flex-start;
+        flex-wrap:wrap;
+        gap:5px;
+        padding-bottom:10px;
+    }
+        .profile_checkbox[type="checkbox"] {
+            display: none !important;
+        }
+        .profile_label_04{
+             flex: 0 1 auto; /* 콘텐츠 너비에 맞춰 유연하게 조절 */
+            text-align:center !important;
+            min-width:10px !important;
+            padding:5px 5px !important;
+            background-color:#fff;
+            border: 1px solid #e9e9e9;
+            border-radius: 5px;
+            font-size: 1.3rem !important;
+            white-space:nowrap;
+            color: #555;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        .profile_checkbox[type="checkbox"]:checked + label {
+            background-color: #ee3338;
+            border-color: #ee3338;
+            color: #fff;
+        }
+
+
+    .txt_box{
+        height:90px;
+    }
+
+    .cancel_btn{
+        text-align:center;
+        display:block;
+        width:100%;
+        background-color:#fff;
+        color:#ee3338;
+        border:1px solid #ee3338;
+        border-radius:5px;
+        padding:5px 10px;
+        font-size:1.5rem;
+        font-weight:500;
+    }
+    .register_btn{
+        text-align:center;
+        display:block;
+        width:100%;
+        background-color:#ee3338;
+        color:#fff;
+        padding:5px 10px;
+        font-size:1.5rem;
+        font-weight:500;
+        border-radius:5px;
+        border:1px solid #ee3338;
+        cursor:pointer;
+        transition: all 0.3s ease;
+    }
+    .register_btn:hover{
+        background-color:#ee3338;
+        color:#fff;
+    }
+
+    .button_wrap{
+        display:flex;
+        justify-content:space-between;
+        gap:10px;
+        padding:0 10px;
+        margin-top:15px;
     }
