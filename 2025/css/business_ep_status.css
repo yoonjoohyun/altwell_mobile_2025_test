@@ -33,13 +33,6 @@
         border: 1px solid #ee3338;
     }
 
-    .sub_con {
-        display: none; /* Hidden by default */
-    }
-
-    .sub_con.active {
-        display: block; /* Shown when active */
-    }
 
 
 

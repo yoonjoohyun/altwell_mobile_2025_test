@@ -266,36 +266,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // EP Category Tab functionality
-    const subItems = document.querySelectorAll('.sub_category .sub_item');
-    const subCons = document.querySelectorAll('.sub_box .sub_con');
-
-    subItems.forEach(item => {
-        item.addEventListener('click', function() {
-            // Remove 'active' class from all sub_items and sub_cons
-            subItems.forEach(e => e.classList.remove('active'));
-            subCons.forEach(e => e.classList.remove('active'));
-
-            // Add 'active' class to the clicked sub_item
-            this.classList.add('active');
-
-            // Get the target sub_con ID from the data-target attribute
-            const targetId = this.dataset.target;
-            if (targetId) {
-                const targetCon = document.querySelector('.sub_box .' + targetId);
-                if (targetCon) {
-                    targetCon.classList.add('active');
-                }
-            }
-        });
-    });
-
-    // Initialize: show the first ep_con by default
-    // Initialize: show the first ep_con by default
-    if (subItems.length > 0 && subCons.length > 0) {
-        subItems[0].classList.add('active');
-        subCons[0].classList.add('active');
-    }
 
     // Table column select box toggle functionality
     const tableSelectBox = document.querySelector('.table_select_box');

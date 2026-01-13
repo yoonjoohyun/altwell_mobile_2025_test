@@ -41,7 +41,7 @@
             <ul>
                 <a href="">
                     <li class="mypage_menu_item">
-                        <p>주문/반품 내역</p>
+                        <p>주문배송 조회</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
@@ -57,21 +57,21 @@
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
-                <a href="">
+                <a href="/2025/business/myoffice/ep_list/support_sudang_ep/support_sudang_ep.asp">
                     <li class="mypage_menu_item">
                         <p>EP 현황</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
-                <a href="">
+                <a href="/2025/business/myOffice/crm/c_order_list.asp">
                     <li class="mypage_menu_item">
                         <p>고객 관리</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
-                <a href="">
+                <a href="/2025/business/myoffice/allowance/sudang_list_0902.asp">
                     <li class="mypage_menu_item">
-                        <p>수당내역 조회</p>
+                        <p>후원수당 조회</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
@@ -93,7 +93,7 @@
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
-                <a href="">
+                <a href="/2025/business/price.pdf">
                     <li class="mypage_menu_item">
                         <p>가격 안내서</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
