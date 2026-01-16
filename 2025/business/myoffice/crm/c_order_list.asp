@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>하위라인 주문 내역 - 마이 오피스</title>
-    <link rel="stylesheet" href="/2025/css/index.css?ver=0128">
-    <link rel="stylesheet" href="/2025/css/main.css?ver=0128">
-    <link rel="stylesheet" href="/2025/css/c_order_list.css?ver=0130">
+    <link rel="stylesheet" href="/2025/css/index.css?ver=0129">
+    <link rel="stylesheet" href="/2025/css/main.css?ver=0129">
+    <link rel="stylesheet" href="/2025/css/c_order_list.css?ver=0134">
 </head>
 <body>
 
@@ -17,7 +17,15 @@
         <div class="category_navi">
             <div class="back_btn" onclick="history.back()"></div>
             <p>고객 관리</p>
-            <div class="hamburger_btn"></div>
+            <div class="reorder_notice_btn">
+                <div class="noti_btn_title">재구매 알림</div>
+                <div class="noti_choice_btn">
+                    <input type="radio" name="noti_choice" id="noti_choice_on" value="on" checked>
+                    <label class="radio_con noti_yes" for="noti_choice_on">ON</label>
+                    <input type="radio" name="noti_choice" id="noti_choice_off" value="off">
+                    <label class="radio_con noti_no" for="noti_choice_off">OFF</label>
+                </div>
+            </div>
         </div>
         
         <div class="underline_category">

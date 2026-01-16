@@ -39,7 +39,7 @@
         </div>
         <div class="mypage_menu">
             <ul>
-                <a href="">
+                <a href="/2025/business/myoffice/order_history/order_history_t.asp">
                     <li class="mypage_menu_item">
                         <p>주문배송 조회</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
@@ -75,13 +75,13 @@
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
-                <a href="">
+                <a href="/2025/business/easy_order/easy_order_list.asp">
                     <li class="mypage_menu_item">
                         <p>간편 주문</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 
                     </li>
                 </a>
-                <a href="">
+                <a href="/2025/business/aca_seminar/aca_seminar.asp">
                     <li class="mypage_menu_item">
                         <p>앨트웰 아카데미</p>
                         <img src="/2025/images/icon/arrow_right.png" alt="arrow_right"> 

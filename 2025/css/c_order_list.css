@@ -6,6 +6,58 @@
     position: relative;
 }
 
+.reorder_notice_btn{
+    position:absolute;
+    right:15px;
+    font-size:1.2rem;
+    width:64px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2px;
+    justify-content:center;
+}
+
+.noti_btn_title{
+    font-size:1.2rem;
+    line-height:1.2;
+    font-weight:400;
+    color:#777;
+}
+.noti_choice_btn{
+    border-radius:5px;
+    display: flex;
+    overflow: hidden;
+    width:100%;
+    text-align:center;
+    height:18px;
+    align-items:center;
+}
+.noti_choice_btn input {
+    display: none;
+}
+.noti_choice_btn label {
+    border: none;
+    background: #fff;
+    color: #b9b9b9;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+    cursor: pointer;
+    border-radius: 0;
+    width:50%;
+    background-color:#f1f1f1;
+}
+.noti_choice_btn label.noti_yes {
+}
+.noti_choice_btn label.noti_no {
+}
+.noti_choice_btn input[type="radio"]:checked + label {
+    background-color: #ee3338;
+    color: #fff;
+}
+
+
 
 .underline_category{
     width:100%;

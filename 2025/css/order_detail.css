@@ -1,0 +1,245 @@
+.main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.underline_category{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 5px 9px 5px 13px;
+}
+    .underline_item{
+        font-size:1.4rem;
+        font-weight:400;
+        background-color:#fff;
+        border-radius:5px;
+        padding:2px 6px;
+        margin:4px 3px;
+        border:1px solid #e9e9e9;
+        color:#999;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .underline_item.active {
+        color: #ee3338;
+        font-weight: bold;
+        border: 1px solid #ee3338;
+    }
+
+.con_box{
+    background-color:#fff;
+    padding:10px 15px 20px 15px;
+    margin-bottom:20px;
+}
+
+
+.order_detail_box {
+    max-width:460px;
+    width:100%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+}
+
+
+.box_title {
+    max-width:460px;
+    margin:0 auto;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    padding: 5px 0px;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #fff;
+}
+.box_title_02 {
+    max-width:460px;
+    margin:0 auto;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    padding: 5px 0px 10px 0;
+    background-color: #fff;
+}
+
+.detail_group{
+    padding-top:10px;
+}
+
+.underline{
+    border-bottom:1px solid #f5f5f5;
+}
+
+.box_list_body {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px;
+}
+
+.box_list_body div:first-child {
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 400;
+    min-width: 60px;
+    text-align: left;
+}
+
+.box_list_body div:nth-child(2) {
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.box_list_body div:last-child {
+    font-size: 1.4rem;
+    color: #444;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.box_list_body_big {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px;
+}
+
+.box_list_body_big div:first-child {
+    font-size: 1.5rem;
+    color: #888;
+    font-weight: 400;
+    min-width: 60px;
+    text-align: left;
+}
+
+.box_list_body_big div:nth-child(2) {
+    font-size: 1.5rem;
+    color: #888;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.box_list_body_big div:last-child {
+    font-size: 1.8rem;
+    color: #444;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.delivery_btn{
+    max-width:460px;
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    padding:10px 0;
+    background-color:#ee3338;
+    margin-top:20px;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+    font-size:1.6rem;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+    .delivery_btn img{
+        display:block;
+        filter:brightness(100);
+        padding-top:1px;
+    }
+
+
+
+.del_info_box{
+    border-radius:10px;
+    border:1px solid #e9e9e9;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+
+.info_head{
+    display:flex;
+    justify-content:space-between;
+    color:#333;
+    background-color:#e9e9e9;
+    padding:7px 15px;
+    align-items:center;
+}
+    .pr_name{
+        font-size:1.5rem;
+        line-height:1.3;
+        font-weight:500;
+        word-break:keep-all;
+    }
+    .pr_ea{
+        font-size:1.4rem;
+        font-weight:500;
+    }
+
+.info_body{
+    display:flex;
+    justify-content:space-between;
+    padding:0 20px;
+    align-items:center;
+}
+    .info_wrap{
+        padding:10px 0px;
+    }
+
+    .gap_bar{
+        width:1px;
+        height:60px;
+        background-color:#e9e9e9;
+    }
+
+    .info_line{
+        height:100%;
+        display:flex;
+        justify-content:right;
+        color:#888;
+        font-size:1.4rem;
+        gap:10px;
+    }
+    .info_line_02{
+        height:100%;
+        color:#888;
+        font-size:1.4rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+    }
+
+    .info_wrap div{
+
+    }
+
+    .info_price{
+        font-size:1.8rem;
+        font-weight:600;
+        color:#333;
+    }
+    .info_ea{
+        font-size:1.6rem;
+        font-weight:500;
+        color:#333;
+    }

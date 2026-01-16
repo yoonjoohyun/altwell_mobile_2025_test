@@ -1,0 +1,117 @@
+.main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.con_subtitle {
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    color: #777;
+    font-weight: 400;
+    line-height: 1.4;
+}
+    .con_subtitle p {
+        word-break:keep-all;
+    }
+
+.con_box {
+    width: calc(100% - 30px);
+    margin: 0 auto 15px auto;
+    padding: 0; /* 패딩 제거하여 box_right가 꽉 차게 함 */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* 높이를 꽉 채우기 위해 stretch로 변경 */
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    overflow: hidden; /* 자식 요소 배경색이 둥근 모서리를 넘지 않도록 설정 */
+}
+
+
+.box_left {
+    flex: 1; /* 남은 영역 모두 차지 */
+    padding: 7px 15px 15px 15px; /* 패딩을 내부로 이동 */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box_list_head {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.box_list_body {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* 좌측 정렬 */
+    align-items: center;
+    gap: 0px; /* 라벨과 값 사이 간격 */
+}
+
+.box_list_body div:first-child {
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 400;
+    min-width: 80px; /* 라벨 너비 고정하여 값 정렬 맞춤 */
+}
+.box_list_body div:nth-child(2) {
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.box_list_body div:last-child {
+    font-size: 1.4rem;
+    color: #444;
+    font-weight: 500;
+    text-align: left; /* 텍스트 좌측 정렬 */
+}
+
+/* 지급 금액 강조 (헤더 바로 다음 형제 요소) */
+.box_list_head + .box_list_body div:last-child {
+    color: #ee3338;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* 수당 금액 강조 */
+.box_list_head + .box_list_body + .box_list_body div:last-child {
+    color: #333;
+    font-weight: 600;
+}
+
+.box_right {
+    width: 35px; /* 너비 축소 (50px -> 35px) */
+    background-color: #ee3338; /* 배경색 Red 적용 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail_btn img {
+    width: 20px;
+    height: auto;
+    opacity: 1;
+    filter: brightness(0) invert(1); /* 이미지를 흰색으로 변경 */
+}
