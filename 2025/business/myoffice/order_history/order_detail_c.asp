@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>주문/배송 조회 - 마이 오피스</title>
+    <title>소비회원 주문 상세내역 - 마이 오피스</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=0119">
     <link rel="stylesheet" href="/2025/css/main.css?ver=0119">
-    <link rel="stylesheet" href="/2025/css/order_detail.css?ver=0120">
+    <link rel="stylesheet" href="/2025/css/order_detail_c.css?ver=0120">
     <link rel="stylesheet" href="/2025/css/modal.css?ver=0120">
 </head>
 <body>
@@ -66,16 +66,6 @@
                         <div>승인번호</div>
                         <div>:</div>
                         <div>48535404카드 (일시불)</div>
-                    </div>
-                    <div class="box_list_body">
-                        <div>카드번호</div>
-                        <div>:</div>
-                        <div>4009 - 0678 - 9460 - XXXX</div>
-                    </div>
-                    <div class="box_list_body">
-                        <div>승인번호</div>
-                        <div>:</div>
-                        <div>49102673</div>
                     </div>
                 </div>
                 <div class="detail_group">
@@ -264,9 +254,13 @@
                 </div>
             </div>
             <div class="btn_box">
-                <button class="bottom_btn" onclick="alert('지사주문은 해당지사 또는 CS센터를 이용해 주시기 바랍니다. \nCS센터 : 1588-2161')">
-                    <img src="/2025/images/icon/Arrow/Check_Big_red.png" alt="주문취소">
-                    <div>주문취소</div>
+                <button class="bottom_btn" onclick="alert('구매확정 하시겠습니까? \n구매확정 완료 후 포인트가 적립됩니다.')">
+                    <img src="/2025/images/icon/Arrow/Check_Big_red.png" alt="구매확정">
+                    <div>구매확정</div>
+                </button>
+                <button class="bottom_btn" onclick="alert('반품 신청하시겠습니까? \n반품 발송 시 반드시 주문일자, 주문번호, 신청자명, 연락처를 기재하여 택배상자에 동봉하여 보내주시기 발바니다. \n제품 발송처 : (우편번호 :31046) 충남 천안시 서북구 성거읍 망향로 489-27 앨트웰 (주) 물류센터 반품 담당자 / Tel:041-522-1981')">
+                    <img src="/2025/images/icon/Arrow/Arrow_Undo_Up_Left_red.png" alt="반품신청">
+                    <div>반품신청</div>
                 </button>
                 <a class="bottom_btn" href="javascript:openDelLocationChangeModal();">
                     <img src="/2025/images/icon/Arrow/Note_Edit_red.png" alt="배송지 변경">
@@ -278,7 +272,6 @@
     </div>
     <!--#include virtual="/2025/components/bottom_navi.asp" -->
 </div>
-    
 
     <!--#include virtual="/2025/components/modal/del_location_change.asp" -->
 

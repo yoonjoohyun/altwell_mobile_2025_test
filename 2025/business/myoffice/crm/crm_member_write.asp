@@ -6,6 +6,7 @@
     <title>고객 직접등록 - 마이 오피스</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=0129">
     <link rel="stylesheet" href="/2025/css/main.css?ver=0129">
+    <link rel="stylesheet" href="/2025/css/modal.css?ver=0132">
     <link rel="stylesheet" href="/2025/css/crm_member_write.css?ver=0176">
 </head>
 <body>
@@ -65,7 +66,7 @@
                 <div class="write_list">
                     <label for="product_name">상품명</label>
                     <input type="text" id="product_name" class="input_text_style" placeholder="직접 입력 가능">
-                    <button class="product_search_btn">조회</button>
+                    <a href="javascript:openProductSearchModal();" class="product_search_btn">조회</a>
                 </div>
                 <div class="write_list">
                     <label for="expiration_date">소비 기한</label>
@@ -89,7 +90,9 @@
     </div>
     <!--#include virtual="/2025/components/bottom_navi.asp" -->
 </div>
-    
+
+    <!--#include virtual="/2025/components/modal/product_search.asp" -->
+
 <script src="/2025/js/script.js?ver=022"></script>
 
 

@@ -429,8 +429,8 @@
         color:#ee3338;
         border:1px solid #ee3338;
         border-radius:5px;
-        padding:5px 10px;
-        font-size:1.5rem;
+        padding:10px 10px;
+        font-size:1.6rem;
         font-weight:500;
     }
     .register_btn{
@@ -439,8 +439,8 @@
         width:100%;
         background-color:#ee3338;
         color:#fff;
-        padding:5px 10px;
-        font-size:1.5rem;
+        padding:10px 10px;
+        font-size:1.6rem;
         font-weight:500;
         border-radius:5px;
         border:1px solid #ee3338;
@@ -459,3 +459,6 @@
         padding:0 10px;
         margin-top:15px;
     }
+
+
+

@@ -22,7 +22,7 @@
         <div class="underline_category">
             <a href="/2025/business/myoffice/order_history/order_history_t.asp" class="underline_item active" data-target="underline_orderlist">주문/배송 조회</a>
             <a href="/2025/business/myoffice/order_history/order_history_d.asp" class="underline_item" data-target="underline_list">소비회원 주문내역</a>
-            <a href="/2025/business/myoffice/crm/crm_member_write.asp" class="underline_item" data-target="underline_add">포인트사용 URL/ARS결제요청 내역</a>
+            <a href="/2025/business/myoffice/order_history/delv_list_ask_d_c.asp" class="underline_item" data-target="underline_add">포인트사용 URL/ARS결제요청 내역</a>
         </div>
 
         <div class="sub_con_box">
