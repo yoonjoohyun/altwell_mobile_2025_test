@@ -297,6 +297,16 @@ html{
         border-bottom:none;
     }
 
+    .no_data_table_txt{
+        text-align: center !important;
+        font-size: 1.4rem !important;
+        color: #ee3338 !important;
+        line-height: 1.3 !important;
+        font-weight: 500 !important;
+        word-break: keep-all !important;
+        padding: 20px 0 !important;
+    }
+
 
 
 /* 공통 애니메이션 */
