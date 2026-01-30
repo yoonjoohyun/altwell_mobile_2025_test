@@ -1,0 +1,301 @@
+.main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+
+.mcpay_box {
+    padding: 15px;
+}
+
+.mcpay_title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #777;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+.mcpay_price {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.03);
+    border: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 15px;
+}
+.box_flex{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding:10px 0;
+
+}
+
+.price_left, .price_right {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.price_left div:first-child, .price_right div:first-child {
+    font-weight: 500;
+    color: #888;
+}
+
+.price_left div:nth-child(2), .price_right div:nth-child(2) {
+    color: #888;
+    margin: 0 10px;
+}
+
+.price_left div:last-child {
+    font-weight: 700;
+    color: #ee3338;
+    font-size: 1.7rem;
+}
+
+.price_right div:last-child {
+    font-weight: 700;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+
+.recog_box {
+    padding: 15px;
+}
+
+.recog_title {
+    padding-left:5px;
+}
+
+.recog_title p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #777;
+    padding-bottom:10px;
+}
+
+.recog_item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: 2px solid transparent; /* 기본 테두리 투명 */
+    transition: all 0.2s ease;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.03);
+    position: relative;
+}
+
+/* 체크박스 숨기기 */
+.recog_item input[type="checkbox"] {
+    display: none;
+}
+
+/* 상단 체크 라벨 바 스타일 */
+.recog_check_label {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    gap: 10px;
+    transition: all 0.2s ease;
+    position: relative; /* 자식 absolute 위치 기준 */
+    border-bottom: 2px solid transparent; /* 선택 전 미리 보더 공간 확보 */
+}
+
+/* 원형 체크 박스 */
+.recog_check_label::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border: 1px solid #cacaca;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+/* 체크 표시 (V) - border 사용 */
+.recog_check_label::after {
+    content: '';
+    position: absolute;
+    left: 21px; /* 원형 박스 중앙 정렬 */
+    top: 50%;
+    width: 5px;
+    height: 9px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: translateY(-65%) rotate(45deg); /* 위치 조정 및 회전 */
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: 1; /* 원형 박스 위로 오게 설정 */
+}
+
+.recog_check_label span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #aaaaaa;
+    transition: all 0.2s ease;
+}
+
+/* 체크박스 선택 시 라벨 변화 */
+.recog_item input[type="checkbox"]:checked + .recog_check_label {
+    background-color: #fff;
+    border-bottom: 2px solid #ee3338;
+}
+
+.recog_item input[type="checkbox"]:checked + .recog_check_label::before {
+    background-color: #ee3338;
+    border-color: #ee3338;
+}
+
+.recog_item input[type="checkbox"]:checked + .recog_check_label::after {
+    opacity: 1;
+}
+
+.recog_item input[type="checkbox"]:checked + .recog_check_label span {
+    color: #ee3338;
+    font-weight: 700;
+}
+
+/* 내용 영역 스타일 */
+.recog_content {
+    padding: 15px;
+}
+
+/* 선택 시 recog_item 자체 테두리 변경 */
+.recog_item:has(input[type="checkbox"]:checked) {
+    border-color: #ee3338;
+    box-shadow: 0 4px 15px rgba(238, 51, 56, 0.1);
+}
+
+.gl_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.4rem;
+}
+
+.gl_table thead th {
+    color: #666;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.gl_table tbody td {
+    padding: 12px 0;
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+}
+
+.gl_table tbody td button {
+    background-color: #f5f5f5;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    padding: 4px 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.recog_item_price {
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    color: #ee3338 !important;
+}
+
+.gl_table .input_text_style {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-top: 5px;
+}
+
+.gl_table .input_text_style::placeholder {
+    color: #c9c9c9;
+}
+
+.gl_table .input_text_style:focus {
+    border: 1px solid #777;
+    outline: none;
+}
+
+.recog_item_btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.recog_item_btn a {
+    display:block;
+    flex:1;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding:10px 10px;
+    text-align:center;
+}
+
+.recog_item_btn a:first-child {
+    width:100%;
+    background-color: #fff;
+    border: 1px solid #ee3338;
+    color: #ee3338;
+}
+
+.recog_item_btn a:last-child {
+    width:100%;
+    background-color: #ee3338;
+    border: 1px solid #ee3338;
+    color: #fff;
+}
+
+
+.easycheck_notice {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.notice_title {
+    margin-bottom: 15px;
+}
+
+.notice_title p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.notice_content {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+    color: #777;
+    line-height: 1.4;
+}
+
+.notice_content div:first-child {
+    flex-shrink: 0;
+}
+

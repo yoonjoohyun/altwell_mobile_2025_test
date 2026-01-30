@@ -467,9 +467,11 @@
             color:#ee3338;
             border:1px solid #ee3338;
         }
+        /*
             .select:before{
-                content:'\2714\0020'; /*check icon*/
+                content:'\2714\0020';
             }
+        */
 
     .phone_box{
         width:calc(100% - 30%);
@@ -657,10 +659,13 @@
 .smspay.select,.mobilepay.select,.accountpay.select{
     border-radius:10px 10px 0 0;
 }
+
+/*
 .del_pay_btn.select:before{
-    content:'\2714\0020'; /*check icon*/
+    content:'\2714\0020';
     margin-right:3px;
 }
+*/
 
 /* Styles for paydetail show/hide */
 .paydetail {

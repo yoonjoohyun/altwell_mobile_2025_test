@@ -6,7 +6,7 @@
     <title>주문 결제 - 앨트웰 모바일 쇼핑몰</title>
     <link rel="stylesheet" href="/2025/css/index.css?ver=013">
     <link rel="stylesheet" href="/2025/css/main.css?ver=013">
-    <link rel="stylesheet" href="/2025/css/order_write.css?ver=013">
+    <link rel="stylesheet" href="/2025/css/order_write.css?ver=014">
     <link rel="stylesheet" href="/2025/css/creditcard_info.css?ver=013">
     <link rel="stylesheet" href="/2025/css/modal.css?ver=013">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
