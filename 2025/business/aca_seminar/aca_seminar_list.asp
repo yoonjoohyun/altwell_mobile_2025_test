@@ -48,7 +48,7 @@
                             <td data-column="1-column">서울ACC</td>
                             <td data-column="2-column">2025.09.22</td>
                             <td data-column="3-column">
-                                <button>신청</button>
+                                <a href="/2025/business/aca_seminar/aca_seminar_view.asp"><button>신청</button></a>
                             </td>
                         </tr>
                     </tbody>
@@ -59,7 +59,7 @@
                     </tbody>
                 </table>
             </div>
-    
+            <!--
             <div class="pagination">
                 <button class="arrow-btn-edge disabled">
                     <img class="dubble_arrow_left" src="/2025/images/icon/Arrow/Chevron_Left_MD.png" alt="맨앞">
@@ -81,7 +81,9 @@
                     <img class="dubble_arrow_right" src="/2025/images/icon/Arrow/Chevron_Right_MD.png" alt="맨뒤">
                 </button>
             </div>
+            -->
         </div>
+
         <!--#include virtual="/2025/components/footer.asp" -->
     </div>
     <!--#include virtual="/2025/components/bottom_navi.asp" -->
