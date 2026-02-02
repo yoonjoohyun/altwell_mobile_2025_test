@@ -35,7 +35,7 @@
 }
 
 /* 체크박스 숨기기 */
-.recog_item input[type="checkbox"] {
+.recog_item input[type="radio"] {
     display: none;
 }
 
@@ -88,21 +88,21 @@
 }
 
 /* 체크박스 선택 시 라벨 변화 */
-.recog_item input[type="checkbox"]:checked + .recog_check_label {
+.recog_item input[type="radio"]:checked + .recog_check_label {
     background-color: #fff;
     border-bottom: 2px solid #ee3338;
 }
 
-.recog_item input[type="checkbox"]:checked + .recog_check_label::before {
+.recog_item input[type="radio"]:checked + .recog_check_label::before {
     background-color: #ee3338;
     border-color: #ee3338;
 }
 
-.recog_item input[type="checkbox"]:checked + .recog_check_label::after {
+.recog_item input[type="radio"]:checked + .recog_check_label::after {
     opacity: 1;
 }
 
-.recog_item input[type="checkbox"]:checked + .recog_check_label span {
+.recog_item input[type="radio"]:checked + .recog_check_label span {
     color: #ee3338;
     font-weight: 700;
 }
@@ -113,7 +113,7 @@
 }
 
 /* 선택 시 recog_item 자체 테두리 변경 */
-.recog_item:has(input[type="checkbox"]:checked) {
+.recog_item:has(input[type="radio"]:checked) {
     border-color: #ee3338;
     box-shadow: 0 4px 15px rgba(238, 51, 56, 0.1);
 }

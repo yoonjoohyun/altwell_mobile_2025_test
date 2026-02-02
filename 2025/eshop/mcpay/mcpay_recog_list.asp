@@ -23,8 +23,8 @@
                 <p>이지체크 승인리스트</p>
             </div>
             <div class="recog_item">
-                <input type="checkbox" id="recog_item_checkbox">
-                <label for="recog_item_checkbox" class="recog_check_label">
+                <input type="radio" name="recog_list" id="recog_item_check">
+                <label for="recog_item_check" class="recog_check_label">
                     <span>선택하기</span>
                 </label>
                 <div class="recog_content">
