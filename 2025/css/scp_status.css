@@ -1,0 +1,505 @@
+.main_contents {
+    width: 100%;
+    padding-top: 120px; /* topnavi */
+    padding-bottom: 70px; /* bottomnavi */
+    height: auto;
+    position: relative;
+}
+
+
+
+.scp_category_area {
+    width: 100%;
+    position: relative;
+    padding-right: 32px; /* 버튼 공간 확보 */
+}
+
+
+.scp_scroll::-webkit-scrollbar {
+    width:4px !important;
+    height:4px !important;
+}
+.scp_scroll::-webkit-scrollbar-track {
+    background: transparent; /* 트랙 색상 */
+}
+.scp_scroll::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0); /* 슬라이더 색상 */
+}
+.scp_scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.1); /* hover 시 살짝 보이게 */
+}
+
+.scp_category {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; /* 세로 2줄 배치 */
+    align-items: flex-start;
+    padding: 10px 9px 10px 13px;
+    overflow-x: auto; /* 가로 스크롤 */
+    gap: 5px; /* 줄 간격 */
+}
+
+/* 첫 번째 줄 (1~7번 아이템) */
+.scp_row_1 {
+    display: flex;
+    gap: 5px;
+    width: max-content; /* 자식 요소 너비만큼 늘어남 */
+}
+
+/* 두 번째 줄 (8~10번 아이템) */
+.scp_row_2 {
+    display: flex;
+    gap: 5px;
+    width: max-content;
+}
+
+.scp_category.expanded {
+    display: flex; /* 펼치면 일반적인 flex wrap */
+    flex-wrap: wrap;
+    flex-direction: row; /* 가로 배치로 변경 */
+    overflow-x: visible;
+    padding-right: 0; /* 우측 패딩 제거 */
+}
+
+.scp_category.expanded .scp_row_1,
+.scp_category.expanded .scp_row_2 {
+    display: contents; /* row 래퍼 무시하고 아이템들을 직접 배치 */
+}
+
+.scp_item {
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px 6px;
+    /* margin: 4px 3px; -> grid gap으로 대체 */
+    border: 1px solid #e9e9e9;
+    color: #999;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap; /* 텍스트 줄바꿈 방지 */
+    width: max-content; /* 텍스트 너비만큼만 차지 */
+}
+
+.scp_more_btn {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 23px;
+    height: 61px;
+    background-color: #ee3338;
+    border: 1px solid #ee3338;
+    border-radius: 5px 0 0 5px; /* 좌측만 둥글게, 우측은 화면 끝에 붙음 */
+    border-right: none;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: -5px 0 10px rgba(255,255,255,0.8); /* 좌측 페이드 효과 */
+    transition: align-items 0.3s;
+}
+.scp_more_btn.active {
+    align-items: flex-end;
+    height: calc(100% - 20px);
+    background-color: #fff;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+}
+
+.scp_more_btn::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    transition: transform 0.3s;
+}
+
+.scp_more_btn.active::after {
+    transform: rotate(180deg);
+    margin-top: 0;
+    margin-bottom: 3px; /* 하단 정렬 시 여백 */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23b9b9b9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    
+}
+
+    .scp_item.active {
+        color: #ee3338;
+        font-weight: bold;
+        border: 1px solid #ee3338;
+    }
+
+
+
+    .scp_info{
+        width:calc(100% - 20px);
+        margin:0 auto;
+        background-color:#fff;
+        border-radius:5px;
+        border:1px solid #e9e9e9;
+        padding:12px 10px 17px 10px;
+        margin-bottom:15px;
+    }
+    .scp_info_box{
+        width:100%;
+        height:auto;
+        background-color:#fff;
+        border-radius:10px;
+    }
+    .info_main_title{
+        font-size:1.5rem;
+        font-weight:700;
+        color:#333;
+    }
+    .info_sub_title{
+        font-size:1.4rem;
+        line-height:1.4;
+        font-weight:500;
+        color:#777;
+        display:flex;
+        align-items:flex-end;
+    }
+    .scp_info_title{
+        font-size:1.5rem;
+        font-weight:600;
+        color:#333;
+        display:flex;
+        align-items:flex-start;
+        gap:5px;
+    }
+    .scp_info_title_sub{
+        font-size:1.4rem;
+        line-height:1.5;
+        font-weight:500;
+        color:#999;
+    }
+    .scp_info_title_icon{
+        font-size:1.5rem;
+        font-weight:600;
+        color:#333;
+    }
+    .scp_info_text{
+        font-size:1.4rem;
+        font-weight:500;
+        color:#666;
+        margin-top:10px;
+        line-height:1.5;
+        word-break: keep-all;
+        margin-bottom:20px;
+        padding:8px 15px;
+        border-radius:5px;
+        background-color:#f8f8f8;
+    }
+    .scp_info_title span{
+        font-size:1.4rem;
+        font-weight:400;
+        color:#777;
+    }
+    .scp_info_text{
+        font-size:1.4rem;
+        font-weight:400;
+        color:#777;
+    }
+    .scp_info_title span{
+        font-size:1.4rem;
+        font-weight:400;
+        color:#777;
+    }
+
+    .scp_info_btn_group{
+        display:flex;
+        gap:10px;
+        justify-content:center;
+        margin-top:10px;
+    }
+    .scp_info_btn{
+        display:inline-block;
+        width:100%;
+        padding:10px 0;
+        border:1px solid #e9e9e9;
+        border-radius:5px;
+        font-size:1.5rem;
+        font-weight:600;
+        color:#fff;
+        background-color:#333;
+        cursor:pointer;
+        text-decoration:none;
+        text-align:center;
+    }
+    .scp_apply_btn{
+        display:inline-block;
+        width:100%;
+        padding:10px 0;
+        border:1px solid #ee3338;
+        border-radius:5px;
+        font-size:1.5rem;
+        font-weight:600;
+        color:#fff;
+        background-color:#ee3338;
+        cursor:pointer;
+        text-decoration:none;
+        text-align:center;
+    }
+
+    
+    .orderlist_title{
+        width:100%;
+        font-size:1.5rem;
+        line-height:1.4;
+        font-weight:500;
+        color:#333;
+        padding:15px 0 20px 10px;
+        word-break: keep-all;
+    }
+        .orderlist_title_span{
+            font-weight:700;
+            color:#ee3338;
+        }
+
+
+    .scp_box{
+        width:100%;
+        height:auto;
+        padding:10px 10px;
+        align-items:center;
+        background-color:#fff;
+    }
+        .item_box{
+            width:100%;
+            height:auto;
+            align-items:center;
+        }
+        .date_box{
+            font-size:1.5rem;
+            font-weight:600;
+            color:#fff;
+            padding:5px 15px;
+            background-color:#ee3338;
+            border-radius:5px 5px 0 0;
+        }
+
+        .input_select_style {
+            width: 100%;
+            padding: 8px 10px;
+            background-color: #fff !important; /* 모바일 강제 적용 */
+            border: 1px solid #e9e9e9;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #555;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 16px;
+            outline: none;
+        }
+
+        /* disabled 상태일 때 스타일 */
+        .input_select_style:disabled {
+            background-color: #f5f5f5 !important;
+            color: #aaa;
+            opacity: 1; /* iOS 투명도 이슈 해결 */
+        }
+
+
+        .search_group{
+            display:flex;
+            gap:10px;
+            align-items:center;
+        }
+        
+
+        .check_btn{
+            min-width:100px;
+            padding:6px 10px;
+            border:1px solid #e9e9e9;
+            border-radius:5px;
+            font-weight:500;
+            font-size:1.5rem;
+            color:#555;
+            background-color:#fff;
+        }
+        .check_btn:hover{
+            background-color:#eee;
+            color:#333;
+        }
+
+
+        .table_select_box{
+            width:150px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:7px;
+            margin-top:10px;
+            margin-bottom:5px;
+            padding:5px 0;
+            padding-left:10px;
+            background-color:#f8f8f8;
+            border-radius:5px;
+            position:relative;
+            margin-left:auto;
+            border:1px solid #e9e9e9;
+        }
+            .table_select_box_text{
+                display:inline-block;
+                text-align:center;
+                font-size:1.4rem;
+                font-weight:500;
+                color:#333;
+            }
+            .table_select_box img{
+                width:20px;
+                display:block;
+                opacity:0.6;
+            }
+            .column_select_box{
+                width:150px;
+                position:absolute;
+                top:calc(100% - 3px);
+                right:-1px;
+                background-color:#fff;
+                padding:2px 10px;
+                flex-direction:column;
+                box-shadow:inset 0 0 1px 0 #a5a5a5;
+                max-height: 0;
+                opacity: 0;
+                overflow: hidden;
+                border-left:1px solid #e9e9e9;
+                border-right:1px solid #e9e9e9;
+                border-bottom:1px solid #e9e9e9;
+                transition: max-height 0.1s ease-out, opacity 0.3s ease-out;
+            }
+            .table_select_box.active .column_select_box {
+                max-height: 340px; /* 충분히 큰 값으로 설정 */
+                opacity: 1;
+                display: flex; /* active 클래스 추가 시 보임 */
+                z-index: 100;
+            }
+                .column_item{
+                    width:100%;
+                    display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                    padding:5px 5px;
+                    border-bottom:1px solid #e9e9e9;
+                }
+                    .column_item:last-child{
+                        border-bottom:none;
+                    }
+                    .column_item label{
+                        width:100%;
+                        text-align:right;
+                    }
+
+                .column_item_text{
+                    font-size:1.4rem;
+                    font-weight:500;
+                    color:#333;
+                    margin-left:5px;
+                }
+
+
+.hidden-column {
+    display: none !important;
+}
+
+
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pagination button{
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 2px 6px;
+    margin: 0 2px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #555;
+    border-radius: 5px;
+}
+
+.pagination button.active{
+    background-color: #ee3338;
+    color: #fff;
+    border-color: #ee3338;
+}
+
+.pagination button.arrow-btn{
+    padding: 2px 4px;
+}
+
+.pagination button.arrow-btn img {
+    width: 16px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.pagination button.arrow-btn.disabled{
+    background-color: #f8f8f8;
+    color: #bbb;
+    border-color: #eee;
+    cursor: not-allowed;
+}
+
+.pagination button.arrow-btn.disabled img{
+    opacity: 0.3;
+}
+
+.pagination button.arrow-btn-edge{
+    display: flex; /* 두 개의 아이콘을 나란히 정렬 */
+    align-items: center;
+    justify-content: center;
+    padding: 2px 4px;
+}
+
+.pagination button.arrow-btn-edge img {
+    width: 16px; /* 이미지 크기 설정 */
+    height: auto;
+}
+
+.pagination button.arrow-btn-edge.disabled{
+    background-color: #f8f8f8;
+    color: #bbb;
+    border-color: #eee;
+    cursor: not-allowed;
+}
+.pagination button.arrow-btn-edge.disabled img{
+    opacity: 0.3;
+}
+
+
+.dubble_arrow_left{
+    margin-right:-10px;
+}
+.dubble_arrow_right{
+    margin-left:-10px;
+}
+
+
+
+.cancel_btn{
+    background-color:#f8f8f8;
+    color:#555;
+    border:1px solid #e9e9e9;
+    border-radius:5px;
+    padding:4px 8px;
+    font-size:1.3rem;
+    font-weight:500;
+    cursor:pointer;
+}
+
